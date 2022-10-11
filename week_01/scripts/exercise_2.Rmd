@@ -1,34 +1,91 @@
-# Data wrangling
+---
+title: "Workshop exercise 2"
+output:
+  prettydoc::html_pretty:
+    theme: cayman
+    highlight: github
+---
 
-For each of the datasets below, try to describe in words how you would
+```{r echo = F, warning = F, message = F}
+knitr::opts_chunk$set(echo = F, message = F, warning = F)
 
-Jot down your answers and submit them as a comment
+if (!require(pacman)) install.packages("pacman")
+pacman::p_load(tidyverse,
+               reactable,
+               here,
+               downloadthis)
 
-For each of the following datasets, describe in words the best way you can think of to perform the analyses. This could be either:
 
--   How you would do it if you had to do it manually?
 
--   Or how you would do it using a spreadsheet software like Excel
+table_and_download <- function(df, name){
+  
+  
+  out_file_path <- here("data_for_download", paste0( name, ".csv"))
+  write_csv(x = df, file = out_file_path)
+  
+  
+  browsable(tagList(
+    downloadthis::download_file(path = out_file_path, output_name = name),
+    
+    reactable::reactable(df, 
+                         elementId = paste0(name, "-download-table"),
+                         defaultPageSize = 5, 
+                         striped = TRUE,
+                         highlight = TRUE,
+                         resizable = TRUE,
+                         defaultColDef = reactable::colDef(align = "left", 
+                                                           html = TRUE, 
+                                                           class = "border-left", 
+                                                           na = "NA"), 
+                         wrap = FALSE,
+                         bordered = TRUE,
+                         theme = reactable::reactableTheme(stripedColor = "#f2f7f7", 
+                                                           cellPadding = "2px 5px 2px 5px", 
+                                                           borderColor = "#e1f2f2", 
+                                                           borderWidth = "1.5px")))
+  )
+}
 
--   Or how you would do it with another data analysis software that you know (STATA, SPSS)
+
+```
+
+# R for Busy People Workshop 1 Exercise 2
+
+# Part 1: Data wrangling
+
+For each of the datasets below, try to describe in words how you would achieve the data request described.
+
+Of course, you don't yet know how to data wrangle (in R), so how can you do this?
+
+You can:
+
+-   Think about how you would achieve the task manually?
+
+-   How you achieve it with spreadsheet software like Excel
+
+-   How you would achieve it with another programming language that you know (STATA, SPSS)
 
 -   Or some combination of the above.
 
-At the end of the lesson, I will show you the R code for each of these.
+### Dataset 1: Anonymized quiz data from our course
 
-1.  Attempts data for three quizzes. How would you count the number of people who have passed at least two quizzes?
+Clinical data from children in Burkina Faso attending to the hospital for fever-causing illnesses. We would like to count the number of people who had at least four symptoms.
 
-<https://docs.google.com/spreadsheets/d/15FIvIytq6015EWGOXArcwFCP8DM42fFoR98QRMKjOkE/edit?usp=sharing>
+```{r echo = F}
+bf_dat <-  read_csv(here("week_01/data/febrile_diseases_burkina_faso - Sheet1.csv"))
+reactable::reactable(bf_dat)
+```
 
-2.  Clinical data from children in Burkina Faso coming attending the hospital for fever-causing disease. Count the number of people who had at least four symptoms.
+### Dataset 2: Anonymized quiz data from our course
 
-<https://docs.google.com/spreadsheets/d/1f7ru9pTj691uNGV_DcgPEZImyfLuLZlGx4lUVxc_AOU/edit?usp=sharing>
+Attempts data for three quizzes from our course. How would you count the number of people who have passed at least two quizzes? (This is an analysis we actually had to do.)
 
-3.  Motorcycle deaths Count the number of deaths in the province of Medellin
+```{r echo = F}
+quiz_dat <-  read_csv(here("week_01/data/anonymized_quiz_data - Sheet1.csv"))
+reactable::reactable(quiz_dat)
+```
 
-<https://drive.google.com/file/d/1Ncmxny0kO4SURx1qIcZU5jnnU5vgj6Mz/view?usp=sharing>
-
-# Data viz
+# Part 2: Data visualization critique
 
 Critique each of the following data visualizations below. They are listed roughly in increasing order of badness!
 
@@ -46,26 +103,12 @@ In what ways are they not ideal? How might they be improved?
 
 [Image source](https://www.mpi.nl/sites/default/files/media/docs/brehm/Brehm_dataVis1.pptx)
 
--   Why use abbreviation?
-
--   Not how mean and SD data should be presented
-
 ## **3. Confirmed COVID cases in Florida**
 
 ![](images/Crazy-Bar-Chart.png){width="432"}
-
--   No need for color axix
-
--   Most of the graph is wasted space
-
--   More data needed for context
 
 ## 4. Pet ownership percentages
 
 ![](images/61bdf4f1649499ea50046dfa_Blog%2049.12..png){width="428"}
 
 [Image source](https://math.scholastic.com/issues/2017-18/092517/fake-news-fake-data.html#1120L)
-
--   Presented as compositional data but it is actually univariate numerical data
-
--   Not how such data should be presented.
