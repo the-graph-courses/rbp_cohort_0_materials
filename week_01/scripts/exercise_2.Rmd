@@ -1,0 +1,71 @@
+# Data wrangling
+
+For each of the datasets below, try to describe in words how you would
+
+Jot down your answers and submit them as a comment
+
+For each of the following datasets, describe in words the best way you can think of to perform the analyses. This could be either:
+
+-   How you would do it if you had to do it manually?
+
+-   Or how you would do it using a spreadsheet software like Excel
+
+-   Or how you would do it with another data analysis software that you know (STATA, SPSS)
+
+-   Or some combination of the above.
+
+At the end of the lesson, I will show you the R code for each of these.
+
+1.  Attempts data for three quizzes. How would you count the number of people who have passed at least two quizzes?
+
+<https://docs.google.com/spreadsheets/d/15FIvIytq6015EWGOXArcwFCP8DM42fFoR98QRMKjOkE/edit?usp=sharing>
+
+2.  Clinical data from children in Burkina Faso coming attending the hospital for fever-causing disease. Count the number of people who had at least four symptoms.
+
+<https://docs.google.com/spreadsheets/d/1f7ru9pTj691uNGV_DcgPEZImyfLuLZlGx4lUVxc_AOU/edit?usp=sharing>
+
+3.  Motorcycle deaths Count the number of deaths in the province of Medellin
+
+<https://drive.google.com/file/d/1Ncmxny0kO4SURx1qIcZU5jnnU5vgj6Mz/view?usp=sharing>
+
+# Data viz
+
+Critique each of the following data visualizations below. They are listed roughly in increasing order of badness!
+
+In what ways are they not ideal? How might they be improved?
+
+## 1. Zimbabwe New COVID cases
+
+![](images/CleanShot%202022-10-10%20at%2022.18.47.jpg){width="535"}
+
+[Image source](http://www.mohcc.gov.zw/index.php?option=com_phocadownload&view=category&id=15&Itemid=742)
+
+## 2. Mean and standard deviation from an experiment
+
+![](images/CleanShot%202022-10-10%20at%2022.08.45.jpg){width="529"}
+
+[Image source](https://www.mpi.nl/sites/default/files/media/docs/brehm/Brehm_dataVis1.pptx)
+
+-   Why use abbreviation?
+
+-   Not how mean and SD data should be presented
+
+## **3. Confirmed COVID cases in Florida**
+
+![](images/Crazy-Bar-Chart.png){width="432"}
+
+-   No need for color axix
+
+-   Most of the graph is wasted space
+
+-   More data needed for context
+
+## 4. Pet ownership percentages
+
+![](images/61bdf4f1649499ea50046dfa_Blog%2049.12..png){width="428"}
+
+[Image source](https://math.scholastic.com/issues/2017-18/092517/fake-news-fake-data.html#1120L)
+
+-   Presented as compositional data but it is actually univariate numerical data
+
+-   Not how such data should be presented.
