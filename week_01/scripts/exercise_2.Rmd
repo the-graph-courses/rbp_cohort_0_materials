@@ -57,19 +57,21 @@ For each of the datasets below, try to describe in words how you would achieve t
 
 Of course, you don't yet know how to data wrangle (in R), so how can you do this?
 
-You can:
+You can about how you would achieve the task:
 
--   Think about how you would achieve the task manually?
+-   Completely manually
 
--   How you achieve it with spreadsheet software like Excel
+-   With a spreadsheet software like Excel
 
--   How you would achieve it with another programming language that you know (STATA, SPSS)
+-   With another programming language that you know (STATA, SPSS)
 
--   Or some combination of the above.
+-   With some combination of the above
 
-### Dataset 1: Anonymized quiz data from our course
+### Dataset 1: Burkina Faso Febrile Diseases data
 
-Clinical data from children in Burkina Faso attending to the hospital for fever-causing illnesses. We would like to count the number of people who had at least four symptoms.
+This dataset contains clinical records from children in Burkina Faso attending to the hospital for fever-causing illnesses. 
+
+Task: How might we count the number of people who had at least four symptoms.
 
 ```{r echo = F}
 bf_dat <-  read_csv(here("week_01/data/febrile_diseases_burkina_faso - Sheet1.csv"))
@@ -78,7 +80,9 @@ reactable::reactable(bf_dat)
 
 ### Dataset 2: Anonymized quiz data from our course
 
-Attempts data for three quizzes from our course. How would you count the number of people who have passed at least two quizzes? (This is an analysis we actually had to do.)
+This dataset consists of quiz attempts from the three quizzes in our course. 
+
+Task: How would you count the number of people who have passed at least two quizzes?
 
 ```{r echo = F}
 quiz_dat <-  read_csv(here("week_01/data/anonymized_quiz_data - Sheet1.csv"))
