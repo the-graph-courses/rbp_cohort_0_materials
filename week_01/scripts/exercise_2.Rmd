@@ -49,47 +49,7 @@ table_and_download <- function(df, name){
 
 ```
 
-# R for Busy People Workshop 1 Exercise 2
-
-# Part 1: Data wrangling
-
-For each of the datasets below, try to describe in words how you would achieve the data request described.
-
-Of course, you don't yet know how to data wrangle (in R), so how can you do this?
-
-You can about how you would achieve the task:
-
--   Completely manually
-
--   With a spreadsheet software like Excel
-
--   With another programming language that you know (STATA, SPSS)
-
--   With some combination of the above
-
-### Dataset 1: Burkina Faso Febrile Diseases data
-
-This dataset contains clinical records from children in Burkina Faso attending to the hospital for fever-causing illnesses. 
-
-Task: How might we count the number of people who had at least four symptoms.
-
-```{r echo = F}
-bf_dat <-  read_csv(here("week_01/data/febrile_diseases_burkina_faso - Sheet1.csv"))
-reactable::reactable(bf_dat)
-```
-
-### Dataset 2: Anonymized quiz data from our course
-
-This dataset consists of quiz attempts from the three quizzes in our course. 
-
-Task: How would you count the number of people who have passed at least two quizzes?
-
-```{r echo = F}
-quiz_dat <-  read_csv(here("week_01/data/anonymized_quiz_data - Sheet1.csv"))
-reactable::reactable(quiz_dat)
-```
-
-# Part 2: Data visualization critique
+# R for Busy People Workshop 1 Exercise: Data visualization critique
 
 Critique each of the following data visualizations below. They are listed roughly in increasing order of badness!
 
