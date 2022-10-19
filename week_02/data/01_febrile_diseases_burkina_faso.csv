@@ -1,0 +1,915 @@
+age_category,sexe,vomiting_anamnestic,abd_pain,diarrhoea,runny_nose,earpain,throat_ache,cough,productive_cough,dyspnoa,dysuria,myalgia,arthralgia,skin_condition_unspecified,iritability,convulsions,lethargy,ims_final_full_classification
+5 years or older,2,yes,yes,yes,no,no,no,no,no,no,no,no,yes,no,no,no,no,Bacteria
+5 years or older,2,yes,yes,yes,no,no,no,yes,yes,no,no,no,no,no,no,no,no,Bacteria
+5 years or older,female,yes,yes,yes,no,no,no,yes,no,no,no,no,no,no,no,no,no,Malaria
+5 years or older,female,no,yes,no,yes,no,no,yes,no,yes,no,no,no,no,no,no,no,Bacteria
+5 years or older,female,no,yes,no,no,no,no,yes,yes,yes,no,no,no,no,no,no,no,Suspected viral
+5 years or older,2,no,no,no,no,no,no,no,no,yes,no,no,no,no,no,no,no,Bacteria
+5 years or older,2,no,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Suspected viral
+5 years or older,2,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,unknown
+5 years or older,female,yes,yes,no,no,yes,no,yes,yes,yes,no,no,yes,no,no,no,no,Bacteria
+5 years or older,female,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Viral
+5 years or older,2,no,yes,yes,no,no,no,yes,yes,no,no,no,no,no,no,no,no,Bacteria
+5 years or older,female,no,no,no,no,no,no,yes,no,yes,no,no,no,no,no,no,no,Bacteria
+5 years or older,female,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Bacteria
+5 years or older,2,no,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Malaria
+5 years or older,female,no,no,no,yes,no,no,yes,no,no,no,no,no,no,no,no,no,Bacteria
+5 years or older,female,no,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Suspected viral
+5 years or older,female,no,yes,no,no,no,no,no,no,yes,yes,no,no,no,no,yes,no,Bacteria
+5 years or older,2,yes,yes,no,no,no,no,no,no,no,no,no,yes,no,no,no,no,Viral
+5 years or older,female,yes,yes,no,no,no,no,no,no,no,no,no,no,no,no,yes,no,Suspected viral
+5 years or older,female,no,no,no,no,no,no,yes,no,no,yes,no,no,no,no,no,no,Bacteria
+5 years or older,female,no,no,no,yes,no,yes,yes,yes,no,no,no,yes,no,no,no,no,Suspected bacterial
+5 years or older,2,no,yes,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,unknown
+5 years or older,2,yes,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Bacteria
+5 years or older,2,yes,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Bacteria
+5 years or older,female,no,no,no,no,no,no,yes,yes,no,no,yes,yes,no,no,no,no,Bacteria
+5 years or older,female,no,yes,no,no,no,no,no,no,yes,no,no,no,no,no,no,no,Suspected viral
+5 years or older,2,no,no,no,no,no,no,yes,yes,no,no,no,no,no,no,no,no,Bacteria
+5 years or older,female,no,no,no,no,no,yes,no,no,no,no,no,no,no,no,no,no,Bacteria
+5 years or older,female,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Suspected bacterial
+5 years or older,female,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Bacteria
+5 years or older,female,yes,yes,no,no,no,no,no,no,yes,no,no,no,no,no,no,no,Bacteria
+5 years or older,2,yes,yes,no,no,no,no,yes,yes,no,no,no,no,no,no,no,no,Bacteria
+5 years or older,female,no,yes,no,no,no,no,yes,no,yes,no,no,no,no,no,no,no,Viral
+5 years or older,female,no,yes,no,no,no,no,yes,no,no,no,no,yes,no,no,no,no,Viral
+5 years or older,female,no,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,no,unknown
+5 years or older,2,yes,yes,no,no,no,no,yes,no,no,no,no,no,no,no,no,no,Viral
+5 years or older,female,no,no,no,no,no,no,yes,yes,no,no,no,no,no,no,no,no,unknown
+5 years or older,female,no,no,no,no,no,no,no,no,no,yes,no,no,no,no,no,no,Bacteria
+5 years or older,2,no,no,no,no,no,no,yes,yes,yes,no,no,no,no,no,no,no,Suspected bacterial
+5 years or older,female,yes,yes,yes,no,no,no,yes,yes,yes,no,no,no,no,no,no,no,unknown
+5 years or older,female,no,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,no,unknown
+5 years or older,2,yes,yes,no,yes,no,no,yes,yes,yes,no,no,no,no,no,no,no,Bacteria
+5 years or older,2,no,yes,no,no,no,yes,yes,no,no,no,no,yes,no,no,no,no,Bacteria
+5 years or older,female,no,yes,no,yes,yes,no,yes,no,yes,no,no,no,no,no,yes,no,Bacteria
+5 years or older,female,no,yes,no,no,no,no,no,no,yes,no,no,no,no,no,no,no,unknown
+5 years or older,female,no,no,no,no,no,no,no,no,no,no,no,yes,no,no,no,no,Bacteria
+5 years or older,female,no,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,no,unknown
+5 years or older,2,no,no,no,no,no,no,yes,yes,yes,no,no,yes,no,no,no,no,unknown
+5 years or older,female,no,yes,no,no,no,no,yes,no,no,no,no,no,no,no,no,no,unknown
+5 years or older,2,no,no,yes,no,no,no,yes,yes,no,no,no,no,no,no,no,no,Bacteria
+5 years or older,female,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Suspected bacterial
+5 years or older,2,no,yes,no,no,no,no,no,no,no,yes,no,no,no,no,no,no,Suspected viral
+5 years or older,female,no,no,no,no,no,no,no,no,no,no,no,yes,no,no,no,no,unknown
+5 years or older,female,no,yes,no,no,no,no,yes,yes,no,no,yes,no,no,no,no,no,unknown
+5 years or older,2,yes,yes,no,no,no,no,yes,no,yes,no,no,no,no,no,no,no,unknown
+5 years or older,female,no,yes,yes,no,no,yes,no,no,yes,yes,yes,no,no,no,no,no,Bacteria
+5 years or older,female,no,no,no,no,no,no,no,no,yes,yes,no,no,no,no,no,no,Bacteria
+5 years or older,2,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,unknown
+5 years or older,2,yes,no,no,no,no,no,yes,yes,yes,no,no,no,no,no,yes,no,Bacteria
+5 years or older,female,no,yes,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,Bacteria-malaria
+5 years or older,female,no,yes,no,yes,no,no,yes,no,no,no,no,no,no,no,no,no,Bacteria
+5 years or older,female,yes,yes,no,yes,no,no,yes,no,no,no,no,no,no,no,no,no,Bacteria
+5 years or older,female,no,yes,no,no,no,no,yes,yes,no,no,no,no,no,no,no,no,Bacteria
+5 years or older,2,yes,yes,no,no,no,no,no,no,no,no,no,yes,no,no,no,no,Bacteria
+5 years or older,2,yes,no,no,no,no,no,no,no,yes,no,no,no,no,no,yes,no,Bacteria
+5 years or older,2,yes,yes,yes,no,no,no,no,no,no,no,no,no,yes,no,no,no,unknown
+5 years or older,female,yes,yes,yes,no,no,no,yes,no,no,yes,no,no,no,no,no,no,Bacteria
+5 years or older,2,yes,yes,no,yes,no,no,yes,no,no,no,no,no,no,no,no,no,Bacteria
+5 years or older,2,no,no,no,no,no,no,yes,no,yes,no,no,yes,no,no,no,no,Bacteria
+5 years or older,female,no,no,no,no,no,yes,yes,yes,no,no,no,no,no,no,no,no,Bacteria
+5 years or older,female,no,yes,no,no,no,no,no,no,no,yes,no,no,no,no,no,no,unknown
+5 years or older,female,no,yes,no,no,no,no,yes,no,no,no,yes,no,no,no,yes,no,unknown
+5 years or older,2,no,no,no,no,no,no,no,no,no,no,no,no,no,no,yes,no,Bacteria
+5 years or older,female,yes,yes,no,no,no,no,yes,no,no,no,no,no,no,no,no,no,unknown
+5 years or older,2,no,no,no,no,no,no,no,no,no,no,no,yes,no,no,no,no,Viral
+5 years or older,2,no,no,no,no,no,no,no,no,no,no,no,yes,no,no,no,no,Viral
+5 years or older,female,yes,no,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,unknown
+5 years or older,female,no,no,no,no,no,no,yes,yes,no,no,yes,yes,no,no,no,no,Bacteria
+5 years or older,female,yes,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,no,unknown
+5 years or older,female,yes,yes,no,no,no,no,no,no,yes,yes,no,no,no,no,no,no,unknown
+5 years or older,female,no,no,no,no,no,yes,no,no,no,no,no,no,no,no,no,no,unknown
+5 years or older,2,no,yes,no,no,no,no,yes,no,yes,no,no,no,no,no,no,no,Suspected viral
+5 years or older,2,no,no,no,no,no,no,no,no,no,no,no,yes,no,no,no,no,Suspected viral
+5 years or older,female,yes,yes,no,no,no,no,yes,yes,yes,no,no,no,no,no,no,no,unknown
+5 years or older,female,no,yes,no,no,no,no,yes,no,yes,yes,no,no,no,no,no,no,Bacteria
+5 years or older,2,no,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Suspected viral
+5 years or older,female,no,no,no,no,no,no,yes,yes,no,no,no,no,no,no,no,no,unknown
+5 years or older,female,no,yes,no,no,no,no,yes,yes,yes,no,no,no,no,no,no,no,Bacteria
+5 years or older,female,no,yes,no,no,no,no,yes,yes,yes,no,no,no,no,no,no,no,Bacteria
+5 years or older,female,no,yes,no,no,no,yes,no,no,no,no,no,yes,no,no,no,no,unknown
+5 years or older,2,yes,yes,yes,no,no,no,yes,yes,yes,no,no,no,no,no,no,no,Bacteria
+5 years or older,female,no,no,no,no,no,no,no,no,no,yes,no,no,no,no,no,no,Bacteria
+5 years or older,female,no,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Bacteria
+5 years or older,female,yes,yes,no,no,no,no,yes,no,no,no,no,no,no,no,no,no,unknown
+5 years or older,female,no,no,no,no,no,no,yes,yes,no,no,no,no,no,no,no,no,unknown
+5 years or older,2,yes,yes,no,no,no,no,yes,yes,yes,yes,no,no,no,no,no,no,Bacteria
+5 years or older,2,yes,no,no,yes,no,no,no,no,no,no,no,no,no,no,no,no,Viral
+5 years or older,2,no,yes,no,yes,no,no,yes,no,no,no,no,no,no,no,no,no,Bacteria
+5 years or older,female,yes,yes,no,no,no,no,yes,no,yes,yes,no,no,no,no,no,no,Bacteria
+5 years or older,female,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Bacteria
+5 years or older,female,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Suspected bacterial
+5 years or older,2,no,yes,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,Bacteria
+5 years or older,female,yes,no,yes,yes,no,no,yes,yes,no,no,no,yes,no,no,no,no,Suspected viral
+5 years or older,female,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Viral
+5 years or older,female,no,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Malaria
+5 years or older,2,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Viral
+5 years or older,2,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,unknown
+5 years or older,female,yes,yes,no,yes,no,yes,no,no,no,no,no,no,no,no,no,no,Viral
+5 years or older,2,no,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Bacteria
+5 years or older,2,no,yes,no,no,no,no,yes,no,no,no,no,no,no,no,no,no,Viral
+5 years or older,2,yes,yes,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,unknown
+5 years or older,2,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Suspected viral
+5 years or older,female,no,yes,no,no,no,no,no,no,no,yes,no,no,no,no,no,no,unknown
+5 years or older,female,yes,no,no,no,no,no,no,no,no,yes,no,no,no,no,no,no,Bacteria
+5 years or older,2,yes,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Suspected bacterial
+5 years or older,female,no,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Bacteria
+5 years or older,female,no,yes,no,no,no,no,yes,yes,yes,yes,no,yes,no,no,no,no,Bacteria
+5 years or older,2,no,no,no,no,no,yes,no,no,no,no,no,no,no,no,no,no,unknown
+5 years or older,female,yes,yes,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,Bacteria
+5 years or older,2,yes,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,no,unknown
+5 years or older,female,no,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Bacteria
+5 years or older,female,no,no,no,no,no,no,no,no,no,yes,no,no,no,no,no,no,unknown
+5 years or older,2,no,yes,no,no,no,no,no,no,no,no,no,yes,no,no,no,no,Bacteria
+5 years or older,female,no,no,no,yes,no,yes,no,no,no,no,no,yes,no,no,no,no,Bacteria
+5 years or older,2,yes,yes,yes,no,no,no,no,no,no,yes,no,no,no,no,no,no,unknown
+5 years or older,2,no,no,no,no,no,no,no,no,no,yes,no,no,no,no,no,no,unknown
+5 years or older,2,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,unknown
+5 years or older,2,yes,yes,no,no,no,no,yes,no,yes,no,no,no,no,no,no,no,Bacteria
+5 years or older,2,no,yes,no,no,no,no,yes,no,no,no,no,yes,no,no,no,no,Suspected bacterial
+5 years or older,female,no,yes,no,no,no,no,no,yes,no,no,no,yes,no,no,no,no,Suspected bacterial
+5 years or older,female,no,no,no,yes,no,no,yes,no,no,no,no,no,no,no,yes,yes,Bacteria
+5 years or older,2,yes,no,no,no,no,yes,yes,yes,yes,no,no,no,no,no,no,no,unknown
+5 years or older,female,no,no,no,yes,no,no,yes,no,no,no,no,no,no,no,no,no,Bacteria
+5 years or older,female,no,no,no,no,no,no,no,no,no,yes,no,no,no,no,no,no,Bacteria
+5 years or older,female,no,no,no,no,no,no,no,no,no,no,no,no,no,yes,no,no,Bacteria
+5 years or older,female,no,yes,no,yes,no,no,yes,no,no,no,no,no,no,no,no,no,Bacteria
+5 years or older,female,yes,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Bacteria
+5 years or older,female,no,no,no,no,no,yes,yes,no,yes,no,no,no,no,no,no,no,Bacteria
+5 years or older,2,no,yes,no,yes,no,yes,yes,no,no,no,no,yes,no,no,no,no,Bacteria
+5 years or older,female,no,no,no,yes,no,no,no,no,no,no,no,no,no,no,no,no,Bacteria
+5 years or older,2,no,no,no,no,no,no,yes,yes,yes,no,no,no,no,no,no,no,Bacteria
+5 years or older,female,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Bacteria
+5 years or older,female,no,no,no,no,yes,yes,yes,yes,no,no,no,no,no,no,no,no,unknown
+5 years or older,2,no,yes,no,yes,no,no,no,no,no,yes,no,no,no,no,no,no,Viral
+5 years or older,female,no,yes,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,Bacteria
+5 years or older,female,yes,yes,no,yes,no,no,no,no,no,no,no,no,no,no,no,no,Suspected viral
+5 years or older,2,yes,yes,yes,no,no,no,no,no,no,no,yes,yes,no,no,no,no,Bacteria
+5 years or older,female,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Bacteria
+5 years or older,female,no,yes,no,no,no,no,yes,yes,yes,yes,no,no,no,no,no,no,Bacteria
+5 years or older,2,yes,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,no,unknown
+5 years or older,female,no,no,no,yes,no,no,yes,no,no,no,no,yes,no,no,no,no,Viral
+5 years or older,2,yes,yes,no,no,no,no,yes,no,yes,no,no,yes,no,no,no,no,Bacteria
+5 years or older,2,no,no,no,no,no,yes,yes,no,yes,no,no,no,no,no,yes,no,Viral
+5 years or older,female,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Bacteria
+5 years or older,female,yes,yes,no,no,no,no,yes,yes,yes,no,no,no,no,no,no,no,Bacteria
+5 years or older,female,no,yes,no,no,no,no,no,no,yes,no,no,no,no,no,no,no,unknown
+5 years or older,female,no,no,no,yes,no,no,yes,no,no,no,no,no,no,no,no,no,Bacteria
+5 years or older,female,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Suspected viral
+5 years or older,female,no,yes,no,no,no,no,yes,no,no,no,no,yes,no,no,no,no,unknown
+5 years or older,2,no,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Bacteria
+5 years or older,female,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Viral
+5 years or older,female,no,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Suspected viral
+5 years or older,female,no,no,no,no,no,no,yes,no,yes,no,no,no,no,no,no,no,Suspected bacterial
+5 years or older,2,no,yes,no,no,no,no,yes,yes,no,no,no,no,no,no,no,no,Bacteria
+5 years or older,female,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Bacteria
+5 years or older,female,yes,yes,no,no,no,no,yes,no,yes,no,no,no,no,no,no,no,Suspected bacterial
+5 years or older,2,no,yes,no,yes,no,no,no,no,no,no,yes,no,no,no,no,no,Viral
+5 years or older,2,yes,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Bacteria
+5 years or older,2,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Bacteria
+5 years or older,2,yes,yes,no,no,no,no,yes,no,no,yes,no,no,no,no,no,no,Bacteria
+5 years or older,2,no,no,no,no,no,no,yes,no,no,no,no,yes,no,no,no,no,unknown
+5 years or older,female,yes,yes,no,yes,no,yes,yes,no,no,no,no,no,no,no,no,no,unknown
+5 years or older,female,yes,yes,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,unknown
+5 years or older,female,no,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Bacteria-malaria
+5 years or older,2,yes,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Bacteria
+5 years or older,female,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Bacteria
+5 years or older,2,yes,no,no,no,no,no,no,no,no,no,no,yes,no,no,yes,no,Bacteria
+5 years or older,2,no,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Bacteria
+5 years or older,female,no,no,no,no,no,no,no,no,no,yes,no,no,no,no,no,no,Bacteria
+5 years or older,female,no,no,no,no,no,no,yes,no,no,no,no,no,no,no,yes,no,unknown
+5 years or older,2,no,no,no,yes,no,no,no,no,no,no,no,no,no,no,yes,no,Bacteria
+5 years or older,2,no,no,no,yes,no,yes,yes,no,no,no,no,no,no,no,no,no,unknown
+5 years or older,female,yes,yes,yes,no,no,no,no,no,no,yes,no,no,no,no,no,no,unknown
+5 years or older,female,yes,yes,no,no,no,no,no,no,yes,no,no,yes,no,no,no,no,Bacteria
+5 years or older,2,no,yes,no,no,no,no,yes,yes,no,no,no,no,no,no,no,no,Bacteria
+5 years or older,2,no,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,no,unknown
+5 years or older,female,yes,yes,no,no,no,no,no,no,no,yes,no,no,no,no,no,no,unknown
+5 years or older,female,no,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Bacteria
+5 years or older,female,no,no,no,yes,no,no,no,no,no,no,no,yes,no,no,no,no,Viral
+5 years or older,female,no,yes,no,no,no,no,yes,no,no,no,no,no,no,no,no,no,Suspected viral
+5 years or older,2,yes,yes,no,no,no,no,no,no,yes,no,no,no,no,no,no,no,Viral
+5 years or older,2,no,no,no,no,no,no,yes,yes,yes,no,no,no,no,no,no,no,Bacteria
+5 years or older,2,no,yes,no,no,no,no,yes,no,no,no,no,no,no,no,no,no,unknown
+5 years or older,2,no,no,no,yes,no,no,no,no,no,no,no,no,no,no,no,no,unknown
+5 years or older,female,yes,no,no,no,no,no,yes,yes,no,no,no,yes,no,no,no,no,unknown
+5 years or older,2,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Suspected viral
+5 years or older,female,yes,yes,no,no,no,no,yes,no,no,no,no,no,no,no,no,no,unknown
+5 years or older,female,no,yes,no,no,no,no,yes,yes,no,no,no,no,no,no,no,no,unknown
+5 years or older,female,no,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Viral
+5 years or older,2,no,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Bacteria-malaria
+5 years or older,2,yes,no,no,no,no,no,yes,no,no,no,no,no,no,no,no,no,Suspected viral
+5 years or older,2,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Bacteria
+5 years or older,2,yes,yes,yes,no,no,no,no,no,yes,no,no,no,no,no,no,no,Bacteria
+5 years or older,2,yes,yes,no,no,no,yes,no,no,no,no,no,no,no,no,no,no,unknown
+5 years or older,2,yes,yes,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,Bacteria
+5 years or older,2,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Suspected viral
+5 years or older,female,no,no,no,no,no,no,yes,yes,no,no,no,no,no,no,no,no,unknown
+5 years or older,female,no,yes,no,yes,no,no,no,no,no,yes,no,no,no,no,no,no,unknown
+5 years or older,female,yes,yes,no,no,no,no,yes,yes,yes,no,no,no,no,no,yes,no,Bacteria
+5 years or older,2,no,no,no,no,no,no,yes,no,no,yes,no,yes,no,no,no,no,Bacteria
+5 years or older,female,no,no,no,yes,no,no,yes,no,no,no,no,no,no,no,no,no,Suspected viral
+5 years or older,female,no,yes,no,yes,no,yes,yes,yes,yes,no,no,no,no,no,no,no,Bacteria
+5 years or older,female,no,no,no,no,no,no,no,no,no,no,no,no,no,no,yes,no,unknown
+5 years or older,2,no,yes,yes,no,no,no,no,no,yes,no,no,no,no,no,no,no,Viral
+5 years or older,female,no,no,no,no,no,no,yes,no,no,yes,no,yes,no,no,no,no,Bacteria
+5 years or older,2,yes,no,yes,no,no,no,yes,no,no,no,no,no,no,no,no,no,Viral
+5 years or older,2,yes,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Bacteria
+5 years or older,2,no,yes,no,no,no,no,no,no,no,no,no,yes,no,no,no,no,Bacteria
+5 years or older,2,no,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Bacteria
+5 years or older,2,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Malaria
+5 years or older,2,no,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Bacteria
+5 years or older,female,yes,yes,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,Viral
+5 years or older,female,no,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Bacteria
+5 years or older,female,no,yes,no,no,no,no,yes,no,no,no,no,no,no,no,no,no,Bacteria
+5 years or older,female,yes,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,no,unknown
+5 years or older,2,yes,yes,no,no,no,no,yes,yes,yes,no,no,no,no,no,no,no,unknown
+5 years or older,2,no,no,no,no,no,no,no,no,no,no,no,yes,no,no,yes,no,Suspected bacterial
+5 years or older,female,no,no,no,no,no,no,yes,no,no,no,no,no,no,no,no,no,unknown
+5 years or older,female,yes,yes,no,no,no,yes,no,no,no,no,no,no,no,no,no,no,unknown
+5 years or older,female,no,no,no,no,no,no,no,no,yes,no,no,no,no,no,no,no,Bacteria
+5 years or older,female,no,no,no,yes,no,no,no,no,no,no,no,yes,no,no,no,no,Bacteria
+5 years or older,female,no,yes,no,no,no,no,no,no,yes,yes,no,no,no,no,no,no,Bacteria
+5 years or older,2,no,yes,no,no,no,no,yes,no,yes,no,no,yes,no,no,no,no,unknown
+5 years or older,2,yes,yes,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,unknown
+5 years or older,2,no,yes,no,no,no,yes,no,no,no,no,no,no,yes,no,no,no,unknown
+5 years or older,2,no,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Suspected bacterial
+5 years or older,2,no,no,no,yes,no,no,no,no,no,no,no,no,no,no,no,no,Bacteria
+5 years or older,2,no,yes,no,no,no,no,yes,no,no,no,no,no,no,no,no,no,Bacteria
+5 years or older,2,yes,yes,no,no,no,no,yes,no,yes,no,no,no,no,no,no,no,Suspected viral
+5 years or older,female,no,no,no,yes,no,no,yes,no,no,no,no,no,no,no,no,no,Viral
+5 years or older,2,no,no,no,no,no,yes,no,no,no,no,no,no,no,no,no,no,unknown
+5 years or older,female,yes,yes,no,no,no,no,yes,yes,no,no,no,yes,no,no,no,no,Bacteria
+5 years or older,female,no,yes,no,no,no,no,yes,yes,no,no,yes,no,no,no,no,no,Bacteria
+5 years or older,2,no,yes,no,no,no,no,yes,yes,yes,yes,no,yes,no,no,no,no,unknown
+5 years or older,female,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Bacteria
+5 years or older,female,no,yes,no,no,no,no,no,no,no,yes,no,yes,no,no,no,no,unknown
+5 years or older,female,no,yes,yes,no,no,yes,yes,yes,no,no,no,yes,no,no,no,no,Suspected viral
+5 years or older,female,no,yes,no,yes,no,yes,yes,no,no,no,no,yes,no,no,no,no,Bacteria-malaria
+5 years or older,female,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,yes,no,Bacteria
+5 years or older,2,no,yes,no,yes,no,no,yes,yes,no,no,no,no,no,no,no,no,Suspected viral
+5 years or older,female,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,unknown
+5 years or older,2,no,yes,no,no,no,no,yes,no,yes,no,no,no,no,no,no,no,Bacteria
+5 years or older,female,no,yes,no,no,no,no,no,no,no,yes,no,no,no,no,no,no,Bacteria
+5 years or older,2,no,yes,no,no,no,no,yes,yes,yes,no,no,no,no,no,no,no,Suspected malaria
+5 years or older,2,no,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,no,unknown
+5 years or older,female,no,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,no,unknown
+5 years or older,female,yes,yes,no,no,no,no,yes,no,no,no,no,no,no,no,no,no,Suspected viral
+5 years or older,female,no,no,no,no,no,no,no,no,no,no,no,no,no,no,yes,no,Suspected viral
+5 years or older,female,no,no,no,no,no,no,no,no,yes,no,no,no,no,no,yes,no,unknown
+5 years or older,female,no,yes,no,no,no,no,no,no,no,yes,no,no,no,no,no,no,Bacteria
+5 years or older,female,no,yes,yes,no,no,no,yes,yes,yes,no,no,no,no,no,no,no,Bacteria
+5 years or older,female,no,yes,no,no,no,no,yes,yes,no,no,no,no,no,no,no,no,unknown
+5 years or older,female,yes,no,no,yes,no,yes,no,no,no,yes,no,yes,no,no,no,no,Bacteria
+5 years or older,female,no,no,no,yes,no,no,yes,yes,no,no,no,no,no,no,no,no,Bacteria
+5 years or older,female,yes,yes,yes,no,no,no,no,no,yes,no,no,no,no,no,no,no,Bacteria
+5 years or older,2,yes,no,no,no,no,no,yes,yes,no,no,no,no,no,no,no,no,Bacteria
+5 years or older,female,no,yes,no,no,no,no,yes,yes,no,no,no,no,no,no,no,no,Bacteria
+5 years or older,2,yes,yes,no,no,no,no,no,no,no,yes,no,no,no,no,no,no,Bacteria
+5 years or older,2,no,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Suspected bacterial
+5 years or older,female,yes,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Bacteria
+5 years or older,female,no,yes,no,yes,no,no,yes,no,yes,no,no,no,no,no,no,no,Bacteria
+5 years or older,2,no,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,no,unknown
+5 years or older,female,no,no,no,yes,no,no,no,no,no,no,no,yes,no,no,no,no,Bacteria
+5 years or older,2,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Viral
+5 years or older,2,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Bacteria
+5 years or older,female,no,yes,no,yes,no,no,no,no,no,no,no,no,no,no,no,no,unknown
+5 years or older,2,no,yes,no,no,no,no,yes,no,no,no,no,no,no,no,no,no,Viral
+5 years or older,2,no,no,no,no,no,no,no,no,no,no,no,no,no,no,yes,no,Bacteria
+5 years or older,female,no,no,no,no,no,no,yes,yes,no,no,no,no,no,no,no,no,unknown
+5 years or older,female,no,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Bacteria
+5 years or older,female,no,no,no,no,no,no,yes,yes,yes,no,no,no,no,no,no,no,unknown
+5 years or older,2,no,yes,yes,no,no,no,no,no,yes,no,no,no,no,no,no,no,Bacteria
+5 years or older,2,no,no,no,no,no,yes,yes,no,no,no,no,no,no,no,no,no,Bacteria
+5 years or older,2,no,yes,no,no,no,yes,yes,yes,yes,no,no,no,no,no,no,no,unknown
+5 years or older,female,no,no,no,no,no,no,yes,no,no,yes,no,no,no,no,no,no,Suspected bacterial
+5 years or older,female,no,no,no,no,no,no,no,no,yes,no,no,no,no,no,no,no,Suspected viral
+5 years or older,2,no,yes,no,no,no,no,yes,no,yes,no,no,yes,no,no,no,no,Bacteria
+5 years or older,female,no,no,no,no,no,no,yes,yes,no,no,no,no,no,no,no,no,unknown
+5 years or older,2,yes,yes,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,Bacteria
+5 years or older,female,no,no,no,no,no,no,no,no,no,no,no,yes,no,no,no,no,Bacteria
+5 years or older,female,no,no,no,yes,no,no,yes,yes,yes,no,no,no,no,no,no,no,Bacteria
+5 years or older,female,no,yes,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,Suspected viral
+5 years or older,female,yes,no,no,no,no,no,no,no,yes,no,no,no,no,no,yes,no,Bacteria
+5 years or older,2,yes,yes,no,yes,no,no,no,no,no,no,no,no,no,no,no,no,Viral
+5 years or older,2,yes,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Suspected viral
+5 years or older,female,no,yes,no,no,no,yes,no,no,yes,no,no,no,no,no,no,no,Bacteria
+5 years or older,2,yes,no,no,no,no,yes,yes,yes,yes,no,no,no,no,no,no,no,unknown
+5 years or older,2,no,no,no,yes,no,no,yes,no,no,no,no,no,no,no,no,no,unknown
+5 years or older,2,yes,yes,yes,no,no,no,yes,no,yes,yes,no,no,no,no,no,no,Suspected viral
+5 years or older,female,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,unknown
+5 years or older,female,no,yes,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,Bacteria
+5 years or older,2,no,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,no,unknown
+5 years or older,2,no,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Viral
+5 years or older,female,no,no,no,no,no,no,no,no,yes,no,no,yes,no,no,no,no,Bacteria
+5 years or older,female,no,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Viral
+5 years or older,2,no,yes,yes,no,no,no,yes,no,yes,yes,no,no,no,no,no,no,unknown
+5 years or older,2,no,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Bacteria
+5 years or older,2,yes,yes,no,no,no,no,no,no,no,yes,no,no,no,no,no,no,Bacteria
+<5 years,female,no,yes,no,yes,no,no,yes,no,no,no,no,no,no,no,no,no,Bacteria
+<5 years,female,no,no,no,no,yes,no,no,no,no,no,no,no,no,no,no,no,Bacteria
+<5 years,2,no,yes,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,unknown
+<5 years,female,yes,yes,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,Bacteria
+<5 years,female,no,no,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,Bacteria
+<5 years,female,no,no,no,yes,no,no,yes,no,no,no,no,no,no,no,no,no,Viral
+<5 years,2,no,yes,no,yes,no,no,no,no,no,yes,no,no,no,no,no,no,Viral
+<5 years,female,no,yes,no,yes,no,no,yes,no,no,no,no,no,yes,no,no,no,Bacteria
+<5 years,female,no,no,no,yes,no,no,yes,no,no,no,no,no,no,no,no,no,unknown
+<5 years,female,no,no,no,yes,no,no,yes,no,no,no,no,no,no,no,no,no,Viral
+<5 years,female,yes,no,no,yes,no,no,yes,no,no,no,no,no,no,no,no,no,Bacteria
+<5 years,female,yes,no,no,yes,no,no,no,no,no,no,no,no,no,no,no,no,Viral
+<5 years,female,yes,no,yes,yes,no,no,yes,no,no,no,no,no,no,no,no,no,Viral
+<5 years,female,yes,yes,yes,yes,no,no,yes,no,no,no,no,no,no,no,no,no,Malaria
+<5 years,2,yes,no,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,unknown
+<5 years,female,no,no,no,yes,no,no,yes,no,yes,no,no,no,no,no,no,no,unknown
+<5 years,2,no,no,no,yes,no,yes,no,no,no,no,no,no,no,no,no,no,unknown
+<5 years,2,no,no,yes,yes,no,no,yes,no,yes,no,no,no,no,no,no,no,Viral
+<5 years,female,yes,yes,yes,yes,no,no,yes,no,no,no,no,no,no,no,no,no,Suspected viral
+5 years or older,female,no,no,no,no,no,yes,no,no,no,no,no,no,no,no,no,no,Viral
+<5 years,female,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Suspected bacterial
+<5 years,2,no,no,no,yes,no,no,yes,no,no,no,no,no,no,no,no,no,Viral
+<5 years,2,yes,no,yes,yes,no,yes,yes,no,no,no,no,no,no,no,no,no,Bacteria-malaria
+<5 years,female,no,yes,no,yes,no,no,no,no,no,no,no,no,no,no,no,no,Suspected viral
+<5 years,female,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,unknown
+<5 years,female,no,yes,no,yes,no,no,yes,no,no,no,no,no,no,no,no,no,unknown
+<5 years,2,yes,yes,yes,yes,no,yes,yes,no,no,no,no,no,no,no,no,no,Viral
+<5 years,female,no,no,no,yes,no,no,yes,no,no,no,no,no,no,no,no,no,Bacteria
+<5 years,2,no,no,no,yes,no,no,yes,no,no,no,no,no,no,no,no,no,unknown
+<5 years,2,no,no,no,no,no,no,yes,no,yes,no,no,no,no,no,no,no,Malaria
+<5 years,2,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,unknown
+<5 years,2,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Viral
+<5 years,female,yes,no,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,Suspected viral
+<5 years,2,no,no,no,yes,no,no,yes,no,no,no,no,no,no,no,no,no,Malaria
+<5 years,2,no,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Viral
+<5 years,2,no,yes,yes,yes,no,no,yes,no,no,no,no,no,no,no,no,no,Suspected viral
+<5 years,2,no,no,no,yes,no,no,no,no,no,no,no,no,no,no,no,no,unknown
+<5 years,female,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Viral
+<5 years,2,no,no,no,yes,no,no,yes,no,no,no,no,no,no,no,no,no,Suspected viral
+<5 years,2,yes,no,no,yes,no,no,yes,no,no,no,no,no,no,no,no,no,unknown
+<5 years,female,no,yes,no,yes,no,no,yes,no,no,no,no,no,no,no,no,no,unknown
+<5 years,female,no,yes,no,yes,no,no,yes,no,no,no,no,no,no,no,no,no,unknown
+<5 years,2,no,no,no,no,no,no,no,no,no,no,no,yes,no,no,no,no,Bacteria
+<5 years,2,no,no,no,yes,no,no,yes,no,no,no,no,no,no,no,no,no,Suspected bacterial
+<5 years,female,no,no,yes,yes,no,no,yes,no,no,no,no,no,no,no,no,no,Viral
+<5 years,2,yes,yes,no,yes,no,no,no,no,no,no,no,no,no,no,no,no,Malaria
+<5 years,2,no,no,no,yes,no,no,yes,no,no,no,no,no,no,no,no,no,Suspected viral
+<5 years,female,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,unknown
+<5 years,2,no,yes,no,no,no,no,yes,no,yes,no,no,no,no,no,no,no,Suspected viral
+<5 years,female,no,no,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,unknown
+<5 years,2,yes,no,no,yes,no,no,yes,no,no,no,no,no,no,no,no,no,Suspected viral
+<5 years,female,no,no,no,yes,no,no,yes,no,no,no,no,no,no,no,no,no,Suspected viral
+<5 years,female,yes,yes,yes,yes,no,no,no,no,no,no,no,no,no,no,no,no,Viral
+<5 years,female,no,no,no,yes,no,no,yes,no,no,no,no,no,no,no,no,no,Viral
+<5 years,female,no,no,no,yes,no,no,yes,no,no,no,no,no,no,no,no,no,unknown
+<5 years,2,no,no,no,yes,no,no,yes,no,yes,no,no,no,no,no,no,no,Suspected viral
+<5 years,female,yes,yes,yes,no,no,no,yes,no,no,no,no,no,no,no,no,no,Suspected viral
+<5 years,female,no,yes,no,yes,no,no,yes,no,no,no,no,no,no,no,no,no,Viral
+<5 years,female,no,yes,yes,yes,no,no,no,no,no,no,no,no,no,no,no,no,Viral
+<5 years,female,no,yes,no,yes,no,no,yes,no,no,no,no,no,no,no,no,no,Malaria
+<5 years,2,yes,no,yes,yes,no,no,no,no,no,no,no,no,no,no,no,no,unknown
+<5 years,female,no,no,no,yes,no,no,yes,no,yes,no,no,no,no,no,no,no,unknown
+<5 years,2,no,no,no,yes,no,no,yes,no,no,no,no,no,no,no,no,no,Suspected viral
+<5 years,female,no,no,no,yes,no,no,yes,no,yes,no,no,no,no,no,no,no,unknown
+<5 years,female,yes,yes,no,no,no,no,yes,no,no,no,no,no,no,no,no,no,Bacteria
+<5 years,2,yes,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,no,unknown
+<5 years,2,yes,yes,yes,yes,no,no,no,no,no,no,no,no,no,no,no,no,Bacteria
+<5 years,female,no,no,no,yes,no,no,yes,no,no,no,no,no,no,no,no,no,Viral
+<5 years,female,yes,no,no,yes,no,no,yes,no,yes,no,no,no,no,no,no,no,unknown
+<5 years,2,no,no,no,no,no,yes,no,no,no,no,no,no,no,no,no,no,Suspected bacterial
+<5 years,female,yes,no,no,yes,no,no,yes,no,no,no,no,no,yes,no,no,no,Suspected viral
+<5 years,2,no,no,no,yes,no,no,no,no,no,no,no,no,no,no,no,no,unknown
+<5 years,2,no,yes,no,yes,no,yes,yes,no,yes,no,no,no,no,no,no,no,unknown
+<5 years,female,yes,yes,yes,yes,no,no,no,no,no,no,no,no,no,no,no,no,unknown
+<5 years,female,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,unknown
+<5 years,2,no,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Suspected viral
+<5 years,female,no,no,no,yes,no,no,yes,no,yes,no,no,no,no,no,no,no,Bacteria
+<5 years,2,no,no,no,yes,no,yes,yes,no,no,no,no,no,no,no,no,no,Viral
+<5 years,female,no,yes,no,no,no,yes,no,no,no,no,no,no,no,no,no,no,Bacteria
+<5 years,female,no,yes,no,yes,no,no,yes,no,no,no,no,no,no,no,no,no,Suspected viral
+<5 years,2,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,unknown
+<5 years,female,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Suspected viral
+<5 years,female,yes,no,no,yes,no,no,yes,no,no,no,no,no,no,no,no,no,Bacteria-malaria
+<5 years,female,yes,no,yes,no,no,yes,no,no,no,no,no,no,no,no,no,no,Suspected viral
+<5 years,female,no,no,yes,no,no,no,no,no,yes,no,no,no,no,no,no,no,Malaria
+<5 years,2,no,no,no,no,no,yes,no,no,no,no,no,no,no,no,no,no,Viral
+<5 years,female,no,yes,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,Suspected viral
+<5 years,female,no,no,no,yes,no,no,yes,no,no,no,no,no,no,no,no,no,Suspected malaria
+<5 years,female,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Suspected viral
+5 years or older,female,yes,yes,no,yes,no,no,no,no,no,no,no,no,no,no,no,no,unknown
+<5 years,female,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Suspected viral
+<5 years,female,yes,no,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,Bacteria
+<5 years,2,no,yes,no,yes,no,no,no,no,no,no,no,no,no,no,no,no,Suspected viral
+<5 years,2,yes,no,no,no,no,no,yes,no,yes,no,no,no,no,no,no,no,Malaria
+<5 years,female,no,no,no,yes,no,no,no,no,no,no,no,no,no,no,no,no,Suspected viral
+<5 years,2,no,yes,no,yes,no,no,yes,no,no,no,no,no,no,no,no,no,Suspected viral
+<5 years,female,yes,no,no,yes,no,no,yes,no,no,no,no,no,no,no,no,no,Viral
+<5 years,2,yes,no,yes,no,no,no,no,no,yes,no,no,no,no,no,no,no,Malaria
+5 years or older,female,no,yes,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,Bacteria
+<5 years,2,no,no,no,yes,no,no,yes,yes,no,no,no,no,no,no,no,no,Bacteria
+<5 years,female,no,yes,no,yes,no,no,yes,no,no,no,no,no,no,no,no,no,Suspected viral
+<5 years,female,no,yes,yes,yes,no,no,yes,no,no,no,no,no,no,no,no,no,Viral
+<5 years,female,no,yes,no,yes,no,no,yes,no,no,no,no,no,no,no,no,no,unknown
+<5 years,female,no,no,no,yes,no,no,no,no,no,no,no,no,no,no,no,no,unknown
+<5 years,female,no,no,no,yes,no,no,yes,no,no,no,no,no,no,no,no,no,Malaria
+<5 years,female,no,no,no,yes,no,no,yes,no,no,no,no,no,no,no,no,no,Viral
+<5 years,2,yes,yes,yes,yes,no,no,yes,no,no,no,no,no,no,no,no,no,Bacteria
+<5 years,female,no,no,no,yes,no,no,yes,no,no,no,no,no,no,no,no,no,Viral
+<5 years,2,no,no,no,yes,no,no,yes,no,no,no,no,no,no,no,no,no,Suspected bacterial
+<5 years,female,no,yes,no,no,no,no,yes,no,yes,no,no,no,no,no,no,no,unknown
+<5 years,female,no,no,no,yes,no,no,yes,no,yes,no,no,no,no,no,no,no,unknown
+<5 years,2,yes,yes,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,Viral
+<5 years,female,no,no,no,yes,no,no,yes,no,no,no,no,no,no,no,no,no,Bacteria
+<5 years,female,yes,no,no,no,no,no,yes,no,no,no,no,no,no,no,no,no,Viral
+<5 years,female,no,no,no,no,no,no,no,no,no,no,no,no,no,no,yes,no,Viral
+<5 years,female,no,no,no,no,no,no,yes,no,yes,no,no,no,no,no,no,no,Viral
+<5 years,female,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Suspected viral
+<5 years,female,no,no,no,no,no,no,yes,no,no,no,no,no,no,no,no,no,Suspected viral
+<5 years,female,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Suspected viral
+<5 years,female,yes,yes,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,Suspected viral
+<5 years,female,yes,no,no,yes,no,no,no,no,no,no,no,no,no,no,no,no,Malaria
+<5 years,female,no,yes,yes,yes,no,no,no,no,no,no,no,no,no,no,no,no,Suspected viral
+<5 years,female,yes,no,no,no,no,no,no,no,no,no,no,no,yes,no,no,no,Suspected viral
+<5 years,2,no,no,yes,no,no,no,yes,no,no,no,no,no,no,no,no,no,Bacteria
+<5 years,2,no,no,no,yes,no,no,yes,no,no,no,no,no,no,no,no,no,Viral
+<5 years,female,no,yes,no,yes,no,no,yes,no,no,no,no,no,no,no,no,no,Bacteria
+<5 years,2,no,yes,no,yes,no,no,no,no,no,no,no,no,no,no,no,no,Viral
+<5 years,female,no,no,no,yes,no,no,no,no,no,no,no,no,no,no,no,no,unknown
+<5 years,female,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Suspected viral
+<5 years,2,yes,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,no,unknown
+<5 years,female,no,no,no,yes,no,no,yes,no,no,no,no,no,no,no,no,no,unknown
+<5 years,2,no,yes,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,Bacteria
+<5 years,female,yes,yes,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,Viral
+<5 years,female,yes,no,no,yes,no,no,yes,no,no,no,no,no,no,no,no,no,unknown
+5 years or older,female,yes,yes,no,yes,no,no,yes,no,no,no,no,no,no,no,no,no,unknown
+<5 years,2,no,yes,yes,yes,no,no,no,no,no,no,no,no,no,no,no,no,Bacteria
+<5 years,2,no,no,no,yes,no,no,no,no,no,no,no,no,yes,no,no,no,Viral
+<5 years,female,yes,no,yes,yes,no,no,yes,no,no,no,no,no,no,no,yes,no,Bacteria
+<5 years,2,no,no,no,yes,no,no,no,no,no,no,no,no,no,no,no,no,Malaria
+<5 years,2,yes,no,no,yes,no,no,yes,no,no,no,no,no,no,no,no,no,Suspected bacterial
+<5 years,2,yes,no,no,yes,no,no,no,no,no,no,no,no,no,no,no,no,unknown
+<5 years,female,no,no,no,yes,no,no,yes,no,yes,no,no,no,no,no,no,no,Malaria
+<5 years,female,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Malaria
+<5 years,female,no,no,no,no,no,no,no,no,no,no,no,no,no,yes,no,yes,Bacteria
+<5 years,2,yes,no,yes,yes,no,no,no,no,no,no,no,no,no,no,no,no,Viral
+<5 years,female,no,no,no,yes,no,no,yes,no,no,no,no,no,no,no,no,no,Viral
+<5 years,female,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Suspected viral
+5 years or older,female,no,yes,no,yes,no,no,yes,no,yes,no,no,no,no,no,no,no,Suspected viral
+<5 years,2,yes,yes,yes,yes,no,no,yes,no,no,no,no,no,no,no,no,no,Suspected bacterial
+<5 years,2,no,no,no,yes,no,no,no,no,no,no,no,no,no,no,no,no,Bacteria
+<5 years,female,yes,no,yes,yes,no,no,yes,no,no,no,no,no,no,no,yes,no,Suspected viral
+<5 years,2,no,no,no,yes,no,no,yes,no,yes,no,no,no,no,no,no,no,Bacteria
+<5 years,2,no,no,no,yes,no,yes,no,no,no,no,no,no,no,no,no,no,Viral
+<5 years,2,no,no,no,yes,no,no,yes,no,no,no,no,no,no,no,no,no,Bacteria
+<5 years,female,yes,no,no,yes,no,no,yes,no,no,no,no,no,no,no,no,no,Suspected viral
+<5 years,female,yes,yes,yes,yes,no,no,no,no,no,no,no,no,no,no,no,yes,unknown
+<5 years,2,no,yes,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,unknown
+<5 years,female,no,no,no,yes,no,no,yes,yes,yes,no,no,no,no,no,no,no,Suspected viral
+<5 years,2,no,no,yes,yes,no,no,no,no,no,no,no,no,no,no,no,no,Bacteria-malaria
+<5 years,2,no,yes,no,yes,no,no,yes,no,no,no,no,no,no,no,no,no,Bacteria
+<5 years,female,yes,yes,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,unknown
+<5 years,2,no,yes,yes,yes,no,no,no,no,no,no,no,no,no,no,no,no,Bacteria
+<5 years,2,no,no,no,yes,no,no,no,no,no,no,no,no,no,no,no,no,Suspected viral
+<5 years,2,yes,yes,no,yes,no,no,yes,no,no,no,no,no,no,no,no,no,Malaria
+<5 years,2,yes,yes,no,yes,no,no,yes,no,no,no,no,no,no,no,no,no,Suspected viral
+<5 years,female,no,yes,yes,yes,no,no,yes,no,no,no,no,no,no,no,no,no,unknown
+5 years or older,2,no,yes,no,no,no,yes,no,no,no,no,no,no,no,no,no,no,Viral
+<5 years,female,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Suspected viral
+<5 years,female,no,no,no,yes,no,no,yes,no,no,no,no,no,no,no,no,no,Bacteria
+<5 years,female,yes,no,no,yes,no,no,yes,no,no,no,no,no,no,no,no,no,Suspected viral
+<5 years,2,yes,no,yes,yes,no,no,no,no,no,no,no,no,no,no,no,no,Bacteria
+<5 years,2,no,no,no,yes,no,no,yes,no,no,no,no,no,no,no,no,no,unknown
+<5 years,female,yes,yes,yes,yes,no,no,yes,no,no,no,no,no,no,no,no,no,Bacteria
+<5 years,female,no,no,no,yes,no,no,yes,no,no,no,no,no,no,no,no,no,Suspected malaria
+<5 years,female,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Suspected viral
+<5 years,female,no,no,yes,yes,no,no,no,no,no,no,no,no,no,no,no,no,Viral
+<5 years,2,yes,yes,no,yes,no,no,yes,no,no,no,no,no,no,no,no,no,Suspected viral
+<5 years,female,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,unknown
+<5 years,2,no,no,no,yes,no,no,yes,no,yes,no,no,no,no,no,no,no,Bacteria
+<5 years,female,no,yes,no,yes,no,no,no,no,no,yes,no,no,no,no,no,no,Bacteria-malaria
+<5 years,2,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Suspected viral
+<5 years,female,no,no,yes,yes,no,no,yes,no,no,no,no,no,no,no,no,no,Bacteria
+<5 years,female,yes,no,no,yes,no,yes,no,no,no,no,no,no,no,no,no,no,Viral
+5 years or older,female,no,no,no,yes,no,no,yes,no,yes,no,no,no,no,no,no,no,unknown
+<5 years,2,yes,no,no,yes,no,no,yes,no,no,no,no,no,no,no,no,no,Bacteria-malaria
+<5 years,female,no,no,no,yes,no,yes,no,no,no,no,no,no,no,no,no,no,unknown
+<5 years,female,no,no,no,yes,no,no,no,no,no,no,no,yes,no,no,no,no,Bacteria
+<5 years,2,no,yes,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,unknown
+<5 years,female,no,yes,no,yes,no,no,yes,no,yes,no,no,no,no,no,no,no,Bacteria
+<5 years,female,no,no,no,yes,no,no,no,no,no,no,no,no,no,no,no,no,Bacteria
+<5 years,female,yes,no,no,yes,no,no,yes,no,no,no,no,no,no,no,no,no,Viral
+<5 years,2,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Suspected viral
+<5 years,female,no,yes,yes,no,no,no,yes,no,no,no,no,no,no,no,no,no,Suspected viral
+<5 years,female,no,no,no,yes,no,no,yes,no,yes,no,no,no,no,no,no,no,Bacteria
+<5 years,2,no,yes,no,yes,no,no,yes,no,no,no,no,no,no,no,no,no,Viral
+<5 years,2,no,no,no,yes,no,no,yes,no,yes,no,no,no,no,no,no,no,Suspected viral
+<5 years,2,no,yes,yes,no,no,no,yes,no,no,no,no,no,no,no,no,no,Bacteria
+<5 years,female,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Bacteria
+<5 years,female,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Viral
+<5 years,female,yes,yes,no,yes,no,no,yes,no,no,no,no,no,no,no,no,no,Suspected viral
+<5 years,female,no,no,no,yes,no,no,yes,no,no,no,no,no,no,no,no,no,Suspected viral
+<5 years,2,no,no,no,yes,no,no,yes,no,yes,no,no,no,no,no,no,no,Viral
+<5 years,female,no,no,no,yes,no,no,yes,no,no,no,no,no,no,no,no,no,Malaria
+<5 years,2,no,no,yes,yes,no,no,yes,no,no,no,no,no,no,no,no,no,Viral
+<5 years,2,yes,yes,no,yes,no,no,yes,no,no,no,no,no,no,no,no,no,unknown
+<5 years,2,no,no,no,no,no,no,no,no,yes,no,no,no,no,no,no,no,Bacteria
+5 years or older,female,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Viral
+5 years or older,2,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Suspected viral
+5 years or older,female,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Malaria
+5 years or older,2,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,yes,no,unknown
+5 years or older,2,yes,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Viral
+5 years or older,female,no,no,no,yes,no,no,yes,no,no,no,no,no,no,no,no,no,Malaria
+5 years or older,female,no,no,no,no,no,no,yes,no,no,no,no,yes,no,no,no,no,Viral
+5 years or older,female,no,no,no,yes,no,no,yes,no,no,no,no,no,no,no,no,no,unknown
+5 years or older,female,no,yes,no,yes,no,no,yes,no,no,no,no,no,no,no,no,no,Suspected bacterial
+5 years or older,2,no,yes,no,no,no,no,yes,yes,no,no,no,no,no,no,no,no,Viral
+5 years or older,female,no,yes,no,no,no,no,yes,no,no,no,no,no,no,no,no,no,Bacteria
+5 years or older,2,no,yes,no,yes,no,no,no,no,yes,no,no,yes,no,no,no,no,unknown
+5 years or older,female,yes,no,no,yes,no,no,no,no,no,no,no,no,no,no,no,no,unknown
+5 years or older,female,yes,no,no,no,no,no,yes,no,no,yes,no,yes,no,no,no,no,unknown
+5 years or older,female,no,yes,no,no,no,no,no,no,no,no,yes,yes,no,no,no,no,Viral
+5 years or older,female,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,unknown
+5 years or older,female,yes,yes,yes,no,no,no,no,no,no,no,no,no,no,no,yes,no,unknown
+5 years or older,2,no,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,no,unknown
+5 years or older,female,no,no,no,yes,no,no,yes,no,no,no,no,no,no,no,no,no,Suspected viral
+5 years or older,2,yes,no,no,no,no,no,no,no,yes,no,no,no,no,no,no,no,unknown
+5 years or older,female,yes,no,no,no,no,yes,yes,no,no,no,no,no,no,no,no,no,unknown
+5 years or older,female,yes,yes,no,no,no,no,yes,no,no,no,no,no,no,no,no,no,unknown
+5 years or older,female,no,no,no,no,no,no,yes,yes,yes,no,no,yes,no,no,no,no,Bacteria-malaria
+5 years or older,female,yes,yes,no,yes,no,no,yes,no,no,yes,no,no,no,no,no,no,Bacteria-malaria
+5 years or older,female,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,unknown
+5 years or older,female,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Suspected viral
+5 years or older,2,no,no,no,yes,no,no,yes,no,no,no,no,no,no,no,no,no,Viral
+5 years or older,2,no,yes,no,yes,no,no,yes,no,no,no,no,no,no,no,no,no,Malaria
+5 years or older,2,no,yes,no,no,no,no,yes,yes,yes,no,no,no,no,no,no,no,Bacteria
+5 years or older,female,yes,yes,no,no,no,no,yes,yes,yes,no,no,yes,no,no,no,no,unknown
+5 years or older,female,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Suspected viral
+5 years or older,female,yes,yes,no,no,no,no,no,no,no,no,no,yes,no,no,no,no,Suspected viral
+5 years or older,female,yes,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Suspected viral
+5 years or older,female,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Bacteria
+5 years or older,2,no,yes,no,yes,no,no,yes,no,no,no,no,no,no,no,no,no,unknown
+5 years or older,female,yes,yes,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,unknown
+5 years or older,2,yes,yes,no,yes,no,yes,yes,no,no,no,no,yes,no,no,no,no,Viral
+5 years or older,2,no,yes,yes,no,no,no,yes,yes,no,no,no,no,no,no,no,no,unknown
+5 years or older,female,yes,no,no,no,no,no,no,no,no,no,no,yes,no,no,no,no,unknown
+5 years or older,2,no,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Viral
+5 years or older,2,no,no,no,yes,no,no,no,no,no,no,no,no,no,no,no,no,unknown
+5 years or older,2,yes,yes,no,no,no,no,yes,no,yes,no,no,no,no,no,no,no,unknown
+5 years or older,female,yes,no,no,yes,no,no,yes,no,no,yes,no,yes,no,no,no,no,unknown
+5 years or older,2,no,no,no,no,no,no,no,no,no,no,no,no,no,yes,no,no,unknown
+5 years or older,2,yes,no,no,yes,no,yes,yes,yes,no,no,no,yes,no,no,no,no,unknown
+5 years or older,2,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,yes,Bacteria
+5 years or older,female,yes,yes,no,no,no,no,no,no,no,no,no,yes,no,no,no,no,Viral
+5 years or older,2,no,no,no,no,no,no,no,no,no,no,no,no,no,no,yes,no,Suspected viral
+5 years or older,2,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,unknown
+5 years or older,female,no,yes,no,yes,no,no,yes,no,no,no,no,no,no,no,no,no,Suspected viral
+5 years or older,female,yes,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Bacteria
+5 years or older,2,yes,no,no,no,no,no,no,no,yes,no,no,no,no,no,no,no,Bacteria-malaria
+5 years or older,2,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,unknown
+5 years or older,2,yes,no,no,no,no,no,yes,no,yes,no,no,no,no,no,no,no,Suspected viral
+5 years or older,2,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,unknown
+5 years or older,female,yes,yes,no,yes,no,yes,no,no,yes,no,no,yes,no,no,no,no,unknown
+5 years or older,2,no,no,no,yes,no,yes,yes,no,no,no,no,no,no,no,no,no,Viral
+5 years or older,2,no,no,no,yes,no,no,yes,no,no,no,no,no,no,no,no,no,Viral
+5 years or older,female,yes,yes,no,no,no,yes,yes,no,no,no,no,no,no,no,no,no,unknown
+5 years or older,female,yes,yes,no,no,no,no,no,no,no,no,no,yes,no,no,no,no,Suspected viral
+5 years or older,female,yes,no,no,no,no,no,no,no,no,yes,no,no,no,no,no,no,unknown
+5 years or older,female,yes,no,no,no,no,no,yes,yes,no,no,no,no,no,no,no,no,Suspected viral
+5 years or older,2,no,no,no,yes,no,no,yes,no,no,no,no,no,no,no,yes,no,Bacteria
+5 years or older,2,no,no,no,no,no,no,yes,no,no,no,no,no,no,no,no,no,Viral
+5 years or older,female,yes,yes,no,no,no,no,yes,yes,yes,no,no,yes,no,no,yes,no,unknown
+5 years or older,female,yes,no,no,no,no,no,yes,no,yes,no,no,no,no,no,yes,no,Bacteria
+5 years or older,female,yes,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,no,unknown
+5 years or older,2,yes,no,no,no,no,no,no,no,yes,no,no,no,no,no,no,no,Suspected viral
+5 years or older,female,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Bacteria
+5 years or older,2,no,yes,no,no,no,no,yes,no,yes,no,no,yes,no,no,no,no,unknown
+5 years or older,female,yes,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,no,unknown
+5 years or older,female,no,yes,no,no,no,no,no,no,no,no,no,yes,no,no,yes,no,unknown
+5 years or older,2,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,unknown
+5 years or older,female,yes,yes,no,no,no,no,no,no,yes,no,no,no,no,no,no,no,unknown
+5 years or older,female,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Malaria
+5 years or older,2,yes,yes,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,Bacteria
+5 years or older,2,no,no,no,yes,no,no,no,no,no,no,no,no,no,no,no,no,Bacteria
+5 years or older,female,yes,yes,no,no,no,no,no,no,no,no,no,yes,no,no,no,no,Suspected malaria
+5 years or older,female,no,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Bacteria
+5 years or older,female,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Bacteria
+5 years or older,2,yes,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,no,unknown
+5 years or older,2,no,no,no,no,no,no,yes,no,no,no,no,no,no,no,no,no,Bacteria
+5 years or older,2,no,no,no,no,no,no,no,no,no,no,no,yes,no,no,no,no,Suspected malaria
+5 years or older,female,yes,yes,no,no,no,yes,yes,yes,yes,no,no,no,no,no,no,no,Bacteria
+5 years or older,female,yes,yes,no,no,no,no,yes,yes,no,no,no,no,no,no,no,no,Bacteria
+5 years or older,2,no,no,no,no,no,no,no,no,yes,no,no,yes,no,no,no,no,unknown
+5 years or older,2,no,yes,no,no,no,no,yes,no,no,no,no,no,no,no,no,no,Suspected viral
+5 years or older,female,no,no,no,no,no,no,no,no,yes,no,no,no,no,no,yes,no,Suspected viral
+5 years or older,female,yes,yes,no,yes,no,no,yes,no,no,yes,no,no,no,no,no,no,Viral
+5 years or older,female,yes,no,no,yes,no,yes,yes,yes,yes,no,no,yes,no,no,no,no,Malaria
+5 years or older,female,no,no,no,no,no,no,no,no,yes,no,no,no,no,no,no,no,Bacteria
+5 years or older,2,no,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Suspected bacterial
+5 years or older,2,no,yes,no,no,no,no,yes,no,yes,no,no,no,no,no,no,no,Malaria
+5 years or older,female,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,unknown
+5 years or older,female,yes,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Viral
+5 years or older,female,no,no,no,yes,no,no,yes,no,no,no,no,no,no,no,no,no,Bacteria
+5 years or older,female,yes,no,no,no,no,no,yes,no,yes,no,no,no,no,no,no,no,unknown
+5 years or older,2,yes,no,no,yes,no,yes,yes,no,no,no,no,no,no,no,no,no,Bacteria
+5 years or older,2,yes,yes,no,no,no,no,no,no,no,no,no,yes,no,no,no,no,Bacteria
+5 years or older,2,yes,no,no,no,no,no,yes,no,no,no,no,yes,no,no,no,no,Bacteria
+5 years or older,2,yes,yes,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,unknown
+5 years or older,female,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Suspected viral
+5 years or older,2,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,unknown
+5 years or older,2,yes,yes,no,no,no,no,no,no,no,yes,no,no,no,no,no,no,unknown
+5 years or older,2,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,unknown
+5 years or older,female,yes,no,no,no,no,no,no,no,no,no,no,no,yes,no,no,no,Suspected bacterial
+5 years or older,2,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,unknown
+5 years or older,2,no,no,no,yes,no,no,yes,no,no,no,no,no,yes,no,no,no,unknown
+5 years or older,female,yes,yes,no,no,no,yes,no,no,no,no,yes,yes,no,no,no,no,Suspected bacterial
+5 years or older,2,no,no,no,yes,no,no,yes,no,no,no,no,no,no,no,no,no,unknown
+5 years or older,female,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Malaria
+5 years or older,female,no,no,no,no,no,no,yes,yes,no,no,no,no,no,no,no,no,Suspected viral
+5 years or older,2,no,yes,yes,no,no,no,yes,yes,yes,no,no,no,no,no,no,no,Bacteria
+5 years or older,female,no,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Bacteria
+5 years or older,2,yes,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,no,unknown
+5 years or older,female,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Bacteria
+5 years or older,female,no,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,no,unknown
+5 years or older,female,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,no,yes,Bacteria
+5 years or older,2,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Suspected viral
+5 years or older,2,no,yes,no,yes,no,no,yes,no,no,no,no,no,no,no,no,no,unknown
+5 years or older,2,no,no,no,no,no,yes,yes,no,no,no,no,yes,no,no,no,no,Bacteria
+5 years or older,female,yes,no,no,yes,no,no,no,no,no,no,no,no,no,no,no,no,Viral
+5 years or older,female,no,no,no,no,no,no,no,no,no,no,no,no,no,yes,no,no,unknown
+5 years or older,female,no,no,no,yes,no,no,no,no,no,no,no,no,no,no,no,no,Suspected bacterial
+5 years or older,2,no,no,no,no,no,no,no,no,no,no,no,no,yes,no,no,no,unknown
+<5 years,2,no,no,yes,no,no,no,yes,no,no,no,no,no,no,no,no,no,unknown
+<5 years,2,no,no,yes,yes,no,no,yes,no,yes,no,no,no,no,no,no,no,Suspected malaria
+<5 years,2,no,yes,no,yes,no,no,yes,no,no,no,no,no,no,no,no,no,Bacteria
+<5 years,2,no,no,no,yes,no,no,yes,no,yes,no,no,no,no,no,no,no,Suspected viral
+<5 years,2,yes,no,no,no,no,no,yes,no,no,no,no,no,no,no,no,no,Suspected viral
+<5 years,female,no,no,no,yes,no,no,yes,no,yes,no,no,no,no,no,no,no,Viral
+5 years or older,female,yes,no,no,yes,no,no,yes,no,no,no,no,no,no,no,no,no,Malaria
+<5 years,female,no,yes,yes,yes,no,no,yes,no,no,no,no,no,no,no,no,no,Malaria
+<5 years,2,no,yes,no,yes,no,yes,no,no,no,no,no,no,no,no,no,no,Suspected malaria
+<5 years,female,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Suspected viral
+<5 years,2,no,no,no,yes,no,no,yes,no,no,no,no,no,no,no,no,no,unknown
+<5 years,female,no,no,no,yes,no,no,yes,no,yes,no,no,no,no,no,no,no,Bacteria
+<5 years,2,no,no,no,yes,no,no,yes,no,yes,no,no,no,no,no,no,no,Viral
+<5 years,female,yes,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Bacteria
+<5 years,2,yes,no,no,yes,no,no,yes,no,yes,no,no,no,no,no,no,no,unknown
+<5 years,female,no,no,yes,yes,no,no,yes,no,no,no,no,no,no,no,no,no,Suspected viral
+<5 years,female,no,no,no,yes,no,no,yes,no,yes,no,no,no,no,no,no,no,Suspected viral
+<5 years,2,yes,no,no,yes,no,no,yes,no,no,no,no,no,no,no,no,no,Malaria
+<5 years,female,yes,no,yes,yes,no,no,yes,no,no,no,no,no,no,no,no,no,Bacteria-malaria
+<5 years,female,no,no,no,yes,no,no,no,no,no,no,no,no,no,no,no,no,Bacteria
+5 years or older,2,no,no,no,yes,no,no,yes,no,yes,no,no,no,no,no,no,no,unknown
+<5 years,female,no,no,yes,yes,no,no,yes,no,yes,no,no,no,no,no,no,no,unknown
+<5 years,2,no,yes,no,no,no,no,yes,no,no,no,no,no,no,no,no,no,Suspected viral
+<5 years,female,yes,yes,yes,yes,no,no,yes,no,no,no,no,no,no,no,no,no,Viral
+<5 years,2,no,no,no,no,no,no,yes,no,no,no,no,no,no,no,yes,no,Suspected viral
+<5 years,female,no,no,no,yes,no,no,yes,no,yes,no,no,no,no,no,no,no,unknown
+<5 years,female,no,no,no,yes,no,no,no,no,no,no,no,no,no,no,no,no,Malaria
+<5 years,female,no,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,no,unknown
+<5 years,female,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Suspected viral
+<5 years,2,yes,no,no,no,no,no,yes,no,no,no,no,no,no,no,no,no,Bacteria
+<5 years,female,no,no,no,yes,no,no,no,no,no,no,no,no,no,no,no,no,unknown
+<5 years,female,no,yes,no,yes,no,no,no,no,no,no,no,no,no,no,no,no,Suspected bacterial
+<5 years,2,no,yes,no,yes,no,no,yes,no,yes,no,no,no,no,no,no,no,unknown
+<5 years,female,yes,no,no,yes,no,no,yes,no,yes,no,no,no,no,no,no,no,Bacteria-malaria
+<5 years,2,no,yes,no,yes,no,no,yes,no,no,no,no,no,no,no,no,no,Malaria
+<5 years,2,yes,no,no,yes,no,no,yes,no,no,no,no,no,no,no,no,no,Viral
+<5 years,female,no,no,no,yes,no,no,yes,no,yes,no,no,no,no,no,no,no,Bacteria-malaria
+<5 years,female,yes,no,no,yes,no,no,yes,no,no,no,no,no,no,no,no,no,Malaria
+<5 years,female,no,no,no,yes,no,yes,no,no,no,yes,no,no,no,no,no,no,unknown
+<5 years,2,no,no,no,yes,no,no,yes,no,no,no,no,no,no,no,no,no,Suspected viral
+<5 years,female,yes,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,no,unknown
+<5 years,female,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Suspected viral
+<5 years,female,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Suspected viral
+<5 years,2,no,no,no,yes,no,no,yes,no,no,no,no,no,no,no,no,no,Malaria
+<5 years,female,no,yes,yes,yes,no,no,yes,no,no,no,no,no,no,no,no,no,Bacteria
+<5 years,female,no,no,no,yes,no,no,yes,no,yes,no,no,no,no,no,no,no,Viral
+<5 years,female,no,no,no,no,no,no,no,no,yes,no,no,no,no,no,no,no,unknown
+<5 years,female,no,no,no,yes,no,no,yes,no,no,no,no,no,no,no,no,no,Malaria
+<5 years,female,no,no,no,yes,no,no,yes,no,yes,no,no,no,no,no,no,no,Bacteria
+<5 years,2,no,no,no,yes,no,no,yes,no,yes,no,no,no,no,no,no,no,Bacteria
+<5 years,2,no,no,yes,yes,no,no,yes,no,no,no,no,no,no,no,no,no,Suspected malaria
+<5 years,2,no,no,no,yes,no,no,yes,no,yes,no,no,no,no,no,no,no,Viral
+<5 years,female,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Malaria
+<5 years,2,yes,yes,yes,yes,no,no,yes,no,no,no,no,no,no,no,no,no,Suspected malaria
+<5 years,female,no,yes,no,no,no,no,no,no,no,yes,no,no,no,no,no,no,unknown
+<5 years,2,no,no,no,yes,no,no,no,no,no,no,no,no,no,no,no,no,Suspected viral
+<5 years,female,no,no,no,yes,no,no,no,no,no,no,no,no,no,no,no,no,Malaria
+<5 years,female,no,yes,yes,yes,no,no,no,no,no,no,no,no,no,no,no,no,Malaria
+<5 years,female,no,yes,yes,yes,no,no,no,no,no,no,no,no,yes,no,no,no,Bacteria
+<5 years,female,yes,yes,no,yes,no,no,yes,no,no,no,no,no,no,no,no,no,Malaria
+<5 years,female,no,no,no,yes,no,no,no,no,no,no,no,no,no,no,no,no,Suspected viral
+<5 years,2,yes,no,no,yes,no,no,yes,no,no,no,no,no,no,no,no,no,Malaria
+<5 years,2,no,yes,yes,yes,no,no,yes,no,yes,no,no,no,no,no,no,no,Bacteria
+<5 years,female,yes,no,no,yes,no,no,yes,no,no,no,no,no,no,no,no,no,Bacteria
+<5 years,female,no,no,no,no,no,no,yes,no,yes,no,no,no,no,no,no,no,Viral
+<5 years,female,no,no,no,yes,no,no,yes,no,no,no,no,no,no,no,no,no,Malaria
+<5 years,2,no,no,no,yes,no,no,yes,no,no,no,no,no,no,no,no,no,Malaria
+<5 years,female,no,no,no,yes,no,no,yes,no,no,no,no,no,no,no,no,no,Suspected viral
+<5 years,2,no,no,no,yes,no,no,yes,no,no,no,no,no,no,no,no,no,unknown
+<5 years,female,yes,no,no,yes,no,no,yes,no,no,no,no,no,no,no,no,no,Malaria
+<5 years,2,no,yes,no,no,no,no,no,no,no,no,no,no,yes,no,no,no,Bacteria
+<5 years,2,no,no,no,no,no,no,yes,no,no,no,no,no,no,no,no,no,Malaria
+<5 years,2,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Malaria
+<5 years,female,no,no,yes,no,no,no,yes,no,no,no,no,no,no,no,no,no,Malaria
+<5 years,2,no,no,no,yes,no,no,yes,no,no,no,no,no,no,no,no,no,Malaria
+<5 years,2,yes,no,yes,no,no,no,yes,no,yes,no,no,no,no,no,no,no,Bacteria
+<5 years,female,no,no,no,yes,no,no,yes,no,yes,no,no,no,no,no,no,no,Viral
+<5 years,female,yes,yes,yes,yes,no,no,yes,no,no,no,no,no,no,no,no,no,Viral
+<5 years,female,no,no,yes,yes,no,no,yes,no,no,no,no,no,no,no,no,no,Bacteria
+<5 years,2,yes,yes,yes,yes,no,no,yes,no,no,no,no,no,no,no,no,no,Suspected viral
+<5 years,female,yes,yes,yes,no,no,no,no,no,no,yes,no,no,no,no,no,no,unknown
+5 years or older,female,no,no,yes,no,no,no,yes,no,yes,no,no,no,no,no,no,no,Suspected viral
+<5 years,female,no,no,no,yes,no,no,yes,no,no,no,no,no,no,no,no,no,Viral
+<5 years,female,no,yes,yes,yes,no,no,yes,no,no,no,no,no,no,no,no,no,unknown
+<5 years,2,yes,no,no,yes,no,no,yes,no,no,no,no,no,no,no,no,no,Suspected viral
+<5 years,female,no,no,no,yes,no,no,yes,no,no,no,no,no,no,no,no,no,unknown
+<5 years,female,no,yes,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,unknown
+<5 years,female,yes,yes,yes,yes,no,no,yes,no,yes,no,no,no,no,no,no,no,unknown
+<5 years,2,no,no,no,yes,no,no,no,no,no,no,no,no,no,no,yes,no,Viral
+<5 years,2,yes,yes,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,Suspected viral
+<5 years,2,yes,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Bacteria
+<5 years,female,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,unknown
+<5 years,2,yes,yes,yes,yes,no,no,yes,no,no,no,no,no,no,no,no,no,Suspected viral
+<5 years,female,no,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Suspected viral
+<5 years,2,no,yes,no,no,no,no,no,no,no,no,no,no,no,no,yes,yes,Malaria
+<5 years,female,no,yes,no,no,no,no,no,no,no,no,no,no,no,no,yes,no,unknown
+<5 years,female,yes,yes,yes,yes,no,no,no,no,no,no,no,no,no,no,no,no,Bacteria
+<5 years,female,yes,no,yes,yes,no,no,yes,no,no,no,no,no,no,no,no,no,Viral
+<5 years,female,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,unknown
+<5 years,female,yes,no,no,yes,no,no,yes,no,no,no,no,no,no,no,no,no,Malaria
+<5 years,female,no,no,no,no,no,no,yes,no,yes,no,no,no,no,no,no,no,Bacteria
+<5 years,2,no,yes,no,no,no,no,no,no,no,no,no,no,yes,no,yes,no,Suspected viral
+<5 years,female,no,no,no,yes,no,no,no,no,no,no,no,no,no,no,no,no,Suspected viral
+<5 years,2,no,no,no,no,no,no,yes,no,no,no,no,no,no,no,no,no,Suspected viral
+<5 years,female,yes,no,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,Malaria
+<5 years,female,no,yes,no,yes,no,no,no,no,no,no,no,no,no,no,no,no,unknown
+<5 years,female,no,no,no,no,no,no,no,no,no,no,no,no,yes,no,no,no,Suspected viral
+5 years or older,female,yes,no,no,no,no,no,no,no,no,no,no,yes,no,no,yes,no,Malaria
+<5 years,female,no,no,no,no,no,no,no,no,yes,no,no,no,no,no,yes,no,Malaria
+<5 years,2,no,no,no,yes,no,no,yes,no,no,no,no,no,no,no,no,no,Suspected viral
+<5 years,female,yes,no,no,yes,no,no,no,no,no,no,no,no,no,no,no,no,Suspected malaria
+<5 years,female,no,no,no,no,no,no,yes,no,no,no,no,no,no,no,no,no,Suspected viral
+<5 years,2,no,no,no,yes,no,yes,yes,no,no,no,no,no,no,no,no,no,Bacteria
+<5 years,female,no,no,no,yes,no,no,yes,no,no,no,no,no,no,no,no,no,unknown
+<5 years,female,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,unknown
+<5 years,female,yes,yes,yes,yes,yes,no,yes,no,no,no,no,no,no,no,no,no,Bacteria
+<5 years,female,no,yes,no,no,no,no,no,no,no,no,no,no,yes,no,yes,no,unknown
+<5 years,2,yes,yes,yes,yes,no,no,yes,no,no,no,no,no,no,no,no,no,unknown
+<5 years,2,no,no,no,yes,no,no,no,no,no,no,no,no,no,no,no,no,Suspected viral
+<5 years,female,no,yes,no,yes,no,no,yes,no,no,no,no,no,no,no,no,no,unknown
+<5 years,female,no,no,no,yes,no,no,no,no,no,no,no,no,no,no,no,no,Viral
+<5 years,female,yes,no,no,yes,no,no,yes,no,no,no,no,no,no,no,no,no,Malaria
+<5 years,female,yes,yes,no,no,no,no,no,no,no,yes,no,no,no,no,no,no,Suspected malaria
+<5 years,female,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Suspected viral
+<5 years,female,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Viral
+<5 years,female,no,no,no,no,no,no,no,no,no,no,no,no,no,no,yes,yes,Malaria
+<5 years,female,yes,yes,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,Viral
+<5 years,female,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Suspected viral
+<5 years,2,no,no,no,yes,no,no,yes,no,no,no,no,no,no,no,no,no,Suspected viral
+<5 years,female,yes,yes,no,no,no,no,yes,no,yes,no,no,no,no,no,yes,no,Malaria
+<5 years,2,no,no,no,no,no,no,yes,no,no,no,no,no,no,no,no,no,unknown
+<5 years,2,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Viral
+<5 years,female,no,no,no,yes,no,no,no,no,no,no,no,no,no,no,no,no,Malaria
+<5 years,2,no,no,no,yes,no,no,yes,no,no,no,no,no,no,no,no,no,Suspected viral
+<5 years,2,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Suspected viral
+<5 years,female,no,no,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,unknown
+<5 years,female,yes,yes,no,yes,no,no,yes,no,no,no,no,no,no,no,no,no,Suspected viral
+<5 years,female,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,unknown
+<5 years,female,yes,no,no,yes,no,no,yes,no,no,no,no,no,no,no,no,no,Suspected bacterial
+<5 years,female,no,no,no,yes,no,no,no,no,no,no,no,no,no,no,no,no,Malaria
+<5 years,2,no,no,no,yes,no,no,yes,no,yes,no,no,no,no,no,no,no,unknown
+<5 years,female,no,no,no,no,no,no,yes,no,no,no,no,no,no,no,no,no,Malaria
+<5 years,female,yes,no,no,no,no,no,yes,no,yes,no,no,no,no,no,no,no,unknown
+<5 years,2,no,no,no,yes,no,no,no,no,no,no,no,no,no,no,no,no,Viral
+<5 years,2,yes,no,no,yes,no,no,yes,no,no,no,no,no,no,no,no,yes,Bacteria
+<5 years,female,no,no,yes,yes,no,no,yes,no,yes,no,no,no,no,no,no,no,Suspected viral
+<5 years,2,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,yes,no,Suspected malaria
+<5 years,female,no,yes,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,Suspected viral
+<5 years,female,no,no,no,yes,no,no,no,no,no,no,no,no,no,no,yes,no,Malaria
+<5 years,female,no,no,no,yes,no,no,yes,no,no,no,no,no,no,no,no,no,Malaria
+<5 years,female,no,no,no,no,no,no,yes,no,no,no,no,no,no,no,no,no,Bacteria
+<5 years,female,yes,no,no,yes,no,no,no,no,no,no,no,no,no,no,no,no,Suspected viral
+<5 years,2,yes,no,no,yes,no,no,yes,no,no,no,no,no,no,no,no,no,unknown
+<5 years,female,no,no,yes,yes,no,no,yes,no,yes,no,no,no,no,no,yes,no,Bacteria
+<5 years,2,yes,yes,yes,yes,no,no,yes,no,no,no,no,no,no,no,no,no,Malaria
+<5 years,2,no,no,no,no,no,no,yes,no,no,no,no,no,no,no,no,no,Malaria
+<5 years,female,yes,no,no,yes,no,no,no,no,no,no,no,no,no,no,no,no,Suspected bacterial
+<5 years,2,yes,no,no,yes,no,no,no,no,no,no,no,no,no,no,no,no,Malaria
+<5 years,female,no,yes,no,yes,no,no,yes,no,yes,no,no,no,no,no,no,no,Suspected viral
+<5 years,female,no,no,no,yes,no,no,no,no,no,no,no,no,no,no,no,no,unknown
+<5 years,female,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,unknown
+<5 years,female,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Malaria
+<5 years,female,no,yes,no,yes,no,no,no,no,no,no,no,no,no,no,no,no,Malaria
+<5 years,female,no,no,no,yes,no,no,no,no,no,no,no,no,no,no,yes,yes,Malaria
+<5 years,2,no,yes,yes,yes,no,no,yes,no,no,no,no,no,no,no,no,no,Bacteria
+<5 years,2,no,yes,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,Suspected malaria
+<5 years,female,yes,yes,yes,yes,no,no,yes,no,no,no,no,no,no,no,no,no,Malaria
+<5 years,2,no,no,no,no,no,no,yes,no,yes,no,no,no,no,no,no,no,Suspected viral
+<5 years,female,no,no,no,yes,no,no,yes,no,no,no,no,no,no,no,no,no,Suspected malaria
+<5 years,2,yes,yes,yes,yes,no,no,yes,no,no,no,no,no,no,no,no,no,Malaria
+<5 years,female,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Suspected viral
+<5 years,2,no,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Suspected viral
+5 years or older,female,yes,yes,yes,yes,no,no,yes,no,no,no,no,no,no,no,no,no,unknown
+<5 years,2,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Malaria
+<5 years,2,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Suspected viral
+<5 years,2,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Suspected viral
+<5 years,female,yes,no,no,yes,no,no,no,no,no,no,no,no,no,no,no,no,Suspected malaria
+<5 years,female,no,no,no,no,no,no,no,no,no,no,no,no,no,no,yes,yes,Suspected malaria
+<5 years,female,no,no,no,yes,no,no,no,no,no,no,no,no,no,no,no,no,Bacteria
+<5 years,2,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,unknown
+<5 years,female,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Suspected bacterial
+5 years or older,female,no,no,no,no,no,no,no,no,no,yes,no,no,no,no,no,no,Bacteria
+5 years or older,female,no,yes,no,no,no,no,no,no,yes,yes,no,no,no,no,no,no,Bacteria
+5 years or older,female,no,yes,no,no,no,no,yes,yes,no,no,no,no,no,no,no,no,Bacteria
+5 years or older,female,yes,no,no,no,no,no,no,no,yes,no,no,no,no,no,yes,no,Bacteria
+5 years or older,female,no,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Bacteria-malaria
+5 years or older,female,no,yes,no,no,no,no,yes,yes,yes,no,no,no,no,no,no,no,Bacteria
+5 years or older,female,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,yes,Bacteria
+5 years or older,2,yes,yes,no,no,no,no,no,no,yes,no,no,no,no,no,no,no,Bacteria
+<5 years,female,yes,yes,no,yes,no,no,yes,no,yes,no,no,no,no,no,no,no,Bacteria-malaria
+<5 years,2,yes,yes,yes,yes,no,no,no,no,no,no,no,no,no,no,no,no,Bacteria-malaria
+<5 years,female,no,no,no,no,no,no,no,no,no,yes,no,no,no,no,no,no,Bacteria
+<5 years,2,no,yes,no,no,no,no,yes,no,no,no,no,no,no,no,no,yes,Bacteria-malaria
+<5 years,2,no,no,no,yes,no,no,yes,no,yes,no,no,no,no,no,no,no,Bacteria-malaria
+<5 years,female,no,no,no,no,no,no,no,no,yes,no,no,no,no,no,no,no,Bacteria-malaria
+5 years or older,female,yes,yes,no,no,no,no,no,no,no,yes,no,no,no,no,no,no,Bacteria
+5 years or older,female,no,no,no,yes,no,no,no,no,no,no,no,no,no,no,no,no,Bacteria
+5 years or older,female,yes,yes,no,yes,no,yes,yes,no,no,yes,no,no,no,no,no,no,Bacteria
+5 years or older,2,no,no,no,yes,no,no,yes,no,no,no,no,no,no,no,no,no,Bacteria
+5 years or older,2,no,yes,no,no,no,no,yes,no,no,no,no,no,no,no,no,no,Bacteria
+5 years or older,2,no,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Bacteria
+5 years or older,2,yes,yes,no,no,no,no,no,no,no,yes,no,no,no,no,no,no,Bacteria
+5 years or older,female,yes,yes,yes,no,no,no,yes,no,yes,no,no,no,no,no,yes,yes,Bacteria
+5 years or older,2,yes,yes,no,no,no,no,yes,no,no,no,no,no,no,no,no,no,Bacteria
+5 years or older,female,no,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Bacteria
+5 years or older,2,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Bacteria
+5 years or older,female,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Bacteria
+5 years or older,female,no,no,no,yes,no,no,no,no,no,no,no,no,no,no,no,no,Bacteria
+5 years or older,2,no,no,no,no,no,no,yes,no,no,no,no,no,no,no,no,no,Bacteria
+5 years or older,2,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,no,yes,Bacteria
+5 years or older,2,no,no,no,yes,no,no,no,no,no,no,no,no,no,no,no,no,Bacteria-malaria
+5 years or older,2,no,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Bacteria
+5 years or older,2,yes,yes,no,no,no,no,no,no,no,no,no,no,no,no,yes,no,Bacteria-malaria
+5 years or older,2,yes,yes,no,no,no,no,no,no,no,yes,no,no,no,no,no,no,Bacteria
+5 years or older,2,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Bacteria-malaria
+5 years or older,female,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Bacteria
+5 years or older,2,no,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Bacteria
+5 years or older,female,yes,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Bacteria-malaria
+5 years or older,female,no,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Bacteria-malaria
+<5 years,female,yes,no,no,yes,no,no,no,no,no,no,no,no,no,no,yes,no,Bacteria-malaria
+<5 years,2,no,no,no,yes,no,no,no,no,no,no,no,no,no,no,no,no,Bacteria
+<5 years,2,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Bacteria
+<5 years,female,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Bacteria
+<5 years,female,no,yes,yes,yes,no,no,no,no,no,no,no,no,no,no,no,no,Bacteria-malaria
+<5 years,female,no,no,no,no,no,no,no,no,no,no,no,no,yes,no,no,no,Bacteria
+<5 years,2,no,no,no,yes,no,no,no,no,no,no,no,no,no,no,no,no,Bacteria-malaria
+<5 years,2,no,no,no,yes,no,no,yes,no,no,no,no,no,no,no,no,no,Bacteria-malaria
+<5 years,female,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,unknown
+<5 years,female,no,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Bacteria
+<5 years,female,no,yes,no,yes,no,no,no,no,no,no,no,no,no,no,no,no,Malaria
+<5 years,2,yes,yes,yes,yes,no,no,no,no,no,no,no,no,no,no,no,no,Bacteria-malaria
+5 years or older,2,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Bacteria
+<5 years,2,no,yes,yes,no,no,no,yes,no,no,no,no,no,no,no,no,no,Bacteria
+<5 years,female,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Bacteria-malaria
+<5 years,female,no,no,yes,no,no,no,no,no,no,no,no,no,yes,no,no,no,Bacteria
+<5 years,female,yes,yes,no,yes,no,no,yes,no,no,no,no,no,no,no,no,no,Bacteria-malaria
+<5 years,2,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Bacteria-malaria
+<5 years,female,yes,yes,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,Bacteria-malaria
+<5 years,2,yes,yes,no,yes,no,no,no,no,no,no,no,no,no,no,no,no,Bacteria-malaria
+<5 years,female,no,no,no,no,no,no,no,no,yes,no,no,no,no,no,no,no,Bacteria
+<5 years,2,no,yes,no,no,no,no,no,no,no,yes,no,no,no,no,no,no,Bacteria
+<5 years,female,no,no,no,yes,no,no,yes,no,no,no,no,no,no,no,no,no,Bacteria
+<5 years,female,no,yes,no,no,no,no,yes,no,no,no,no,no,yes,no,no,no,Bacteria
+<5 years,2,no,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Bacteria-malaria
+<5 years,2,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,yes,no,Bacteria-malaria
+<5 years,2,no,yes,yes,yes,no,no,yes,no,no,no,no,no,no,no,no,no,Bacteria
+<5 years,female,no,no,no,yes,no,no,yes,no,no,no,no,no,no,no,no,no,Bacteria-malaria
+<5 years,female,no,no,no,yes,no,no,yes,no,no,no,no,no,no,no,no,no,Bacteria
+<5 years,2,no,no,no,yes,no,no,yes,no,no,no,no,no,no,no,no,no,Bacteria-malaria
+<5 years,2,no,yes,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,Bacteria-malaria
+<5 years,female,no,no,no,yes,no,no,yes,no,no,yes,no,no,no,no,no,no,Bacteria
+<5 years,2,no,no,no,yes,no,no,no,no,no,no,no,no,no,no,no,no,Bacteria
+<5 years,female,yes,no,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,Bacteria
+<5 years,female,no,no,no,yes,no,no,yes,no,no,no,no,no,no,no,yes,no,Bacteria-malaria
+<5 years,female,no,no,yes,no,no,no,no,no,yes,no,no,no,no,no,no,no,Bacteria
+<5 years,2,no,yes,yes,yes,no,no,yes,no,yes,no,no,no,no,no,yes,no,Bacteria-malaria
+<5 years,female,yes,yes,yes,yes,no,no,no,no,no,no,no,no,no,no,no,no,Bacteria
+<5 years,female,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Bacteria
+<5 years,female,no,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Bacteria
+<5 years,female,no,no,no,yes,no,no,no,no,no,no,no,no,no,no,no,no,Bacteria
+<5 years,2,no,no,no,yes,no,no,yes,no,no,no,no,no,no,no,yes,no,Bacteria-malaria
+5 years or older,2,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Bacteria
+<5 years,female,no,no,yes,no,no,no,no,no,no,no,no,no,yes,no,no,no,Bacteria
+<5 years,2,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Bacteria-malaria
+<5 years,female,no,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Bacteria-malaria
+<5 years,female,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Bacteria-malaria
+<5 years,2,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Bacteria-malaria
+<5 years,female,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Bacteria
+<5 years,2,yes,no,yes,yes,no,no,yes,no,no,no,no,no,no,no,no,no,Bacteria
+<5 years,2,no,no,no,no,no,no,no,no,no,no,no,no,no,no,yes,no,Bacteria-malaria
+<5 years,2,no,no,no,yes,no,no,no,no,yes,no,no,no,no,no,no,no,Bacteria
+<5 years,female,no,no,no,yes,no,no,no,no,no,no,no,no,no,no,no,no,Bacteria
+<5 years,female,yes,yes,no,no,no,no,yes,no,no,no,no,no,no,no,no,no,Bacteria-malaria
+<5 years,2,yes,no,no,yes,no,no,yes,no,no,no,no,no,no,no,no,no,Suspected bacterial
+<5 years,female,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,Bacteria-malaria
