@@ -1,6 +1,8 @@
 ---
-title: "Exercise instructions + example report"
-output: prettydoc::html_pretty
+title: "Workshop 3: Instructions and example report"
+output: 
+  prettydoc::html_pretty:
+    theme: leonids
 author: "Group member 1 and group member 2"
 date: "2022-10-25"
 editor_options: 
@@ -17,54 +19,70 @@ pacman::p_load(tidyverse, here, patchwork, janitor, esquisse, flextable)
 
 ## Instructions
 
-This work is to be done in groups of 2 or 3. You are allowed to pick your own partners. Proceed into any of the small pair rooms to work. You are encouraged to do the initial work locally, work either on RStudio Cloud or locally.
+Welcome!
 
-1.  First download the course repo here: then open the week_03 folder.
+Today's exercise will be done in groups of 2 to 4. You are allowed to pick your own partners. Once you have found a group, you can go into any of the small pair rooms to work.
 
-2.  You and your group partner should pick one of the five datasets in the "week_03/data" folder.
+Each member in the group should follow the instructions below:
 
-    -   You can read through the document titled "00_info_about_each_dataset" to get information about the datasets.
+1.  First download the course repo [here](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/the-graph-courses/rbp_cohort_0_materials){target="_blank"}. (You will mostly work locally today). Unzip the downloaded folder, then click on the ".Rproj" file. Then, from the Files pane of RStudio, open the "week_03" folder.
 
-3.  Then each member of the group should **pick any categorical variable** from that dataset. Your task is to create a short R-Markdown-based HTML report showing the frequency distribution of this variable across two sexes.
+2.  In the "week_03/rmd" folder, the instructions for your exercise are outlined (the same ones you see now).
 
-    For example, Jane and John pick the India TB data. Jane chooses to look at the differences in the education variable between men and women. John chooses to look at the distribution of the employment variable between men and women. Their document
+3.  Each group should **pick one of the five datasets** in the "week_03/data" folder. (You can read through the document titled "00_info_about_each_dataset" to get information about these datasets.)
 
-4.  Each section of the report should contain:
+4.  Then each member of the group should **pick one categorical variable** from that dataset. Your task is to **create a short R-Markdown-based HTML report showing the frequency distribution of the chosen variables across two sexes.**
+
+    For example, Jane and John pick the India TB dataset. Jane looks at the frequency distribution of the *education* variable for men and women. And John looks at the distribution of the *employment* variable between men and women.
+
+5.  You can do the initial work on their own, but the final document for submission will be a single HTML file containing a section for each chosen categorical variable.
+
+    For example, Jane and John will submit an HTML document with two sections: the first section on the distribution of the education variable for both sexes, and the second section covering the distribution of the employment variable for both sexes.
+
+6.  **Each section of the report must contain these four things:**
 
     a.  A plot created with {ggplot2}/{esquisse}
 
-    b.  A table created with {flextable} (Your table should have a caption/title. See the flextable book for tips: <https://ardata-fr.github.io/flextable-book/>)
+    b.  A table created with {flextable} (See the flextable [book](https://ardata-fr.github.io/flextable-book/){target="_blank"} for tips)
 
-    c.  At least one use of inline R code within the Rmd.
+    c.  At least one use of *inline R code* within the Rmd.
 
-    d.  A mention of at least one way that the report could be improved.
+    d.  At least one possible *area of improvement* mentioned.
 
-5.  Since RStudio cloud caused some problems in the last session (specifically with esquisse), it is recommended that you first work on your local RStudio, then when you are finished, you can copy your Rmd lines into RStudio Cloud, and do the final render from there. (Alternatively, you can copy all the material onto one of the group member's computers, and perform the final render from there).
+7.  As mentioned above, since RStudio cloud caused some problems in the last session (specifically with {esquisse}), it is recommended that you first work on your local RStudio, then when it is time to combine your work, you can:
 
-6.  By the end of the session, a single person from the group will present the work done. Note that your work does not have to be finished by the end of the lesson. You'll just present what you have so far. The final due date is Tuesday, Nov 1 at 3pm CET.
+    a.  both copy your Rmd code into a document on RStudio Cloud, and do the final render from there;
 
-Note that your work will be judged simply on whether you have the requirements spelled out above
+    b.  copy the material onto one of the group member's computers, and perform the final render from there.
 
-The rest of this document is an example of what one section of a report might look like..
+8.  When you are done with the final render, you should share your document online, using the [Rpubs](https://rpubs.com/){target="_blank"} service. This can be done as described in the video [here](https://www.youtube.com/watch?v=GJ36zamYVLg&ab_channel=EEHolmes-DataScience){target="_blank"}.
 
-# Workshop 3 Assignment: Colombia Car Accidents data
+9.  *Around 7:20pm UTC+2, a single person from the group will present the work done so far. Your work does not have to be finished by this time. You'll simply present what you succeeded at doing and what you struggled with. The final due date is Tuesday, Nov 1 at 23:59pm UTC+2. You are encouraged to visit one of our study halls if you need assistance with this later.*
+
+Finally, note that your work will be judged simply on whether you have the requirements spelled out above; it does not have to an amazing document.
+
+The rest of this document is an example of what one section of a report might look like.
+
+------------------------------------------------------------------------
+
+# Workshop 3 Assignment: Colombia Motorcycle Accidents data
 
 ## Age distribution of fatalities per sex group
 
-**Work primarily done by group member 1**
+**Work primarily done by group member 1, Jane Doe**
 
-This dataset provides information on deaths due to motorcycle accidents in some Colombian cities, as recorded in medical and police certificates.
+The dataset we chose provides information on deaths due to motorcycle accidents in Medellín, a Colombian city, as recorded in medical and police certificates.
 
-```{r cars}
+```{r message = F}
 col_accidents <- read_csv(here("week_03/data/03_motorcycle_accidents_colombia.csv"))
 ```
 
-I chose to look at the difference in age groups between male and female victims.
+I chose to look at the difference in the age distribution for male and female victims.
 
-The plot below shows the different age distributions:
+The plot below shows the age distributions for each sex:
 
 ```{r echo = F}
-esquisse::esquisser(col_accidents)
+# esquisse::esquisser(col_accidents)
 
 male <-
   col_accidents %>%
@@ -75,7 +93,7 @@ male <-
   labs(title = "Age group distribution of fatalities from motorcycle accidents",
        subtitle = "(Men)") +
   theme_minimal() +
-  theme(plot.title = element_text(size = 20L, face = "bold"),
+  theme(plot.title = element_text(size = 15L, face = "bold"),
         plot.subtitle = element_text(size = 15L))
   
   
@@ -87,14 +105,13 @@ female <-
   geom_bar(fill = "#A4BBB6") +
   labs(subtitle = "(Women)") +
   theme_minimal() +
-  theme(plot.title = element_text(size = 20L,
+  theme(plot.title = element_text(size = 15L,
                                   face = "bold"),
         plot.subtitle = element_text(size = 15L))
 
 
 male + female
 # alternatively: male / female
-
 ```
 
 *Teacher commentary: We have not yet learned how to create dodged/faceted bar charts, which would be best for showing differences between genders. So for now, you should use the + and / syntax from the patchwork package to combine two plots, one for each sex.*
@@ -108,20 +125,18 @@ flex_with_caption <- set_caption(flex, caption = "Age group distribution of fata
 flex_with_caption
 ```
 
-As see in the figure and plot, there were more deaths in men than in women.
-
 For both sexes, the age group with the most deaths was the 20 to 24 age group. In women, there were `r freq_table[4,2]` deaths in this age group, and in men there were `r freq_table[4,3]` deaths.
 
 *Teacher commentary: We have not yet learned how to extract data specific slices of data from a data frame. For now, you should use the syntax demonstrated above: within a pair of square brackets, place the row number, a comma, then the column number.*
 
-**Issues to be fixed:**
+### Areas of improvement
 
--   The two bar charts have different numbers of bars. This is not ideal.
--   The age group labels are a bit too horizontally compressed.
+-   The two bar charts have different numbers of bars. This is not ideal for comparisons.
+-   The age group labels are too horizontally compressed.
 -   I do not yet know how to change the variable names, so I left in the `REC_GRUPO EDAD` name in the table and plot.
 
 ## Distribution of roles (passenger, driver or other), per sex group
 
-**Work primarily done by group member 2**
+**Work primarily done by group member 2, John Doe...**
 
 *Teacher commentary: Note that once the work has been done for one variable, it is easy to copy and paste the code to reproduce the analyses on another variable.*
