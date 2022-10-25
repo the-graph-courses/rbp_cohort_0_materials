@@ -1,23 +1,21 @@
 ---
 title: "Workshop 3: Instructions and example report"
-output: 
+output:
   prettydoc::html_pretty:
-    theme: leonids
-author: "Group member 1 and group member 2"
+    theme: architect
+    toc: true
+author: "Group_member_1 and group_member_2"
 date: "2022-10-25"
-editor_options: 
-  chunk_output_type: console
 ---
 
 ```{r include = FALSE}
 knitr::opts_chunk$set(echo = FALSE)
-
 # packages
 if(!require(pacman)) install.packages("pacman")
 pacman::p_load(tidyverse, here, patchwork, janitor, esquisse, flextable)
 ```
 
-## Instructions
+# Instructions
 
 Welcome!
 
@@ -25,19 +23,19 @@ Today's exercise will be done in groups of 2 to 4. You are allowed to pick your 
 
 Each member in the group should follow the instructions below:
 
-1.  First download the course repo [here](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/the-graph-courses/rbp_cohort_0_materials){target="_blank"}. (You will mostly work locally today). Unzip the downloaded folder, then click on the ".Rproj" file. Then, from the Files pane of RStudio, open the "week_03" folder.
+1.  First download the course repo [here](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/the-graph-courses/rbp_cohort_0_materials){target="_blank"}. (You will mostly work locally today). Unzip the downloaded folder, then click on the ".Rproj" file to open the project in RStudio. From the Files pane of RStudio, open the "week_03" folder.
 
-2.  In the "week_03/rmd" folder, the instructions for your exercise are outlined (the same ones you see now).
+2.  In the "rmd" sub-folder, the instructions for your exercise are outlined (these are the same instructions you see here).
 
 3.  Each group should **pick one of the five datasets** in the "week_03/data" folder. (You can read through the document titled "00_info_about_each_dataset" to get information about these datasets.)
 
-4.  Then each member of the group should **pick one categorical variable** from that dataset. Your task is to **create a short R-Markdown-based HTML report showing the frequency distribution of the chosen variables across two sexes.**
+4.  Then each member of the group should **pick one categorical variable** from their chosen dataset. Your task is to **create a short R-Markdown-based HTML report showing the frequency distribution of the chosen variables across two sexes.**
 
-    For example, Jane and John pick the India TB dataset. Jane looks at the frequency distribution of the *education* variable for men and women. And John looks at the distribution of the *employment* variable between men and women.
+    For example, Jane and John pick the India TB dataset. Jane looks at the frequency distribution of the *education* variable for men and women. And John looks at the distribution of the *employment* variable for men and women.
 
 5.  You can do the initial work on their own, but the final document for submission will be a single HTML file containing a section for each chosen categorical variable.
 
-    For example, Jane and John will submit an HTML document with two sections: the first section on the distribution of the education variable for both sexes, and the second section covering the distribution of the employment variable for both sexes.
+    For example, Jane and John will submit an HTML document with two sections: the first section (primarily done by Jane) on the distribution of the education variable for both sexes, and the second section (primarily done by John) covering the distribution of the employment variable for both sexes.
 
 6.  **Each section of the report must contain these four things:**
 
@@ -49,13 +47,13 @@ Each member in the group should follow the instructions below:
 
     d.  At least one possible *area of improvement* mentioned.
 
-7.  As mentioned above, since RStudio cloud caused some problems in the last session (specifically with {esquisse}), it is recommended that you first work on your local RStudio, then when it is time to combine your work, you can:
+7.  As noted above, since RStudio cloud caused some problems in the last session (specifically with {esquisse}), it is recommended that you first work on your local RStudio, then when it is time to combine your work, you can:
 
-    a.  both copy your Rmd code into a document on RStudio Cloud, and do the final render from there;
+    a.  both copy your Rmd code into a document in your pod folder on RStudio Cloud, and do the final render from there;
 
     b.  copy the material onto one of the group member's computers, and perform the final render from there.
 
-8.  When you are done with the final render, you should share your document online, using the [Rpubs](https://rpubs.com/){target="_blank"} service. This can be done as described in the video [here](https://www.youtube.com/watch?v=GJ36zamYVLg&ab_channel=EEHolmes-DataScience){target="_blank"}.
+8.  When you are done with the final render, you should share your document online, using the [Rpubs](https://rpubs.com/){target="_blank"} service. This can be done as described in the video [here](https://www.youtube.com/watch?v=GJ36zamYVLg&ab_channel=EEHolmes-DataScience){target="_blank"}. The link to this Rpubs should be submitted as a quiz
 
 9.  *Around 7:20pm UTC+2, a single person from the group will present the work done so far. Your work does not have to be finished by this time. You'll simply present what you succeeded at doing and what you struggled with. The final due date is Tuesday, Nov 1 at 23:59pm UTC+2. You are encouraged to visit one of our study halls if you need assistance with this later.*
 
@@ -81,7 +79,7 @@ I chose to look at the difference in the age distribution for male and female vi
 
 The plot below shows the age distributions for each sex:
 
-```{r echo = F}
+```{r echo = F, fig.width=9}
 # esquisse::esquisser(col_accidents)
 
 male <-
@@ -114,7 +112,7 @@ male + female
 # alternatively: male / female
 ```
 
-*Teacher commentary: We have not yet learned how to create dodged/faceted bar charts, which would be best for showing differences between genders. So for now, you should use the + and / syntax from the patchwork package to combine two plots, one for each sex.*
+*Teacher commentary: We have not yet learned how to create dodged/faceted bar charts, which would be best for showing differences between genders. So for now, you should use the + and / syntax from the patchwork package to combine two plots, one for each sex. This is shown in the code chunk above. (Note that if you are reading this from the HTML document, you cannot see the code chunks. You need to look at the source Rmd file for this.)*
 
 And the table below shows similar information:
 
@@ -125,9 +123,9 @@ flex_with_caption <- set_caption(flex, caption = "Age group distribution of fata
 flex_with_caption
 ```
 
-For both sexes, the age group with the most deaths was the 20 to 24 age group. In women, there were `r freq_table[4,2]` deaths in this age group, and in men there were `r freq_table[4,3]` deaths.
+For both sexes, the age group with the most deaths was the 20 to 24 age group. In women, there were `r freq_table[2,2]` deaths in this age group, and in men there were `r freq_table[2,3]` deaths.
 
-*Teacher commentary: We have not yet learned how to extract data specific slices of data from a data frame. For now, you should use the syntax demonstrated above: within a pair of square brackets, place the row number, a comma, then the column number.*
+*Teacher commentary: We have not yet learned how to extract specific slices of data from a data frame. So for now, you should use the syntax demonstrated above: within a pair of square brackets, place the row number, a comma, then the column number. (Note that if you are reading this from the HTML document, you cannot see the code chunks. You need to look at the source Rmd file for this.)*
 
 ### Areas of improvement
 
@@ -135,8 +133,8 @@ For both sexes, the age group with the most deaths was the 20 to 24 age group. I
 -   The age group labels are too horizontally compressed.
 -   I do not yet know how to change the variable names, so I left in the `REC_GRUPO EDAD` name in the table and plot.
 
-## Distribution of roles (passenger, driver or other), per sex group
+## Distribution of roles, per sex group
 
 **Work primarily done by group member 2, John Doe...**
 
-*Teacher commentary: Note that once the work has been done for one variable, it is easy to copy and paste the code to reproduce the analyses on another variable.*
+*Teacher commentary: As already mentioned, your final document should contain all the sections from the different group members. Note that once the work has been done for one variable, it is easy to copy and paste the code to reproduce the analyses on another variable. This makes it easy to help out your group members who are struggling!*
