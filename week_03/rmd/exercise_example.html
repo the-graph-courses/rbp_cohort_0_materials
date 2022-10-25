@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html>
 
 <head>
@@ -133,29 +132,32 @@ of the small pair rooms to work.</p>
 <p>Each member in the group should follow the instructions below:</p>
 <ol style="list-style-type: decimal">
 <li><p>First download the course repo <a href="https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/the-graph-courses/rbp_cohort_0_materials" target="_blank">here</a>. (You will mostly work locally today). Unzip
-the downloaded folder, then click on the “.Rproj” file. Then, from the
-Files pane of RStudio, open the “week_03” folder.</p></li>
-<li><p>In the “week_03/rmd” folder, the instructions for your exercise
-are outlined (the same ones you see now).</p></li>
-<li><p>Each group should <strong>pick one of the five datasets</strong>
-in the “week_03/data” folder. (You can read through the document titled
+the downloaded folder, then click on the “.Rproj” file to open the
+project in RStudio. From the Files pane of RStudio, open the “week_03”
+folder.</p></li>
+<li><p>In the “rmd” sub-folder, the instructions for your exercise are
+outlined (these are the same instructions you see here).</p></li>
+<li><p><strong>Each group should pick one of the datasets</strong> in
+the “data” folder. (You can read through the document titled
 “00_info_about_each_dataset” to get information about these
 datasets.)</p></li>
-<li><p>Then each member of the group should <strong>pick one categorical
-variable</strong> from that dataset. Your task is to <strong>create a
-short R-Markdown-based HTML report showing the frequency distribution of
-the chosen variables across two sexes.</strong></p>
+<li><p>Next, each group member should <strong>select one categorical
+variable</strong> from their chosen dataset. Their task will be to
+<strong>create a short R-Markdown-based HTML report showing the
+frequency distribution of the chosen variable across two
+sexes.</strong></p>
 <p>For example, Jane and John pick the India TB dataset. Jane looks at
 the frequency distribution of the <em>education</em> variable for men
 and women. And John looks at the distribution of the <em>employment</em>
-variable between men and women.</p></li>
+variable for men and women.</p></li>
 <li><p>You can do the initial work on their own, but the final document
 for submission will be a single HTML file containing a section for each
 chosen categorical variable.</p>
 <p>For example, Jane and John will submit an HTML document with two
-sections: the first section on the distribution of the education
-variable for both sexes, and the second section covering the
-distribution of the employment variable for both sexes.</p></li>
+sections: the first section (primarily done by Jane) on the distribution
+of the education variable for both sexes, and the second section
+(primarily done by John) covering the distribution of the employment
+variable for both sexes.</p></li>
 <li><p><strong>Each section of the report must contain these four
 things:</strong></p>
 <ol style="list-style-type: lower-alpha">
@@ -166,29 +168,32 @@ Rmd.</p></li>
 <li><p>At least one possible <em>area of improvement</em>
 mentioned.</p></li>
 </ol></li>
-<li><p>As mentioned above, since RStudio cloud caused some problems in
-the last session (specifically with {esquisse}), it is recommended that
-you first work on your local RStudio, then when it is time to combine
-your work, you can:</p>
+<li><p>As noted above, since RStudio cloud caused some problems in the
+last session (specifically with {esquisse}), it is recommended that you
+first work on your local RStudio, then when it is time to combine your
+work, you can:</p>
 <ol style="list-style-type: lower-alpha">
-<li><p>both copy your Rmd code into a document on RStudio Cloud, and do
-the final render from there;</p></li>
+<li><p>both copy your Rmd code into a document in your pod folder on
+RStudio Cloud, and do the final render from there;</p></li>
 <li><p>copy the material onto one of the group member’s computers, and
 perform the final render from there.</p></li>
 </ol></li>
-<li><p>When you are done with the final render, you should share your
-document online, using the <a href="https://rpubs.com/" target="_blank">Rpubs</a> service. This can be done as described in the
-video <a href="https://www.youtube.com/watch?v=GJ36zamYVLg&amp;ab_channel=EEHolmes-DataScience" target="_blank">here</a>.</p></li>
-<li><p><em>Around 7:20pm UTC+2, a single person from the group will
-present the work done so far. Your work does not have to be finished by
-this time. You’ll simply present what you succeeded at doing and what
-you struggled with. The final due date is Tuesday, Nov 1 at 23:59pm
-UTC+2. You are encouraged to visit one of our study halls if you need
-assistance with this later.</em></p></li>
+<li><p><strong>To submit your work</strong> when you are done, you
+should share your document online, using the <a href="https://rpubs.com/" target="_blank">Rpubs</a> service. This can be
+done as described in the video <a href="https://www.youtube.com/watch?v=GJ36zamYVLg&amp;ab_channel=EEHolmes-DataScience" target="_blank">here</a>. The link to this Rpubs quiz should be posted
+as a comment on our lesson page.</p></li>
+<li><p>*Around 7:20pm UTC+2, a single person from the group will present
+the work done so far. Your work does not have to be finished by this
+time. You’ll simply present what you succeeded at doing and what you
+struggled with.</p></li>
+<li><p>The final due date is <strong>Tuesday, Nov 1 at 23:59pm
+UTC+2</strong>. You are encouraged to visit one of our study halls if
+you need assistance with this later.*</p></li>
 </ol>
 <p>Finally, note that your work will be judged simply on whether you
-have the requirements spelled out above; it does not have to an amazing
-document.</p>
+have met the four requirements mentioned above; it does not have to an
+amazing document. Just follow the instructions and you’ll get full
+marks!</p>
 <p>The rest of this document is an example of what one section of a
 report might look like.</p>
 <hr />
@@ -213,7 +218,7 @@ in the code chunk above. (Note that if you are reading this from the
 HTML document, you cannot see the code chunks. You need to look at the
 source Rmd file for this.)</em></p>
 <p>And the table below shows similar information:</p>
-<template id="b93a30dc-d077-4648-9a2a-34f3268108a0"><style>
+<template id="3f7f2bd2-1fa4-47b0-a3a3-1c132a22300e"><style>
 .tabwid table{
   border-spacing:0px !important;
   border-collapse:collapse;
@@ -252,11 +257,11 @@ background-color: transparent;
 .katex-display {
     margin: 0 0 !important;
 }
-</style><div class="tabwid"><style>.cl-f7ef0114{}.cl-f7e8c2a4{font-family:'Helvetica';font-size:11pt;font-weight:normal;font-style:normal;text-decoration:none;color:rgba(0, 0, 0, 1.00);background-color:transparent;}.cl-f7eb682e{margin:0;text-align:left;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);padding-bottom:5pt;padding-top:5pt;padding-left:5pt;padding-right:5pt;line-height: 1;background-color:transparent;}.cl-f7eb6838{margin:0;text-align:right;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);padding-bottom:5pt;padding-top:5pt;padding-left:5pt;padding-right:5pt;line-height: 1;background-color:transparent;}.cl-f7eb7936{width:0.75in;background-color:transparent;vertical-align: middle;border-bottom: 2pt solid rgba(102, 102, 102, 1.00);border-top: 2pt solid rgba(102, 102, 102, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-f7eb7940{width:0.75in;background-color:transparent;vertical-align: middle;border-bottom: 2pt solid rgba(102, 102, 102, 1.00);border-top: 2pt solid rgba(102, 102, 102, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-f7eb7941{width:0.75in;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-f7eb794a{width:0.75in;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-f7eb7954{width:0.75in;background-color:transparent;vertical-align: middle;border-bottom: 2pt solid rgba(102, 102, 102, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-f7eb7955{width:0.75in;background-color:transparent;vertical-align: middle;border-bottom: 2pt solid rgba(102, 102, 102, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-f7e380f0{font-family:'Helvetica';font-size:11pt;font-weight:normal;font-style:normal;text-decoration:none;color:rgba(0, 0, 0, 1.00);background-color:transparent;}</style><table class="cl-f7ef0114"><caption><span class="cl-f7e380f0">Age group distribution of fatalities from motorcycle accidents</span></caption><thead><tr style="overflow-wrap:break-word;"><td class="cl-f7eb7936"><p class="cl-f7eb682e"><span class="cl-f7e8c2a4">REC_GRUPO EDAD</span></p></td><td class="cl-f7eb7940"><p class="cl-f7eb6838"><span class="cl-f7e8c2a4">Femenino</span></p></td><td class="cl-f7eb7940"><p class="cl-f7eb6838"><span class="cl-f7e8c2a4">Masculino</span></p></td></tr></thead><tbody><tr style="overflow-wrap:break-word;"><td class="cl-f7eb7941"><p class="cl-f7eb682e"><span class="cl-f7e8c2a4">15-19</span></p></td><td class="cl-f7eb794a"><p class="cl-f7eb6838"><span class="cl-f7e8c2a4">10</span></p></td><td class="cl-f7eb794a"><p class="cl-f7eb6838"><span class="cl-f7e8c2a4">48</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-f7eb7941"><p class="cl-f7eb682e"><span class="cl-f7e8c2a4">20-24</span></p></td><td class="cl-f7eb794a"><p class="cl-f7eb6838"><span class="cl-f7e8c2a4">15</span></p></td><td class="cl-f7eb794a"><p class="cl-f7eb6838"><span class="cl-f7e8c2a4">87</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-f7eb7941"><p class="cl-f7eb682e"><span class="cl-f7e8c2a4">25-29</span></p></td><td class="cl-f7eb794a"><p class="cl-f7eb6838"><span class="cl-f7e8c2a4">3</span></p></td><td class="cl-f7eb794a"><p class="cl-f7eb6838"><span class="cl-f7e8c2a4">68</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-f7eb7941"><p class="cl-f7eb682e"><span class="cl-f7e8c2a4">30-34</span></p></td><td class="cl-f7eb794a"><p class="cl-f7eb6838"><span class="cl-f7e8c2a4">14</span></p></td><td class="cl-f7eb794a"><p class="cl-f7eb6838"><span class="cl-f7e8c2a4">54</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-f7eb7941"><p class="cl-f7eb682e"><span class="cl-f7e8c2a4">35-39</span></p></td><td class="cl-f7eb794a"><p class="cl-f7eb6838"><span class="cl-f7e8c2a4">5</span></p></td><td class="cl-f7eb794a"><p class="cl-f7eb6838"><span class="cl-f7e8c2a4">35</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-f7eb7941"><p class="cl-f7eb682e"><span class="cl-f7e8c2a4">40-44</span></p></td><td class="cl-f7eb794a"><p class="cl-f7eb6838"><span class="cl-f7e8c2a4">6</span></p></td><td class="cl-f7eb794a"><p class="cl-f7eb6838"><span class="cl-f7e8c2a4">25</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-f7eb7941"><p class="cl-f7eb682e"><span class="cl-f7e8c2a4">45-49</span></p></td><td class="cl-f7eb794a"><p class="cl-f7eb6838"><span class="cl-f7e8c2a4">5</span></p></td><td class="cl-f7eb794a"><p class="cl-f7eb6838"><span class="cl-f7e8c2a4">19</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-f7eb7941"><p class="cl-f7eb682e"><span class="cl-f7e8c2a4">50-54</span></p></td><td class="cl-f7eb794a"><p class="cl-f7eb6838"><span class="cl-f7e8c2a4">2</span></p></td><td class="cl-f7eb794a"><p class="cl-f7eb6838"><span class="cl-f7e8c2a4">7</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-f7eb7941"><p class="cl-f7eb682e"><span class="cl-f7e8c2a4">55-59</span></p></td><td class="cl-f7eb794a"><p class="cl-f7eb6838"><span class="cl-f7e8c2a4">2</span></p></td><td class="cl-f7eb794a"><p class="cl-f7eb6838"><span class="cl-f7e8c2a4">2</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-f7eb7941"><p class="cl-f7eb682e"><span class="cl-f7e8c2a4">60-64</span></p></td><td class="cl-f7eb794a"><p class="cl-f7eb6838"><span class="cl-f7e8c2a4">0</span></p></td><td class="cl-f7eb794a"><p class="cl-f7eb6838"><span class="cl-f7e8c2a4">3</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-f7eb7941"><p class="cl-f7eb682e"><span class="cl-f7e8c2a4">65-69</span></p></td><td class="cl-f7eb794a"><p class="cl-f7eb6838"><span class="cl-f7e8c2a4">0</span></p></td><td class="cl-f7eb794a"><p class="cl-f7eb6838"><span class="cl-f7e8c2a4">3</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-f7eb7954"><p class="cl-f7eb682e"><span class="cl-f7e8c2a4">70-74</span></p></td><td class="cl-f7eb7955"><p class="cl-f7eb6838"><span class="cl-f7e8c2a4">0</span></p></td><td class="cl-f7eb7955"><p class="cl-f7eb6838"><span class="cl-f7e8c2a4">3</span></p></td></tr></tbody></table></div></template>
-<div class="flextable-shadow-host" id="3eb765d6-1855-49cd-ba62-51d098bcdd59"></div>
+</style><div class="tabwid"><style>.cl-b55398d0{}.cl-b54cf44e{font-family:'Helvetica';font-size:11pt;font-weight:normal;font-style:normal;text-decoration:none;color:rgba(0, 0, 0, 1.00);background-color:transparent;}.cl-b54fa3ce{margin:0;text-align:left;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);padding-bottom:5pt;padding-top:5pt;padding-left:5pt;padding-right:5pt;line-height: 1;background-color:transparent;}.cl-b54fa3e2{margin:0;text-align:right;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);padding-bottom:5pt;padding-top:5pt;padding-left:5pt;padding-right:5pt;line-height: 1;background-color:transparent;}.cl-b54fb40e{width:0.75in;background-color:transparent;vertical-align: middle;border-bottom: 2pt solid rgba(102, 102, 102, 1.00);border-top: 2pt solid rgba(102, 102, 102, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-b54fb418{width:0.75in;background-color:transparent;vertical-align: middle;border-bottom: 2pt solid rgba(102, 102, 102, 1.00);border-top: 2pt solid rgba(102, 102, 102, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-b54fb419{width:0.75in;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-b54fb41a{width:0.75in;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-b54fb422{width:0.75in;background-color:transparent;vertical-align: middle;border-bottom: 2pt solid rgba(102, 102, 102, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-b54fb42c{width:0.75in;background-color:transparent;vertical-align: middle;border-bottom: 2pt solid rgba(102, 102, 102, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-b547471a{font-family:'Helvetica';font-size:11pt;font-weight:normal;font-style:normal;text-decoration:none;color:rgba(0, 0, 0, 1.00);background-color:transparent;}</style><table class="cl-b55398d0"><caption><span class="cl-b547471a">Age group distribution of fatalities from motorcycle accidents</span></caption><thead><tr style="overflow-wrap:break-word;"><td class="cl-b54fb40e"><p class="cl-b54fa3ce"><span class="cl-b54cf44e">REC_GRUPO EDAD</span></p></td><td class="cl-b54fb418"><p class="cl-b54fa3e2"><span class="cl-b54cf44e">Femenino</span></p></td><td class="cl-b54fb418"><p class="cl-b54fa3e2"><span class="cl-b54cf44e">Masculino</span></p></td></tr></thead><tbody><tr style="overflow-wrap:break-word;"><td class="cl-b54fb419"><p class="cl-b54fa3ce"><span class="cl-b54cf44e">15-19</span></p></td><td class="cl-b54fb41a"><p class="cl-b54fa3e2"><span class="cl-b54cf44e">10</span></p></td><td class="cl-b54fb41a"><p class="cl-b54fa3e2"><span class="cl-b54cf44e">48</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-b54fb419"><p class="cl-b54fa3ce"><span class="cl-b54cf44e">20-24</span></p></td><td class="cl-b54fb41a"><p class="cl-b54fa3e2"><span class="cl-b54cf44e">15</span></p></td><td class="cl-b54fb41a"><p class="cl-b54fa3e2"><span class="cl-b54cf44e">87</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-b54fb419"><p class="cl-b54fa3ce"><span class="cl-b54cf44e">25-29</span></p></td><td class="cl-b54fb41a"><p class="cl-b54fa3e2"><span class="cl-b54cf44e">3</span></p></td><td class="cl-b54fb41a"><p class="cl-b54fa3e2"><span class="cl-b54cf44e">68</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-b54fb419"><p class="cl-b54fa3ce"><span class="cl-b54cf44e">30-34</span></p></td><td class="cl-b54fb41a"><p class="cl-b54fa3e2"><span class="cl-b54cf44e">14</span></p></td><td class="cl-b54fb41a"><p class="cl-b54fa3e2"><span class="cl-b54cf44e">54</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-b54fb419"><p class="cl-b54fa3ce"><span class="cl-b54cf44e">35-39</span></p></td><td class="cl-b54fb41a"><p class="cl-b54fa3e2"><span class="cl-b54cf44e">5</span></p></td><td class="cl-b54fb41a"><p class="cl-b54fa3e2"><span class="cl-b54cf44e">35</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-b54fb419"><p class="cl-b54fa3ce"><span class="cl-b54cf44e">40-44</span></p></td><td class="cl-b54fb41a"><p class="cl-b54fa3e2"><span class="cl-b54cf44e">6</span></p></td><td class="cl-b54fb41a"><p class="cl-b54fa3e2"><span class="cl-b54cf44e">25</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-b54fb419"><p class="cl-b54fa3ce"><span class="cl-b54cf44e">45-49</span></p></td><td class="cl-b54fb41a"><p class="cl-b54fa3e2"><span class="cl-b54cf44e">5</span></p></td><td class="cl-b54fb41a"><p class="cl-b54fa3e2"><span class="cl-b54cf44e">19</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-b54fb419"><p class="cl-b54fa3ce"><span class="cl-b54cf44e">50-54</span></p></td><td class="cl-b54fb41a"><p class="cl-b54fa3e2"><span class="cl-b54cf44e">2</span></p></td><td class="cl-b54fb41a"><p class="cl-b54fa3e2"><span class="cl-b54cf44e">7</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-b54fb419"><p class="cl-b54fa3ce"><span class="cl-b54cf44e">55-59</span></p></td><td class="cl-b54fb41a"><p class="cl-b54fa3e2"><span class="cl-b54cf44e">2</span></p></td><td class="cl-b54fb41a"><p class="cl-b54fa3e2"><span class="cl-b54cf44e">2</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-b54fb419"><p class="cl-b54fa3ce"><span class="cl-b54cf44e">60-64</span></p></td><td class="cl-b54fb41a"><p class="cl-b54fa3e2"><span class="cl-b54cf44e">0</span></p></td><td class="cl-b54fb41a"><p class="cl-b54fa3e2"><span class="cl-b54cf44e">3</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-b54fb419"><p class="cl-b54fa3ce"><span class="cl-b54cf44e">65-69</span></p></td><td class="cl-b54fb41a"><p class="cl-b54fa3e2"><span class="cl-b54cf44e">0</span></p></td><td class="cl-b54fb41a"><p class="cl-b54fa3e2"><span class="cl-b54cf44e">3</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-b54fb422"><p class="cl-b54fa3ce"><span class="cl-b54cf44e">70-74</span></p></td><td class="cl-b54fb42c"><p class="cl-b54fa3e2"><span class="cl-b54cf44e">0</span></p></td><td class="cl-b54fb42c"><p class="cl-b54fa3e2"><span class="cl-b54cf44e">3</span></p></td></tr></tbody></table></div></template>
+<div class="flextable-shadow-host" id="558f6adb-cf54-4623-8822-3547b2170363"></div>
 <script>
-var dest = document.getElementById("3eb765d6-1855-49cd-ba62-51d098bcdd59");
-var template = document.getElementById("b93a30dc-d077-4648-9a2a-34f3268108a0");
+var dest = document.getElementById("558f6adb-cf54-4623-8822-3547b2170363");
+var template = document.getElementById("3f7f2bd2-1fa4-47b0-a3a3-1c132a22300e");
 var caption = template.content.querySelector("caption");
 var fantome = dest.attachShadow({mode: 'open'});
 var templateContent = template.content;
@@ -286,10 +291,12 @@ for comparisons.</li>
 <div id="distribution-of-roles-per-sex-group" class="section level2">
 <h2>Distribution of roles, per sex group</h2>
 <p><strong>Work primarily done by group member 2, John Doe…</strong></p>
-<p><em>Teacher commentary: Note that once the work has been done for one
-variable, it is easy to copy and paste the code to reproduce the
-analyses on another variable. This makes it easy to help out your group
-members who are struggling!</em></p>
+<p><em>Teacher commentary: As already mentioned, your final document
+should contain all the sections from the different group members. Note
+that once the work has been done for one variable, it is easy to copy
+and paste the code to reproduce the analyses on another variable. This
+makes it easy to help out your group members who are
+struggling!</em></p>
 </div>
 </div>
     </section>

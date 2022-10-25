@@ -27,9 +27,9 @@ Each member in the group should follow the instructions below:
 
 2.  In the "rmd" sub-folder, the instructions for your exercise are outlined (these are the same instructions you see here).
 
-3.  Each group should **pick one of the five datasets** in the "week_03/data" folder. (You can read through the document titled "00_info_about_each_dataset" to get information about these datasets.)
+3.  **Each group should pick one of the datasets** in the "data" folder. (You can read through the document titled "00_info_about_each_dataset" to get information about these datasets.)
 
-4.  Then each member of the group should **pick one categorical variable** from their chosen dataset. Your task is to **create a short R-Markdown-based HTML report showing the frequency distribution of the chosen variables across two sexes.**
+4.  Next, each group member should **select one categorical variable** from their chosen dataset. Their task will be to **create a short R-Markdown-based HTML report showing the frequency distribution of the chosen variable across two sexes.**
 
     For example, Jane and John pick the India TB dataset. Jane looks at the frequency distribution of the *education* variable for men and women. And John looks at the distribution of the *employment* variable for men and women.
 
@@ -53,11 +53,13 @@ Each member in the group should follow the instructions below:
 
     b.  copy the material onto one of the group member's computers, and perform the final render from there.
 
-8.  When you are done with the final render, you should share your document online, using the [Rpubs](https://rpubs.com/){target="_blank"} service. This can be done as described in the video [here](https://www.youtube.com/watch?v=GJ36zamYVLg&ab_channel=EEHolmes-DataScience){target="_blank"}. The link to this Rpubs should be submitted as a quiz
+8.  **To submit your work** when you are done, you should share your document online, using the [Rpubs](https://rpubs.com/){target="_blank"} service. This can be done as described in the video [here](https://www.youtube.com/watch?v=GJ36zamYVLg&ab_channel=EEHolmes-DataScience){target="_blank"}. The link to this Rpubs quiz should be posted as a comment on our lesson page.
 
-9.  *Around 7:20pm UTC+2, a single person from the group will present the work done so far. Your work does not have to be finished by this time. You'll simply present what you succeeded at doing and what you struggled with. The final due date is Tuesday, Nov 1 at 23:59pm UTC+2. You are encouraged to visit one of our study halls if you need assistance with this later.*
+9.  *Around 7:20pm UTC+2, a single person from the group will present the work done so far. Your work does not have to be finished by this time. You'll simply present what you succeeded at doing and what you struggled with. 
 
-Finally, note that your work will be judged simply on whether you have the requirements spelled out above; it does not have to an amazing document.
+10. The final due date is **Tuesday, Nov 1 at 23:59pm UTC+2**. You are encouraged to visit one of our study halls if you need assistance with this later.*
+
+Finally, note that your work will be judged simply on whether you have met the four requirements mentioned above; it does not have to an amazing document. Just follow the instructions and you'll get full marks!
 
 The rest of this document is an example of what one section of a report might look like.
 
