@@ -53,7 +53,7 @@ Each member in the group should follow the instructions below:
 
     b.  copy the material onto one of the group member's computers, and perform the final render from there.
 
-8.  **To submit your work** when you are done, you should share your document online, using the [Rpubs](https://rpubs.com/){target="_blank"} service. This can be done as described in the video [here](https://www.youtube.com/watch?v=GJ36zamYVLg&ab_channel=EEHolmes-DataScience){target="_blank"}. The link to this Rpubs quiz should be posted as a comment on our lesson page.
+8.  **To submit your work** when you are done, you should share your document online, using the [Rpubs](https://rpubs.com/){target="_blank"} service. This can be done as described in the video [here](https://www.youtube.com/watch?v=GJ36zamYVLg&ab_channel=EEHolmes-DataScience){target="_blank"}. The link to this Rpubs page should be posted as a comment on our lesson page.
 
 9.  *Around 7:20pm UTC+2, a single person from the group will present the work done so far. Your work does not have to be finished by this time. You'll simply present what you succeeded at doing and what you struggled with. 
 
