@@ -18,35 +18,31 @@ knitr::opts_chunk$set(echo = FALSE)
 
 Today, you will be carrying out a new task as a data analyst: preparing datasets for **someone else to use**. You can imagine this person to be a data analyst colleague or other staff member. It is a hands-on approach to using the `select()` and `filter()` verbs.
 
-*Final due date:* **January 1st, 2023**
+The final due date for the assignment is Tuesday, November 8 at 23:59 PM UTC+2.
 
-# Obtaining the course repo
+# Obtain the course repo
 
 Welcome!
 
 Today's exercise will be done and submitted on your own, but you are encouraged to work with partners to brainstorm together.
 
-1.  First download the course repo [here](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/the-graph-courses/rbp_cohort_0_materials/tree/main/week_04){target="_blank"}. (You will mostly work locally today).
+1.  First download the course repo [here](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/the-graph-courses/rbp_cohort_0_materials/tree/main/week_04){target="_blank"}. (You should ideally work on your local computer today, but if you would rather work on RStudio cloud, you can reupload the downloaded zip file to the cloud service. Consult one of the instructors for guidance on this.)
 
-2.  Unzip/Extract the downloaded folder. NOTE: If you are on Windows and are not sure how to "unzip" a file, see [this image](https://imgur.com/a/6e5pT7k). You need to right-click and then select "extract all".
+2.  Unzip/Extract the downloaded folder. NOTE: If you are on Windows and are not sure how to "unzip" a file, see [this image](https://imgur.com/a/6e5pT7k). You need to right-click on the file and then select "extract all".
 
-3.  Click on the RStudio Project file to open the project in RStudio.
+3.  Click on the RStudio Project file in the unzipped folder to open the project in RStudio.
 
-4.  From the Files pane of RStudio, open the "week_04" folder.
+4.  Once your project is open in RStudio, navigate to the Files pane of RStudio, and open the "rmd" folder. The instructions for your exercise are outlined there (these are the same instructions you see here).
 
-5.  In the "rmd" sub-folder of "week_04", the instructions for your exercise are outlined (these are the same instructions you see here).
+5.  Open the "data" folder, and observe its components. You will work with the "rabies_dataset.csv" file in the "data" folder. (You can also view the "00_info_about_the_dataset" file to learn more about this data.)
 
-6.  You will work with the "rabies_dataset" in the "data" folder. (You can view the "00_info_about_the_dataset" file to learn more about this data.)
+6.  In the same folder, open the metadata (data dictionary) file for this dataset, "rabies_metadata.pdf". This file is necessary because the data for today is heavily encoded (all variables are numbers which correspond to categories). Without the variable dictionary, you cannot know what the numeric categories correspond to!
 
-7.  In the same folder, you also have the metadata (data dictionary) for this dataset, "rabies_metadata.pdf". Open and read through this data dictionary. Your data for today is heavily encoded (all variables are numbers corresponding to categories). Without the variable dictionary, you cannot know what the number categories correspond to!
-
-8.  Next, perform the tasks below. Once the tasks are complete, you will zip up the "week_04" folder, which should contain (Not sure how to zip a folder? You can search Google for this.) **Your output will be several different CSV files, which you will ZIP together with this Rmd and hand in.**
-
-------------------------------------------------------------------------
+7.  Now, proceed to the coding tasks below.
 
 # Load and clean the data
 
-First, **load the needed packages**. Nothing will run unless you load the packages you need to code.
+In the code section below, **load in the packages you'll need**. (Hint:tidyverse).
 
 Pro tip: Use {pacman} to load your packages, since it both *installs* and loads packages as needed.
 
@@ -56,41 +52,41 @@ Pro tip: Use {pacman} to load your packages, since it both *installs* and loads 
 
 Now, **read in the dataset**. The data frame you import should have 1466 rows and 23 columns.
 
-Pro tip: Try to write a path that will work on anyone's computer. (The opposite of an "absolute path").
+Pro tip: Try to write a *relative* path that will work on anyone's computer.
 
 ```{r}
 "WRITE_YOUR_CODE_HERE"
 ```
 
-Next, **bring the respondent ID to the front of the dataset**. The respondent ID is the 23rd column of your dataset: we would like it to be more visible so that someone who opens up the CSV knows immediately that each row corresponds to a respondent.
+Next, perform the following two cleaning tasks on the imported dataset, then store the cleaned dataset in a new object:
+
+-   **bring the respondent ID to the front of the dataset**. The respondent ID is the 23rd column of your dataset: we would like it to be more visible so that someone who opens up the CSV knows immediately that each row corresponds to a respondent.
+
+-   **Remove the `Education` variable, which has not been properly encoded.** (To notice the encoding issues, look at both the data frame and at the metadata file). We can consider this variable unusable, and hence remove it.
 
 ```{r}
 "WRITE_YOUR_CODE_HERE"
 ```
 
-Finally, **remove the `Education` variable, which has not been properly encoded.** (To notice the issue, look both at the data frame and at the metadata file). We can consider this variable unusable for now, and remove it
-
-```{r}
-"WRITE_YOUR_CODE_HERE"
-```
-
-# Creating subsets
+# Create and export data subsets
 
 In each "Data subset" section below,
 
--   Decide whether to use the `filter()` or `select()` function, then apply it to create the required extract of the dataset.
+-   decide whether to use the `filter()` or `select()` function, then apply that function to create the required extract of the dataset;
 
--   Then export that dataset into an appropriately-named CSV file in the "outputs" folder.
+-   export the data subset into an appropriately-named CSV file in the "data_exports" folder.
 
--   NOTE: For all tasks below, in addition to the variables you should extract, please ALWAYS keep the respondent ID variable! Without it, you cannot link back your data to the original dataset and you loose crucial information.
+-   NOTE: For all tasks below, in addition to the variables you should extract, please ALWAYS keep the respondent ID variable! Without it, you cannot link back your data to the original dataset and you lose crucial information.
 
-## **Data Subset 1:** Extract demographics information
+## **Data Subset 1:** Extract demographic information
 
-Create and export a data subset of the respondents' demographic information (age, gender and geographic background).
+Create and export a data subset of the respondents' demographic information, their age, gender and geographic background.
 
 ```{r}
 "WRITE_YOUR_CODE_HERE"
 ```
+
+(Don't forget that you were asked to include the respondent ID variable for all subsets!)
 
 ## **Data Subset 2:** Extract all male adults from the dataset
 
@@ -99,6 +95,8 @@ Create and export a subset with only males aged over 18.
 ```{r}
 "WRITE_YOUR_CODE_HERE"
 ```
+
+(Hint: this is a row-filtering question, so there is no need to select or drop columns).
 
 ## **Data Subset 3:** Extract at-risk individuals
 
@@ -110,20 +108,30 @@ Create and export a subset with "at-risk" individuals. These are people who a) h
 
 ## **Data Subset 4:** Extract the knowledge-evaluation survey question variables
 
-Reading the metadata, you will see that some variables correspond to knowledge-evaluation questions about rabies, asked to the respondents. Create and export a subset that includes these survey question variables.
+Reading the metadata, you will see that some variables correspond to "knowledge-evaluation" questions about rabies. Create and export a subset that includes these variables.
 
 ```{r}
 "WRITE_YOUR_CODE_HERE"
 ```
 
-## **Data Subset 5:** Extract all the respondents with "ideal" knowledge, attitudes and practices (KAPs) towards rabies
+## **Data Subset 5:** Extract respondents with "ideal" knowledge, attitudes and practices (KAPs) towards rabies
 
-People with ideal KAPs are defined as people who
+People with *ideal* KAPs are defined as people who answered that they:
 
 -   vaccinate their pets,
--   know the signs for rabies, and
+-   know the clinical signs for rabies, and
 -   visit a doctor after being bitten by an animal
 
-```{r message = F}
+```{r}
 "WRITE_YOUR_CODE_HERE"
 ```
+
+# Zip, publish and submit your work
+
+Once you have finished the tasks above, you should
+
+-   **Knit your document** with global code echo turned on. (You should turn on code echo on so that we can see the actual code that is written).
+
+-   Once knitted, **publish the document to rpubs**, then **share the rpubs link** as a comment on the assignment page.
+
+-   Next, **create a zipped file** of this "week_04" folder, containing all your work, and **upload it** on the assignment page.
