@@ -23,7 +23,7 @@ Today, for this Honor's task, you will be carrying out a new task as a data anal
 
 The assignment should be submitted individually, but you are encouraged to brainstorm with partners.
 
-The final due date for the assignment is Tuesday, November 8 at 23:59 PM UTC+2.
+The final due date for the assignment is Tuesday, November 28th at 23:59 PM UTC+2.
 
 # Obtain the course repo
 
