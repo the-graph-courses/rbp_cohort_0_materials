@@ -4,6 +4,7 @@ output:
   prettydoc::html_pretty:
     theme: architect
     toc: true
+    number_sections: true
 author: "Author's name here"
 date: "2022-11-01"
 editor_options: 
