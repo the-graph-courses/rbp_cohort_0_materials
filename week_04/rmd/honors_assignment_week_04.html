@@ -89,10 +89,10 @@ upload zipped folder</a></li>
 <div id="intro" class="section level1" number="1">
 <h1><span class="header-section-number">1</span> Intro</h1>
 <p>Welcome!</p>
-<p>Today, for this Honor’s task, you will be carrying out a new task as
-a data analyst: preparing data subsets for someone else to use. It is a
-hands-on approach to using the <code>select()</code> and
-<code>filter()</code> verbs.</p>
+<p>For this Honor’s assignment, you will be carrying out a new task as a
+data analyst: preparing data subsets for <strong>someone else to
+use</strong>. It is a hands-on approach to using the
+<code>select()</code> and <code>filter()</code> verbs.</p>
 <p>The assignment should be submitted individually, but you are
 encouraged to brainstorm with partners.</p>
 <p>The final due date for the assignment is Tuesday, November 28th at
@@ -101,59 +101,65 @@ encouraged to brainstorm with partners.</p>
 <div id="get-the-assignment-repo" class="section level1" number="2">
 <h1><span class="header-section-number">2</span> Get the assignment
 repo</h1>
+<p>To get started, you should download and look through the assignment
+folder.</p>
 <ol style="list-style-type: decimal">
-<li><p>First download the course repo <a href="https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/the-graph-courses/rbp_cohort_0_materials/tree/main/week_04" target="_blank">here</a>.</p>
-<p>(You should ideally work on your local computer, but if you would
+<li><p>First download the repo to your local computer <a href="https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/the-graph-courses/rbp_cohort_0_materials/tree/main/week_04" target="_blank">here</a>.</p>
+<p><em>(You should ideally work on your local computer, but if you would
 rather work on RStudio Cloud, you can upload the zip file to RStudio
 Cloud through the Files pane. Consult one of the instructors for
-guidance on this.)</p></li>
+guidance on this.)</em></p></li>
 <li><p>Unzip/Extract the downloaded folder.</p>
-<p>On macOS, you can simply double-click on a file to unzip it.</p>
-<p>If you are on Windows and are not sure how to “unzip” a file, see <a href="https://imgur.com/a/6e5pT7k" target="_blank">this image</a>. You
-need to right-click on the file and then select “extract all”.</p></li>
-<li><p>Once the unzipping is done, click on the RStudio Project file in
-the unzipped folder to open the project in RStudio.</p></li>
-<li><p>When your project is open in RStudio, navigate to the Files tab
-and open the “rmd” folder. The instructions for your exercise are
-outlined there (these are the same instructions you see here).</p></li>
-<li><p>Open the “data” folder, and observe its components. You will work
-with the “rabies_dataset.csv” file. (You can also view the
+<p><em>On macOS, you can simply double-click on a file to unzip
+it.</em></p>
+<p><em>If you are on Windows and are not sure how to “unzip” a file, see
+<a href="https://imgur.com/a/6e5pT7k" target="_blank">this image</a>.
+You need to right-click on the file and then select “extract
+all”.</em></p></li>
+<li><p>Once done, click on the RStudio Project file in the unzipped
+folder to open the project in RStudio.</p></li>
+<li><p>In RStudio, navigate to the Files tab and open the “rmd” folder.
+The instructions for your exercise are outlined there (these are the
+same instructions you see here).</p></li>
+<li><p>Open the “data” folder and observe its components. You will work
+with the “rabies_dataset.csv” file. (You can also open the
 “00_info_about_the_dataset” file to learn more about this
-data.)</p></li>
-<li><p>In the same folder, open the metadata (data dictionary) file for
-this dataset, “rabies_metadata.pdf”. This file is necessary because the
-data for today is numerically encoded (all variables are stored as
-numbers which correspond to categories). Without the variable
-dictionary, you cannot know what the numeric categories correspond
+dataset.)</p></li>
+<li><p>In the same folder, open the metadata (data dictionary) file,
+“rabies_metadata.pdf”. This data dictionary is necessary because the
+data for today is numerically encoded; that is, all variables are stored
+as numbers which correspond to categories. Without the variable
+dictionary, you wouldn’t know what the numeric categories correspond
 to!</p></li>
 </ol>
 </div>
 <div id="load-and-clean-the-data" class="section level1" number="3">
 <h1><span class="header-section-number">3</span> Load and clean the
 data</h1>
-<p>Now that you understand the structure of the repo, you should load in
+<p>Now that you understand the structure of the repo, you can load in
 and clean your dataset.</p>
-<p>In the code section below, <strong>load in the packages</strong>
-(hint: tidyverse) you’ll need. Pro tip: Use <code>p_load()</code> to
-load in your packages, since it both loads and installs packages as
-needed.</p>
+<p>In the code section below, <strong>load in the needed
+packages</strong> (hint: load {tidyverse}).</p>
+<p><em>Pro tip: Use <code>p_load()</code> to load in your packages,
+since it both loads and installs packages as needed.</em></p>
 <pre><code>## [1] &quot;WRITE_YOUR_CODE_HERE&quot;</code></pre>
-<p>Now, <strong>read in the dataset</strong>. The data frame you import
-should have 1466 rows and 23 columns.Try to write a <em>relative</em>
-path that will work on anyone’s computer.</p>
+<p>Now, <strong>read the dataset into R</strong>. The data frame you
+import should have 1466 rows and 23 columns. In your read command, try
+to write a <em>relative</em> path (a path that will be valid on other
+people’s computers).</p>
 <pre><code>## [1] &quot;WRITE_YOUR_CODE_HERE&quot;</code></pre>
 <p>Next, perform the following two cleaning tasks on the imported
 dataset, then store the cleaned dataset in a new object.</p>
 <ul>
 <li><p><strong>Bring the respondent ID to the front</strong>. The
-respondent ID is the 23rd column of your dataset: we would like it to be
-more visible so that someone who opens up the CSV knows immediately that
-each row corresponds to a respondent. Move it to the first position in
-the data frame.</p></li>
+respondent ID is the 23rd column of your dataset. It should be more
+visible so that someone who opens up the CSV knows immediately that each
+row corresponds to a respondent. Move it to the first position in the
+data frame.</p></li>
 <li><p><strong>Remove the <code>Education</code> variable, which has not
 been properly encoded.</strong> (To notice the encoding issues, look at
-both the data frame and the metadata file). We can consider this
-variable unusable, and hence remove it.</p></li>
+both the data frame and the metadata file). We are considering this
+variable unusable, and hence removing it.</p></li>
 </ul>
 <pre><code>## [1] &quot;WRITE_YOUR_CODE_HERE&quot;</code></pre>
 </div>
@@ -165,8 +171,8 @@ subsets</h1>
 <li><p>decide whether to use the <code>filter()</code> or
 <code>select()</code> function, then apply that function to create the
 required extract of the dataset;</p></li>
-<li><p>then export the data subset into an appropriately-named CSV file
-in the “data_exports” folder.</p></li>
+<li><p>export the data subset into an appropriately-named CSV file in
+the “data_exports” folder.</p></li>
 <li><p>NOTE: For all data subsets, always keep the respondent ID
 variable! Without it, you cannot link back your data to the original
 dataset and you lose crucial information.</p></li>
@@ -174,7 +180,7 @@ dataset and you lose crucial information.</p></li>
 <div id="data-subset-1-extract-demographic-information" class="section level2" number="4.1">
 <h2><span class="header-section-number">4.1</span> <strong>Data Subset
 1:</strong> Extract demographic information</h2>
-<p>Create and export a data subset of the respondents’ demographic
+<p>Create and export a data subset of respondents’ demographic
 information—their age, gender and geographic background.</p>
 <pre><code>## [1] &quot;WRITE_YOUR_CODE_HERE&quot;</code></pre>
 <p>(Don’t forget that you were asked to include the respondent ID
@@ -183,7 +189,8 @@ variable in all subsets!)</p>
 <div id="data-subset-2-extract-all-male-adults-from-the-dataset" class="section level2" number="4.2">
 <h2><span class="header-section-number">4.2</span> <strong>Data Subset
 2:</strong> Extract all male adults from the dataset</h2>
-<p>Create and export a data subset with only males aged over 18.</p>
+<p>Create and export a data subset containing only records for males
+aged over 18.</p>
 <pre><code>## [1] &quot;WRITE_YOUR_CODE_HERE&quot;</code></pre>
 <p>(Hint: this is a row-filtering question, so there is no need to
 select or drop columns.)</p>
@@ -225,18 +232,18 @@ individuals.</p>
 <div id="submission-share-rpubs-link-and-upload-zipped-folder" class="section level1" number="5">
 <h1><span class="header-section-number">5</span> Submission: share rpubs
 link, and upload zipped folder</h1>
-<p>Once you have finished the tasks above, you should</p>
+<p>Once you have finished the tasks above, you should:</p>
 <ul>
 <li><p><strong>Knit your document</strong> with global code echo turned
 on. (You are turning on code echo so that your written code is visible
-in the output document).</p></li>
+in the output document.)</p></li>
 <li><p>Once knitted, <strong>publish the document</strong> to <a href="https://rpubs.com/" target="_blank">rpubs</a>, then <strong>share
 the rpubs link</strong> as a comment on the assignment page. (Not sure
 how to publish to rpubs? See <a href="https://www.youtube.com/watch?v=GJ36zamYVLg" target="_blank">this
 video</a>.)</p></li>
-<li><p>Next, <strong>create a zipped file</strong> of this “week_04”
-folder, containing all your work, and <strong>upload it</strong> on the
-assignment page.</p></li>
+<li><p>Next, <strong>create a zipped file</strong> of your project
+folder, containing all the work you have done, and <strong>upload
+it</strong> on the assignment page.</p></li>
 </ul>
 </div>
     </section>
