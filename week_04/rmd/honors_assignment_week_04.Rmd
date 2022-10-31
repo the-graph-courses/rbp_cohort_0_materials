@@ -51,7 +51,7 @@ To get started, you should download and look through the assignment folder.
 
 Now that you understand the structure of the repo, you can load in and clean your dataset.
 
-In the code section below, **load in the needed packages** (hint: load {tidyverse}).
+In the code section below, **load in the needed packages** (hint: load {tidyverse} and {here}).
 
 *Pro tip: Use `p_load()` to load in your packages, since it both loads and installs packages as needed.*
 
@@ -59,7 +59,7 @@ In the code section below, **load in the needed packages** (hint: load {tidyvers
 "WRITE_YOUR_CODE_HERE"
 ```
 
-Now, **read the dataset into R**. The data frame you import should have 1466 rows and 23 columns. In your read command, try to write a *relative* path (a path that will be valid on other people's computers).
+Now, **read the dataset into R**. The data frame you import should have 1466 rows and 23 columns. Remember to use the `here()` function to allow your Rmd to use project-relative paths.
 
 ```{r}
 "WRITE_YOUR_CODE_HERE"
@@ -93,7 +93,9 @@ Create and export a data subset of respondents' demographic information---their 
 "WRITE_YOUR_CODE_HERE"
 ```
 
-(Don't forget that you were asked to include the respondent ID variable in all subsets!)
+Don't forget that you were asked to include the respondent ID variable in all subsets.
+
+Remember to use the `here()` function to allow your Rmd to use project-relartive paths.
 
 ## **Data Subset 2:** Extract all male adults from the dataset
 
