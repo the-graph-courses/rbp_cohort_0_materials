@@ -131,7 +131,7 @@ Create and export a data subset that includes just these individuals.
 "WRITE_YOUR_CODE_HERE"
 ```
 
-# Zip, publish and submit your work
+# Submission: share rpubs link, and upload zipped folder
 
 Once you have finished the tasks above, you should
 
