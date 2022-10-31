@@ -66,8 +66,8 @@ Data Subsets</h1>
 <li><a href="#create-and-export-data-subsets" id="toc-create-and-export-data-subsets">Create and export data
 subsets</a>
 <ul>
-<li><a href="#data-subset-1-extract-demographics-information" id="toc-data-subset-1-extract-demographics-information"><strong>Data
-Subset 1:</strong> Extract demographics information</a></li>
+<li><a href="#data-subset-1-extract-demographic-information" id="toc-data-subset-1-extract-demographic-information"><strong>Data
+Subset 1:</strong> Extract demographic information</a></li>
 <li><a href="#data-subset-2-extract-all-male-adults-from-the-dataset" id="toc-data-subset-2-extract-all-male-adults-from-the-dataset"><strong>Data
 Subset 2:</strong> Extract all male adults from the dataset</a></li>
 <li><a href="#data-subset-3-extract-at-risk-individuals" id="toc-data-subset-3-extract-at-risk-individuals"><strong>Data Subset
@@ -75,9 +75,9 @@ Subset 2:</strong> Extract all male adults from the dataset</a></li>
 <li><a href="#data-subset-4-extract-the-knowledge-evaluation-survey-question-variables" id="toc-data-subset-4-extract-the-knowledge-evaluation-survey-question-variables"><strong>Data
 Subset 4:</strong> Extract the knowledge-evaluation survey question
 variables</a></li>
-<li><a href="#data-subset-5-extract-all-the-respondents-with-ideal-knowledge-attitudes-and-practices-kaps-towards-rabies" id="toc-data-subset-5-extract-all-the-respondents-with-ideal-knowledge-attitudes-and-practices-kaps-towards-rabies"><strong>Data
-Subset 5:</strong> Extract all the respondents with “ideal” knowledge,
-attitudes and practices (KAPs) towards rabies</a></li>
+<li><a href="#data-subset-5-extract-respondents-with-ideal-knowledge-attitudes-and-practices-kaps-towards-rabies" id="toc-data-subset-5-extract-respondents-with-ideal-knowledge-attitudes-and-practices-kaps-towards-rabies"><strong>Data
+Subset 5:</strong> Extract respondents with “ideal” knowledge, attitudes
+and practices (KAPs) towards rabies</a></li>
 </ul></li>
 <li><a href="#zip-publish-and-submit-your-work" id="toc-zip-publish-and-submit-your-work">Zip, publish and submit your
 work</a></li>
@@ -90,127 +90,130 @@ work</a></li>
     <section id="main-content">
 <div id="intro" class="section level1">
 <h1>Intro</h1>
-<p>Today, you will be carrying out a new task as a data analyst:
-preparing datasets for <strong>someone else to use</strong>. You can
-imagine this person to be a data analyst colleague or other staff
-member. It is a hands-on approach to using the <code>select()</code> and
+<p>Welcome!</p>
+<p>Today, for this Honor’s task, you will be carrying out a new task as
+a data analyst: preparing data subsets for someone else to use. It is a
+hands-on approach to using the <code>select()</code> and
 <code>filter()</code> verbs.</p>
+<p>The assignment should be submitted individually, but you are
+encouraged to brainstorm with partners.</p>
 <p>The final due date for the assignment is Tuesday, November 8 at 23:59
 PM UTC+2.</p>
 </div>
 <div id="obtain-the-course-repo" class="section level1">
 <h1>Obtain the course repo</h1>
-<p>Welcome!</p>
-<p>Today’s exercise will be done and submitted on your own, but you are
-encouraged to work with partners to brainstorm together.</p>
 <ol style="list-style-type: decimal">
-<li><p>First download the course repo <a href="https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/the-graph-courses/rbp_cohort_0_materials/tree/main/week_04" target="_blank">here</a>. (You will mostly work locally today).</p></li>
-<li><p>Unzip/Extract the downloaded folder. NOTE: If you are on Windows
-and are not sure how to “unzip” a file, see <a href="https://imgur.com/a/6e5pT7k">this image</a>. You need to
-right-click and then select “extract all”.</p></li>
-<li><p>Click on the RStudio Project file to open the project in
-RStudio.</p></li>
-<li><p>From the Files pane of RStudio, open the “week_04”
-folder.</p></li>
-<li><p>In the “rmd” sub-folder of “week_04”, the instructions for your
-exercise are outlined (these are the same instructions you see
-here).</p></li>
-<li><p>You will work with the “rabies_dataset” in the “data” folder.
-(You can view the “00_info_about_the_dataset” file to learn more about
-this data.)</p></li>
-<li><p>In the same folder, you also have the metadata (data dictionary)
-for this dataset, “rabies_metadata.pdf”. Open and read through this data
-dictionary. Your data for today is heavily encoded (all variables are
-numbers corresponding to categories). Without the variable dictionary,
-you cannot know what the number categories correspond to!</p></li>
-<li><p>Next, perform the tasks below. Once the tasks are complete, you
-will zip up the “week_04” folder, which should contain (Not sure how to
-zip a folder? You can search Google for this.) <strong>Your output will
-be several different CSV files, which you will ZIP together with this
-Rmd and hand in.</strong></p></li>
+<li><p>First download the course repo <a href="https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/the-graph-courses/rbp_cohort_0_materials/tree/main/week_04" target="_blank">here</a>.</p>
+<p>(You should ideally work on your local computer, but if you would
+rather work on RStudio Cloud, you can upload the zip file to RStudio
+Cloud through the Files pane. Consult one of the instructors for
+guidance on this.)</p></li>
+<li><p>Unzip/Extract the downloaded folder.</p>
+<p>On macOS, you can simply double-click on a file to unzip it.</p>
+<p>If you are on Windows and are not sure how to “unzip” a file, see <a href="https://imgur.com/a/6e5pT7k" target="_blank">this image</a>. You
+need to right-click on the file and then select “extract all”.</p></li>
+<li><p>Once the unzipping is done, click on the RStudio Project file in
+the unzipped folder to open the project in RStudio.</p></li>
+<li><p>When your project is open in RStudio, navigate to the Files tab
+and open the “rmd” folder. The instructions for your exercise are
+outlined there (these are the same instructions you see here).</p></li>
+<li><p>Open the “data” folder, and observe its components. You will work
+with the “rabies_dataset.csv” file. (You can also view the
+“00_info_about_the_dataset” file to learn more about this
+data.)</p></li>
+<li><p>In the same folder, open the metadata (data dictionary) file for
+this dataset, “rabies_metadata.pdf”. This file is necessary because the
+data for today is numerically encoded (all variables are stored as
+numbers which correspond to categories). Without the variable
+dictionary, you cannot know what the numeric categories correspond
+to!</p></li>
 </ol>
 </div>
 <div id="load-and-clean-the-data" class="section level1">
 <h1>Load and clean the data</h1>
-<p>First, <strong>load the needed packages</strong>. Nothing will run
-unless you load the packages you need to code.</p>
-<p>Pro tip: Use {pacman} to load your packages, since it both
-<em>installs</em> and loads packages as needed.</p>
+<p>Now that you understand the structure of the repo, you should load in
+and clean your dataset.</p>
+<p>In the code section below, <strong>load in the packages</strong>
+(hint: tidyverse) you’ll need. Pro tip: Use <code>p_load()</code> to
+load in your packages, since it both loads and installs packages as
+needed.</p>
 <pre><code>## [1] &quot;WRITE_YOUR_CODE_HERE&quot;</code></pre>
 <p>Now, <strong>read in the dataset</strong>. The data frame you import
-should have 1466 rows and 23 columns.</p>
-<p>Pro tip: Try to write a path that will work on anyone’s computer.
-(The opposite of an “absolute path”).</p>
+should have 1466 rows and 23 columns.Try to write a <em>relative</em>
+path that will work on anyone’s computer.</p>
 <pre><code>## [1] &quot;WRITE_YOUR_CODE_HERE&quot;</code></pre>
-<p>Next, perform the following two cleaning tasks:</p>
+<p>Next, perform the following two cleaning tasks on the imported
+dataset, then store the cleaned dataset in a new object.</p>
 <ul>
-<li><p><strong>bring the respondent ID to the front of the
-dataset</strong>. The respondent ID is the 23rd column of your dataset:
-we would like it to be more visible so that someone who opens up the CSV
-knows immediately that each row corresponds to a respondent.</p></li>
+<li><p><strong>Bring the respondent ID to the front</strong>. The
+respondent ID is the 23rd column of your dataset: we would like it to be
+more visible so that someone who opens up the CSV knows immediately that
+each row corresponds to a respondent. Move it to the first position in
+the data frame.</p></li>
 <li><p><strong>Remove the <code>Education</code> variable, which has not
-been properly encoded.</strong> (To notice the issue, look both at the
-data frame and at the metadata file). We can consider this variable
-unusable for now, and remove it</p></li>
+been properly encoded.</strong> (To notice the encoding issues, look at
+both the data frame and the metadata file). We can consider this
+variable unusable, and hence remove it.</p></li>
 </ul>
 <pre><code>## [1] &quot;WRITE_YOUR_CODE_HERE&quot;</code></pre>
 </div>
 <div id="create-and-export-data-subsets" class="section level1">
 <h1>Create and export data subsets</h1>
-<p>In each “Data subset” section below,</p>
+<p>In each “Data subset” section below, you should</p>
 <ul>
 <li><p>decide whether to use the <code>filter()</code> or
-<code>select()</code> function, then apply it to create the required
-extract of the dataset;</p></li>
-<li><p>then export that dataset into an appropriately-named CSV file in
-the “outputs” folder.</p></li>
-<li><p>NOTE: For all tasks below, in addition to the variables you
-should extract, please ALWAYS keep the respondent ID variable! Without
-it, you cannot link back your data to the original dataset and you loose
-crucial information.</p></li>
+<code>select()</code> function, then apply that function to create the
+required extract of the dataset;</p></li>
+<li><p>then export the data subset into an appropriately-named CSV file
+in the “data_exports” folder.</p></li>
+<li><p>NOTE: For all data subsets, always keep the respondent ID
+variable! Without it, you cannot link back your data to the original
+dataset and you lose crucial information.</p></li>
 </ul>
-<div id="data-subset-1-extract-demographics-information" class="section level2">
-<h2><strong>Data Subset 1:</strong> Extract demographics
-information</h2>
+<div id="data-subset-1-extract-demographic-information" class="section level2">
+<h2><strong>Data Subset 1:</strong> Extract demographic information</h2>
 <p>Create and export a data subset of the respondents’ demographic
-information (age, gender and geographic background).</p>
+information—their age, gender and geographic background.</p>
 <pre><code>## [1] &quot;WRITE_YOUR_CODE_HERE&quot;</code></pre>
-<p>Remember to include the respondent ID variable for all subsets!</p>
+<p>(Don’t forget that you were asked to include the respondent ID
+variable in all subsets!)</p>
 </div>
 <div id="data-subset-2-extract-all-male-adults-from-the-dataset" class="section level2">
 <h2><strong>Data Subset 2:</strong> Extract all male adults from the
 dataset</h2>
-<p>Create and export a subset with only males aged over 18.</p>
+<p>Create and export a data subset with only males aged over 18.</p>
 <pre><code>## [1] &quot;WRITE_YOUR_CODE_HERE&quot;</code></pre>
 <p>(Hint: this is a row-filtering question, so there is no need to
-select or drop columns).</p>
+select or drop columns.)</p>
 </div>
 <div id="data-subset-3-extract-at-risk-individuals" class="section level2">
 <h2><strong>Data Subset 3:</strong> Extract at-risk individuals</h2>
 <p>Create and export a subset with “at-risk” individuals. These are
 people who a) have a pet at home, b) have no access to health
-facilities, and c) who consider that the rabies vaccine is not
-affordable for them.</p>
+facilities, and c) consider that the rabies vaccine is not affordable
+for them.</p>
 <pre><code>## [1] &quot;WRITE_YOUR_CODE_HERE&quot;</code></pre>
 </div>
 <div id="data-subset-4-extract-the-knowledge-evaluation-survey-question-variables" class="section level2">
 <h2><strong>Data Subset 4:</strong> Extract the knowledge-evaluation
 survey question variables</h2>
 <p>Reading the metadata, you will see that some variables correspond to
-knowledge-evaluation questions about rabies, asked to the respondents.
-Create and export a subset that includes these survey question
-variables.</p>
+“knowledge-evaluation” questions about rabies. Create and export a
+subset that includes these variables.</p>
 <pre><code>## [1] &quot;WRITE_YOUR_CODE_HERE&quot;</code></pre>
 </div>
-<div id="data-subset-5-extract-all-the-respondents-with-ideal-knowledge-attitudes-and-practices-kaps-towards-rabies" class="section level2">
-<h2><strong>Data Subset 5:</strong> Extract all the respondents with
-“ideal” knowledge, attitudes and practices (KAPs) towards rabies</h2>
-<p>People with ideal KAPs are defined as people who</p>
+<div id="data-subset-5-extract-respondents-with-ideal-knowledge-attitudes-and-practices-kaps-towards-rabies" class="section level2">
+<h2><strong>Data Subset 5:</strong> Extract respondents with “ideal”
+knowledge, attitudes and practices (KAPs) towards rabies</h2>
+<p>People with <em>ideal</em> KAPs are defined as people who answered
+that they:</p>
 <ul>
 <li>vaccinate their pets,</li>
-<li>know the signs for rabies, and</li>
+<li>know the clinical signs for rabies, and</li>
 <li>visit a doctor after being bitten by an animal</li>
 </ul>
+<p>Create and export a data subset that includes just these
+individuals.</p>
 <pre><code>## [1] &quot;WRITE_YOUR_CODE_HERE&quot;</code></pre>
 </div>
 </div>
@@ -218,12 +221,16 @@ variables.</p>
 <h1>Zip, publish and submit your work</h1>
 <p>Once you have finished the tasks above, you should</p>
 <ul>
-<li><p>Knit your document with global code echo turned on. (You should
-turn echo on so that we can see the actual code written).</p></li>
-<li><p>Once knitted, publish the document to rpubs, then place the rpubs
-link as a comment on the assignment page.</p></li>
-<li><p>Next, create a zipped file of this “week_04” folder, containing
-all your work, and upload it on the assignment page.</p></li>
+<li><p><strong>Knit your document</strong> with global code echo turned
+on. (You are turning on code echo so that your written code is visible
+in the output document).</p></li>
+<li><p>Once knitted, <strong>publish the document</strong> to <a href="https://rpubs.com/" target="_blank">rpubs</a>, then <strong>share
+the rpubs link</strong> as a comment on the assignment page. (Not sure
+how to publish to rpubs? See <a href="https://www.youtube.com/watch?v=GJ36zamYVLg" target="_blank">this
+video</a>.)</p></li>
+<li><p>Next, <strong>create a zipped file</strong> of this “week_04”
+folder, containing all your work, and <strong>upload it</strong> on the
+assignment page.</p></li>
 </ul>
 </div>
     </section>
