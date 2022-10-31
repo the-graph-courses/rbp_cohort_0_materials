@@ -31,11 +31,11 @@ To get started, you should download and look through the assignment folder.
 
 1.  First download the repo to your local computer [here](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/the-graph-courses/rbp_cohort_0_materials/tree/main/week_04){target="_blank"}.
 
-    *(You should ideally work on your local computer, but if you would rather work on RStudio Cloud, you can upload the zip file to RStudio Cloud through the Files pane. Consult one of the instructors for guidance on this.)*
+    *You should ideally work on your local computer, but if you would rather work on RStudio Cloud, you can upload the zip file to RStudio Cloud through the Files pane. Consult one of the instructors for guidance on this.*
 
 2.  Unzip/Extract the downloaded folder.
 
-    *On macOS, you can simply double-click on a file to unzip it.*
+    *If you are on macOS, you can simply double-click on a file to unzip it.*
 
     *If you are on Windows and are not sure how to "unzip" a file, see [this image](https://imgur.com/a/6e5pT7k){target="_blank"}. You need to right-click on the file and then select "extract all".*
 
