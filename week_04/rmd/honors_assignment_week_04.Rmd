@@ -137,12 +137,6 @@ Create and export a data subset that includes just these individuals.
 "WRITE_YOUR_CODE_HERE"
 ```
 
-# Submission: share rpubs link, and upload zipped folder
+# Submission: Upload zipped folder
 
-Once you have finished the tasks above, you should:
-
--   **Knit your document** with global code echo turned on. (You are turning on code echo so that your written code is visible in the output document.)
-
--   Once knitted, **publish the document** to [rpubs](https://rpubs.com/){target="_blank"}, then **share the rpubs link** as a comment on the assignment page. (Not sure how to publish to rpubs? See [this video](https://www.youtube.com/watch?v=GJ36zamYVLg){target="_blank"}.)
-
--   Next, **create a zipped file** of your project folder, containing all the work you have done, and **upload it** on the assignment page.
+Once you have finished the tasks above, you should **create a zipped file** of your project folder, containing all the work you have done, and **upload it** on the assignment page.

@@ -77,8 +77,8 @@ Extract the knowledge-evaluation survey question variables</a></li>
 Extract respondents with “ideal” knowledge, attitudes and practices
 (KAPs) towards rabies</a></li>
 </ul></li>
-<li><a href="#submission-share-rpubs-link-and-upload-zipped-folder" id="toc-submission-share-rpubs-link-and-upload-zipped-folder"><span class="toc-section-number">5</span> Submission: share rpubs link, and
-upload zipped folder</a></li>
+<li><a href="#submission-upload-zipped-folder" id="toc-submission-upload-zipped-folder"><span class="toc-section-number">5</span> Submission: Upload zipped
+folder</a></li>
 </ul>
 </div>
 </div>
@@ -139,14 +139,14 @@ data</h1>
 <p>Now that you understand the structure of the repo, you can load in
 and clean your dataset.</p>
 <p>In the code section below, <strong>load in the needed
-packages</strong> (hint: load {tidyverse}).</p>
+packages</strong> (hint: load {tidyverse} and {here}).</p>
 <p><em>Pro tip: Use <code>p_load()</code> to load in your packages,
 since it both loads and installs packages as needed.</em></p>
 <pre><code>## [1] &quot;WRITE_YOUR_CODE_HERE&quot;</code></pre>
 <p>Now, <strong>read the dataset into R</strong>. The data frame you
-import should have 1466 rows and 23 columns. In your read command, try
-to write a <em>relative</em> path (a path that will be valid on other
-people’s computers).</p>
+import should have 1466 rows and 23 columns. Remember to use the
+<code>here()</code> function to allow your Rmd to use project-relative
+paths.</p>
 <pre><code>## [1] &quot;WRITE_YOUR_CODE_HERE&quot;</code></pre>
 <p>Next, perform the following two cleaning tasks on the imported
 dataset, then store the cleaned dataset in a new object.</p>
@@ -183,8 +183,10 @@ dataset and you lose crucial information.</p></li>
 <p>Create and export a data subset of respondents’ demographic
 information—their age, gender and geographic background.</p>
 <pre><code>## [1] &quot;WRITE_YOUR_CODE_HERE&quot;</code></pre>
-<p>(Don’t forget that you were asked to include the respondent ID
-variable in all subsets!)</p>
+<p>Don’t forget that you were asked to include the respondent ID
+variable in all subsets.</p>
+<p>Remember to use the <code>here()</code> function to allow your Rmd to
+use project-relartive paths.</p>
 </div>
 <div id="data-subset-2-extract-all-male-adults-from-the-dataset" class="section level2" number="4.2">
 <h2><span class="header-section-number">4.2</span> <strong>Data Subset
@@ -229,22 +231,12 @@ individuals.</p>
 <pre><code>## [1] &quot;WRITE_YOUR_CODE_HERE&quot;</code></pre>
 </div>
 </div>
-<div id="submission-share-rpubs-link-and-upload-zipped-folder" class="section level1" number="5">
-<h1><span class="header-section-number">5</span> Submission: share rpubs
-link, and upload zipped folder</h1>
-<p>Once you have finished the tasks above, you should:</p>
-<ul>
-<li><p><strong>Knit your document</strong> with global code echo turned
-on. (You are turning on code echo so that your written code is visible
-in the output document.)</p></li>
-<li><p>Once knitted, <strong>publish the document</strong> to <a href="https://rpubs.com/" target="_blank">rpubs</a>, then <strong>share
-the rpubs link</strong> as a comment on the assignment page. (Not sure
-how to publish to rpubs? See <a href="https://www.youtube.com/watch?v=GJ36zamYVLg" target="_blank">this
-video</a>.)</p></li>
-<li><p>Next, <strong>create a zipped file</strong> of your project
-folder, containing all the work you have done, and <strong>upload
-it</strong> on the assignment page.</p></li>
-</ul>
+<div id="submission-upload-zipped-folder" class="section level1" number="5">
+<h1><span class="header-section-number">5</span> Submission: Upload
+zipped folder</h1>
+<p>Once you have finished the tasks above, you should <strong>create a
+zipped file</strong> of your project folder, containing all the work you
+have done, and <strong>upload it</strong> on the assignment page.</p>
 </div>
     </section>
   </div>
