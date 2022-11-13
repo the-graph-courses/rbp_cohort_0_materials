@@ -75,7 +75,7 @@ In the code section below, **load in the needed packages**.
 ```
 
 Now, **read the dataset into R**. The data frame you import should have
-142 rows and 11 columns. Remember to use the `here()` function to allow
+142 rows and 9 columns. Remember to use the `here()` function to allow
 your Rmd to use project-relative paths.
 
 ```{r}
@@ -89,8 +89,6 @@ Before jumping into wrangling or plotting, you should take the time to know what
 Some of your variables are numeric but they should be factors (i.e. categories), some are characters but should be factors, and some are characters but should be numeric. Having them in the correct type will be essential for the next manipulations and for plotting ! 
 
 Use `mutate()` to convert your variables into the right type.
-
-**Warning!**: while verifying your types, you may also need to handle your missing values (encoded as NAs or otherwise). It is up to you to handle those throughout the different tasks in this notebook.
 
 ```{r}
 obesity_data_cleaned <- "WRITE_YOUR_CODE_HERE"
@@ -171,7 +169,7 @@ for male respondents, as a histogram.
 
 ## **Extract:** Make a data subset
 
-1.  To make this subset, you will only keep the adults in the dataset
+1.  To make this subset, you will only keep individuals in the dataset
     who have complied to OMS/WHO recommendations 
     
 (Hint 1: `oms_recommendation` should be equal to `Yes`. Side-note: OMS is Organisation Mondiale de la Santé, French for WHO.)
@@ -191,7 +189,7 @@ complying_adults_data <- obesity_data_cleaned %>%
 ## **Plot with Esquisse:** Boxplots of Moderate to Vigorous Physical Activity per Age Group
 
 Using esquisse and the subset you just made above, plot MVPA
-distributions (minutes/week) by adult age groups, as boxplots.
+distributions (minutes/week) by age groups, as boxplots.
 
 ```{r}
 "PASTE_THE_ESQUISSE_CODE_HERE"
