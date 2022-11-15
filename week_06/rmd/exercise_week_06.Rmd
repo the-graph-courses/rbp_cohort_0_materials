@@ -1,0 +1,258 @@
+---
+title: "Workshop 6: Grouping, summarizing and plotting"
+output:
+  prettydoc::html_pretty:
+    theme: architect
+    toc: true
+    number_sections: true
+author: "Author's name here"
+date: "2022-11-22"
+editor_options: 
+  chunk_output_type: console
+  markdown: 
+    wrap: 72
+---
+
+```{r include = FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+# Intro
+
+Welcome!
+
+For this workshop, we will be cleaning a dataset. It is a hands-on
+approach to using the `select()`, `filter()`, `mutate()`, `case_when()`, and `summarize()`.
+
+The assignment should be submitted individually, but you are encouraged
+to brainstorm with partners.
+
+The final due date for the assignment is Tuesday, November 22th at 23:59
+PM UTC+2.
+
+# Get the assignment repo
+
+To get started, you should download and look through the assignment
+folder.
+
+1.  First download the repo to your local computer
+    [here](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/the-graph-courses/rbp_cohort_0_materials/tree/main/week_06){target="_blank"}.
+
+    *You should ideally work on your local computer, but if you would
+    rather work on RStudio Cloud, you can upload the zip file to RStudio
+    Cloud through the Files pane. Consult one of the instructors for
+    guidance on this.*
+
+2.  Unzip/Extract the downloaded folder.
+
+    *If you are on macOS, you can simply double-click on a file to unzip
+    it.*
+
+    *If you are on Windows and are not sure how to "unzip" a file, see
+    [this image](https://imgur.com/a/6e5pT7k){target="_blank"}. You need
+    to right-click on the file and then select "extract all".*
+
+3.  Once done, click on the RStudio Project file in the unzipped folder
+    to open the project in RStudio.
+
+4.  In RStudio, navigate to the Files tab and open the "rmd" folder. The
+    instructions for your exercise are outlined there (these are the
+    same instructions you see here).
+
+5.  Open the "data" folder and observe its components. You will work
+    with the "india_tuberculosis.csv" file. (You can also open the
+    "00_info_about_the_dataset" file to learn more about this dataset.)
+
+```{r}
+library(esquisse)
+
+esquisser()
+
+```
+
+
+# Load packages and data
+
+Now that you understand the structure of the repo, you can load in and
+clean your dataset.
+
+In the code section below, **load in the needed packages**.
+
+```{r}
+"WRITE_YOUR_CODE_HERE"
+```
+
+Now, **read the dataset into R**. The data frame you import should have
+880 rows and 22 columns. Remember to use the `here()` function to allow
+your Rmd to use project-relative paths.
+
+**Pro-tip:** column names aren't standardized this time. I would recommend using `janitor::clean_names()` (the function `clean_names()` from the `janitor` package). A doubt about how to write it? Go back to week 5, the mutate example. 
+
+```{r}
+"WRITE_YOUR_CODE_HERE"
+```
+
+# Create new variables
+
+## **Step 1:** Encode an `age_group` variable
+
+The age variable represents the age of participants in years. For further manipulations, we want to create an `age_group` variable with the following categories:
+
+-   \<10
+
+-   10-17
+
+-   18-29
+
+-   30-49
+
+-   50-79
+
+-   80+
+
+```{r}
+tuberculosis_data_cleaned <- "WRITE_YOUR_CODE_HERE"
+```
+
+## **Step 2:** Create `bmi` variableS
+
+### Part A: Calculate the BMI 
+
+You have at your disposal the weight (in kg) and height (in cm) of your participants. Calculate the BMI of your participants.
+
+(Careful ! Check your units for weight and height: are your variables in the right unit or do you need to convert them to another unit using `mutate()`? )
+
+```{r}
+tuberculosis_data_cleaned <- "WRITE_YOUR_CODE_HERE"
+```
+
+### Part B: Classify the BMI into `bmi_categories`
+
+-   A healthy BMI is defined between 18,5 and 25: the person is categorized as `healthy`.
+
+-   If the BMI is inferior to 18,5: the person is categorized as `underweight`.
+
+-   If the BMI is between 25 and 30: the person is categorized as `overweight`.
+
+-   If the BMI is above 30: the person is categorized as `obese`.
+
+Using `case_when()`, create a variable, `bmi_categories` that classifies each respondent into a category. 
+
+*Hint: Inspire yourself from the code of the conditional mutate lesson.*
+
+```{r}
+tuberculosis_data_cleaned <- "WRITE_YOUR_CODE_HERE"
+```
+
+## **Step 3:** Investigating total costs
+
+### Part A: Create a `total_cost` variable
+
+There were three visits for the participants and each had a cost. Add together these costs to create a `total_cost` variable.
+
+**IMPORTANT HINT:** You should `group_by()` the `id` (of participants) before using `mutate()` to sum together the different cost columns of interest.
+
+```{r}
+tuberculosis_data_cleaned <- "WRITE_YOUR_CODE_HERE"
+```
+
+### Part B: Categorize the cost 
+
+Using `summarize()`, I will calculate for you the quantiles (0.25, 0.5 and 0.75) of the `total_cost` variable.
+
+*For your general knowledge (although this is not a statistics course): we are using quantiles because of their capacity at splitting our data into subsets. For example, the 0.25 quantile defines the value (let's call it x) for a random variable, such that the probability that a random observation of the variable is less than x is 0.25 (25% chance).*
+
+We will use these to define cost categories. **Run the code below**
+
+```{r}
+total_cost_quantiles <- 
+  tuberculosis_data_cleaned %>%
+  summarize(quantile_25 = quantile(total_cost, 0.25),
+            quantile_50 = quantile(total_cost, 0.50),
+            quantile_75 = quantile(total_cost, 0.75))
+```
+
+You can observe that the 0.25 quantile is at 0, the 0.5 quantile is at 500, the 0.75 quantile is at 1500. 
+
+-   If the total cost is less than 500: the total cost is `low`.
+
+-   If the total cost is between 500 and 1500: the total cost is `average`.
+
+-   If the total cost is more than 1500: the total cost is `high`.
+
+(These are arbitrary definitions based on a quick overview, that we will use for this exercise.)
+
+Create a `total_cost_categories` variable that reflects the above classification. 
+
+```{r}
+tuberculosis_data_cleaned <- "WRITE_YOUR_CODE_HERE"
+```
+
+You will use this `tuberculosis_data_cleaned` for all the following subset
+making and plotting.
+
+# Tables & Plotting
+
+## Present a demographic table
+
+Using the sex variable and the age groups' variable you created above, print (in an aesthetic way, think `reactable()`) the average cost by age group and gender. 
+
+*Hint: use `group_by()` and `summarize()`.*
+
+```{r}
+average_cost_gender_age_groups <- tuberculosis_data_cleaned %>%
+  "WRITE_YOUR_CODE_HERE"
+```
+
+## Cost and BMI
+
+### Part A: Create a table
+
+Using the gender variable, as well as the BMI category and total cost variable you created above, print (in an aesthetic way, think `reactable()`) the average cost by BMI category and gender.
+
+```{r}
+average_cost_bmi <- tuberculosis_data_cleaned %>%
+  "WRITE_YOUR_CODE_HERE"
+```
+
+### Part B: Plot a histogram for the obese participants, by gender
+
+Using the above table and `esquisse`, keep only obese respondents and plot their average total cost by gender, as a histogram. 
+
+```{r}
+"PASTE_THE_ESQUISSE_CODE_HERE"
+```
+
+## Total costs and Treatment initiation delay
+
+Using esquisse, plot a scatter plot of the treatment initiation delay vs. the total costs, for all participants. 
+
+```{r}
+"PASTE_THE_ESQUISSE_CODE_HERE"
+```
+
+## Employment status and Total cost categories
+
+### Part A: Create a table
+
+Group by employment status and the total cost categories you defined previously, to count how many participants fall in each grouping. 
+
+```{r}
+employment_cost_categories <- obesity_data_cleaned %>%
+  "WRITE_YOUR_CODE_HERE"
+```
+
+### Part B: Plot it !
+
+Select the high total cost category and compare the number of working vs non-working participants. Do so using `esquisse` and a histogram. 
+
+Set the total cost categories on the x axis and color the histograms based on the employment status.
+
+```{r}
+"PASTE_THE_ESQUISSE_CODE_HERE"
+```
+
+# Submission: Upload HTML
+
+Once you have finished the tasks above, you should **knit this Rmd into
+an HTML** and **upload it** on the assignment page.
