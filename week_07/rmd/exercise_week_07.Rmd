@@ -1,0 +1,115 @@
+---
+title: "Workshop 7: Pivoting then grouping"
+output:
+  prettydoc::html_pretty:
+    theme: architect
+    toc: true
+    number_sections: true
+author: "Author's name here"
+date: "2022-11-22"
+editor_options: 
+  chunk_output_type: console
+  markdown: 
+    wrap: 72
+---
+
+```{r include = FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+# Intro
+
+Welcome!
+
+For this workshop, we will be cleaning a dataset. It is a hands-on
+approach to using pivoting and groupings
+
+The assignment should be submitted individually, but you are encouraged
+to brainstorm with partners.
+
+The final due date for the assignment is Tuesday, November 29th at 23:59
+PM UTC+2.
+
+# Get the assignment repo
+
+To get started, you should download and look through the assignment
+folder.
+
+1.  First download the repo to your local computer
+    [here](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/the-graph-courses/rbp_cohort_0_materials/tree/main/week_07){target="_blank"}.
+
+    *You should ideally work on your local computer, but if you would
+    rather work on RStudio Cloud, you can upload the zip file to RStudio
+    Cloud through the Files pane. Consult one of the instructors for
+    guidance on this.*
+
+2.  Unzip/Extract the downloaded folder.
+
+    *If you are on macOS, you can simply double-click on a file to unzip
+    it.*
+
+    *If you are on Windows and are not sure how to "unzip" a file, see
+    [this image](https://imgur.com/a/6e5pT7k){target="_blank"}. You need
+    to right-click on the file and then select "extract all".*
+
+3.  Once done, click on the RStudio Project file in the unzipped folder
+    to open the project in RStudio.
+
+4.  In RStudio, navigate to the Files tab and open the "rmd" folder. The
+    instructions for your exercise are outlined there (these are the
+    same instructions you see here).
+
+5.  Open the "data" folder and observe its components. You will work
+    with the "diet_diversity_vietnam_wide_EASY.csv", "diet_diversity_vietnam_wide_INTERMEDIATE.csv" and "diet_diversity_vietnam_wide_HARD.csv" files. (The data is from the same source, remodelled for the exercise: you can also open the "00_info_about_the_dataset" file to learn more about this dataset.)
+
+
+# Load packages
+
+Now that you understand the structure of the repo, you can load in and
+clean your dataset.
+
+In the code section below, **load in the needed packages**.
+
+```{r}
+"WRITE_YOUR_CODE_HERE"
+```
+
+# Easy Pivoting
+
+For this pivoting, please import the "diet_diversity_vietnam_wide_EASY.csv". The data frame you import should have 61 rows and 3 columns. Remember to use the `here()` function to allow
+your Rmd to use project-relative paths.
+
+Using the lesson on pivoting you prepared for today: pivot this dataset into long format. Print the pivoted dataframe as a reactable table.
+
+```{r}
+"WRITE_YOUR_CODE_HERE"
+```
+
+# Intermediate Pivoting
+
+For this pivoting, please import the "diet_diversity_vietnam_wide_INTERMEDIATE.csv". The data frame you import should have 61 rows and 7 columns. 
+
+Using what you learnt in the code demo about some more advanced pivoting, pivot the data to long format. Print the pivoted dataframe as a reactable table.
+
+Hint: Remember to use the neat separator in your column names.
+
+```{r}
+"WRITE_YOUR_CODE_HERE"
+```
+
+# Bonus: Hard Pivoting (You can do it!)
+
+For this pivoting, please import the "diet_diversity_vietnam_wide_HARD.csv". The data frame you import should have 61 rows and 9 columns. **This is the original data.**
+
+There is no neat separator, think about how you could make one to then pivot the dataframe into long format. Print the pivoted dataframe as a reactable table.
+
+Hint: Think about the `rename()` function of {dplyr}
+
+```{r}
+"WRITE_YOUR_CODE_HERE"
+```
+
+# Submission: Upload HTML
+
+Once you have finished the tasks above, you should **knit this Rmd into
+an HTML** and **upload it** on the assignment page.

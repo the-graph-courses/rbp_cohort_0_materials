@@ -1,0 +1,63 @@
+---
+title: "Workshop 7: Pivoting Demo"
+output:
+  prettydoc::html_pretty:
+    theme: architect
+    toc: true
+    number_sections: true
+author: "Author's name here"
+date: "2022-11-22"
+editor_options: 
+  chunk_output_type: inline
+  markdown: 
+    wrap: 72
+---
+
+```{r include = FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+# Pivoting Next Level
+
+## Wide to Long
+
+Consider the following [data set from Zambia](https://zenodo.org/record/4571669) about enteropathogens and their biomarkers.
+
+```{r}
+enteropathogens_zambia_wide<- read_csv(here("data/enteropathogens_zambia_wide.csv"))
+
+enteropathogens_zambia_wide
+```
+
+This data frame has the following columns:
+
+-   LPS_1 and LPS_2: lipopolysaccharide levels, measured by Pyrochrome LAL, in EU/mL
+
+-   LBP_1 and LBP_2: LPS binding protein levels, in pg/mL
+
+-   IFABP_1 and IFAPB_2: intestinal-type fatty acid binding protein levels, in pg/mL
+
+Pivot the dataset so that it resembles the following structure
+
+```{r}
+enteropathogens_zambia_long <- 
+  enteropathogens_zambia_wide %>% 
+  pivot_longer(!ID, 
+               names_to = c(".value", "sample_count"), 
+               names_sep = "_")
+
+enteropathogens_zambia_long
+```
+
+## Long to Wide
+
+```{r}
+enteropathogens_zambia_wide <-
+  enteropathogens_zambia_long %>%
+  pivot_wider(
+    names_from = group,
+    values_from = c(LPS, LBP, IFABP)
+  )
+
+enteropathogens_zambia_wide
+```

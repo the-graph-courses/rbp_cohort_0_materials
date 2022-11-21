@@ -17,6 +17,8 @@ editor_options:
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
+
+
 # Intro
 
 Welcome!
@@ -63,10 +65,27 @@ folder.
     with the "india_tuberculosis.csv" file. (You can also open the
     "00_info_about_the_dataset" file to learn more about this dataset.)
 
+
+
+
 ```{r}
 library(esquisse)
+library(here)
+library(tidyverse)
 
-esquisser()
+data <- read.csv(here("data/india_tuberculosis.csv"))
+
+data <- data %>%
+  mutate(bmi_category = case_when(bmi>30 ~ "Obese"),
+         total_cost = 1000) %>%
+  group_by(Sex, bmi_category) %>%
+  summarize(mean_total_cost = mean(total_cost)) 
+  filter(bmi_category=="Obese")%>%
+  select(Sex, mean_total_cost)
+
+
+
+esquisser(data)
 
 ```
 
