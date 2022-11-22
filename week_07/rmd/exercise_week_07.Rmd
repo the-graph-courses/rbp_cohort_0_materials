@@ -87,7 +87,7 @@ Using the lesson on pivoting you prepared for today: pivot this dataset into lon
 
 # Intermediate Pivoting
 
-For this pivoting, please import the "diet_diversity_vietnam_wide_INTERMEDIATE.csv". The data frame you import should have 61 rows and 7 columns. 
+For this pivoting, please import the "diet_diversity_vietnam_wide_INTERMEDIATE.csv". The data frame you import should have 61 rows and 5 columns. 
 
 Using what you learnt in the code demo about some more advanced pivoting, pivot the data to long format. Print the pivoted dataframe as a reactable table.
 

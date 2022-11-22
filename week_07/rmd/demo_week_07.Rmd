@@ -17,6 +17,10 @@ editor_options:
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
+```{r include = FALSE}
+pacman::p_load(here, tidyverse)
+```
+
 # Pivoting Next Level
 
 ## Wide to Long
@@ -55,7 +59,7 @@ enteropathogens_zambia_long
 enteropathogens_zambia_wide <-
   enteropathogens_zambia_long %>%
   pivot_wider(
-    names_from = group,
+    names_from = sample_count,
     values_from = c(LPS, LBP, IFABP)
   )
 
