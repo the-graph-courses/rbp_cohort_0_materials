@@ -15,6 +15,11 @@ editor_options:
 
 ```{r include = FALSE}
 knitr::opts_chunk$set(echo = FALSE)
+
+# Load packages 
+if(!require(pacman)) install.packages("pacman")
+pacman::p_load(tidyverse, here)
+
 ```
 
 # Pivoting Next Level
@@ -55,7 +60,7 @@ enteropathogens_zambia_long
 enteropathogens_zambia_wide <-
   enteropathogens_zambia_long %>%
   pivot_wider(
-    names_from = group,
+    names_from = sample_count,
     values_from = c(LPS, LBP, IFABP)
   )
 
