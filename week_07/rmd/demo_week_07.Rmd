@@ -22,6 +22,10 @@ pacman::p_load(tidyverse, here)
 
 ```
 
+```{r include = FALSE}
+pacman::p_load(here, tidyverse)
+```
+
 # Pivoting Next Level
 
 ## Wide to Long
