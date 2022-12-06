@@ -18,7 +18,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 # Load packages 
 if(!require(pacman)) install.packages("pacman")
-pacman::p_load(tidyverse, scales, here)
+pacman::p_load(tidyverse, scales, lubridate, here)
 
 ```
 
@@ -28,29 +28,32 @@ pacman::p_load(tidyverse, scales, here)
 You assignment for Activity 1 is to recreate plots from the EGH Swiss COVID dashboard in R using {ggplot2}.
 
 The graph we are aiming for looks like this:
-[insert screenshot of line graph from EGH]
+
+![](rmd/images/EGH_COVID_dash.png)
+
 
 Now most of the elements shown here you have already learned how to create: line graph, group into regions by color, add label. 
 
-Use `nigerm`
 
 ```{r}
-# Already learned skills
+# Fake dataset
 
-baseplot <- 
-gapminder::gapminder %>% 
-  filter(continent == "Oceania") %>% 
-  ggplot(aes(x = year, y = gdpPercap, color = country)) +
-  geom_line() +
-  labs(title = "GDP over time",
-       color = "Country")
-baseplot
+
+
 ```
 
 ```{r}
-baseplot +
-  scale_y_continuous(labels = label_number(suffix = "k", scale = 1e-3))+
-  scale_x_date(date_breaks = "year", labels = label_date_short())
+# Create base plot
+
+```
+
+To-do
+
+1) Change background
+2) lakf;lksh
+
+```{r}
+
 ```
 
 
