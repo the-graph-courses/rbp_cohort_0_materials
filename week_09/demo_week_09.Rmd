@@ -1,0 +1,102 @@
+---
+title: "Workshop 7: Pivoting Demo"
+output:
+  prettydoc::html_pretty:
+    theme: architect
+    toc: true
+    number_sections: true
+author: "Joy Vaz"
+date: "2022-12-06"
+editor_options: 
+  chunk_output_type: inline
+  markdown: 
+    wrap: 72
+---
+
+```{r include = FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+# Load packages 
+if(!require(pacman)) install.packages("pacman")
+pacman::p_load(tidyverse, scales, here)
+
+```
+
+
+# Next-level: Scales and Themes
+
+You assignment for Activity 1 is to recreate plots from the EGH Swiss COVID dashboard in R using {ggplot2}.
+
+The graph we are aiming for looks like this:
+[insert screenshot of line graph from EGH]
+
+Now most of the elements shown here you have already learned how to create: line graph, group into regions by color, add label. 
+
+Use `nigerm`
+
+```{r}
+# Already learned skills
+
+baseplot <- 
+gapminder::gapminder %>% 
+  filter(continent == "Oceania") %>% 
+  ggplot(aes(x = year, y = gdpPercap, color = country)) +
+  geom_line() +
+  labs(title = "GDP over time",
+       color = "Country")
+baseplot
+```
+
+```{r}
+baseplot +
+  scale_y_continuous(labels = label_number(suffix = "k", scale = 1e-3))+
+  scale_x_date(date_breaks = "year", labels = label_date_short())
+```
+
+
+```{r}
+
+```
+
+## y-axis k
+
+https://www.roelpeters.be/scale-ggplot-y-axis-millions-or-thousands-r/
+
+
+```{r}
+sample_df <- data.frame(
+  month = rep(1:12, each = 31),
+  day = rep(1:31, 12),
+  fake_cases = sample(0:10000, size = 31*12),
+  district = rep(c("D1", "D2", "D3"), 124)
+  ) %>% 
+  mutate(date = ymd(paste("2022", month, day, sep = "-"))) %>% 
+  drop_na()
+
+ggplot(sample_df, aes(date, fake_cases, color = district)) +
+  geom_line() +
+  labs(title = "Title")
+
+ ggplot(sample_df, aes(date, fake_cases, color = district)) +
+  geom_line() +
+  labs(title = "Title") +
+  scale_x_date(date_breaks = "month")
+
+ggplot(sample_df, aes(date, fake_cases, color = district)) +
+  geom_line() +
+  labs(title = "Title") +
+  scale_x_date(date_breaks = "month",
+               labels = label_date_short())
+
+ggplot(sample_df, aes(date, fake_cases, color = district)) +
+  geom_line() +
+  labs(title = "Title") +
+  scale_x_date(date_breaks = "month",
+               labels = label_date_short()) +
+  theme_minimal() +
+  theme(axis.title = element_blank(),
+        panel.grid.minor = element_blank(),
+        panel.grid.major.x = element_blank())
+ 
+```
+
