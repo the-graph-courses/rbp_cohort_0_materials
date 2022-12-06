@@ -50,7 +50,8 @@ sample_df <- data.frame(
   district = rep(c("D1", "D2", "D3"), 124)
   ) %>% 
   mutate(date = ymd(paste("2022", month, day, sep = "-"))) %>% 
-  drop_na() 
+  drop_na() %>% 
+  select(date, district, fake_cases)
 ```
 
 ```{r}
@@ -61,10 +62,14 @@ base_plot <-
        aes(x = date, 
            y = fake_cases, 
            color = district)) +
-  geom_line() +
-  labs(title = "Daily fake cases in imaginary districts")
+  geom_line()
 
 base_plot
+```
+
+```{r}
+base_plot  +
+  labs(title = "Daily fake cases in imaginary districts")
 ```
 
 To-do

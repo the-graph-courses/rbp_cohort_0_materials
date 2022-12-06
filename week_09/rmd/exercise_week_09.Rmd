@@ -98,7 +98,8 @@ This can be done in several steps. See the demo Rmd for more :)
 "PLOT!"
 ```
 
-# Submission: Upload Rmd HTML
+# Submission: Upload Rmd and HTML
 
 Once you have finished the tasks above, you should **knit this Rmd into
-an HTML** and **upload both files** on the assignment page.
+an HTML** and **upload both files** on the assignment page in a ZIP
+folder.
