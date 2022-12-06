@@ -24,7 +24,7 @@ pacman::p_load(tidyverse, scales, lubridate, here)
 
 # Activity 1 demo: Scales and Themes
 
-You assignment for Activity 1 is to recreate a plot from the
+Your assignment for Activity 1 is to recreate a plot from the
 [EpiGraphHub COVID-19 Switzerland
 dashboard](https://epigraphhub.org/superset/dashboard/11) in R using
 {ggplot2}.
