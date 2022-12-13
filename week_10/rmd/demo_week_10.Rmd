@@ -1,0 +1,202 @@
+---
+title: "Workshop 10: Histograms, positions, and facets demo"
+output:
+  prettydoc::html_pretty:
+    theme: architect
+    toc: true
+    number_sections: true
+author: "Joy Vaz"
+date: "2022-12-12"
+editor_options: 
+  chunk_output_type: inline
+  markdown: 
+    wrap: 72
+---
+
+```{r, include = FALSE, warning = FALSE, message = FALSE}
+# Load packages 
+if(!require(pacman)) install.packages("pacman")
+pacman::p_load(tidyverse, knitr, here)
+```
+
+# Histograms, positions, and facets
+
+## Packages
+
+```{r}
+p_load(tidyverse,
+       here)
+```
+
+## Childhood diarrheal diseases in Mali
+
+We will visualize distributions of numerical variables in the `malidd`
+data frame, which we've seen in previous lessons.
+
+```{r}
+# Load in and view the `malidd` data frame
+malidd <- read.csv(here::here("data/malidd.csv"))
+malidd
+```
+
+The dataframe has 21 variables, many of which are continuous, like
+`height_cm`, `viral_load`, or `temp`.
+
+```{r}
+# Inspect variables
+summary(malidd)
+```
+
+## Basic histograms with `geom_histogram()`
+
+Now let's use {ggplot2} to plot the distribution of height.
+
+```{r}
+# Simple histogram showing the distribution of height_cm
+ggplot(data =  malidd , 
+       mapping = aes(x = height_cm))
+```
+
+It's hard to get a sense for which range of heights is spanned by each
+bin in the previous plot, since everything is one big amorphous blob. So
+let's add borders around the bins and ignore the warning about setting
+the number of bins to a better value:
+
+```{r}
+# Set border color to "white"
+ggplot(data =  malidd , 
+       mapping = aes(x = height_cm)) +
+  geom_histogram(color = "white")
+```
+
+We now have an easier time associating bin ranges to each of the bars.
+
+## Comparing distributions
+
+We can compare multiple distributions on the same axes.
+
+For example, mapping a categorical variable to the **`fill`** aesthetic
+will create **stacked** bars.
+
+```{r}
+# Map fill to sex
+ggplot(data =  malidd , 
+       mapping = aes(x = height_cm,
+                     fill = sex)) +
+  geom_histogram()
+```
+
+## Position adjustments
+
+You can change the position adjustment within `geom_histogram()`.
+
+![](images/gg_min_build.png)
+
+Possible values for the argument **position** in `geom_histogram()` are
+**`“stack”`**, **`“identity”`**, and **`“dodge”`**.
+
+The default value is `“stack”`, so adding `position = "stack"` will give
+the same plot.
+
+```{r}
+# stack: stacked distributions of a categorical variable  
+ggplot(data =  malidd , 
+       mapping = aes(x = height_cm, 
+                     fill = sex,
+                     color = sex)) +
+  geom_histogram(position = "stack") + 
+  labs(title = "position = 'stack'")
+```
+
+Setting `position = 'identity'` causes the bars to **overlap**. To see
+that overlapping, we need to add make the bars slightly transparent by
+decreasing opacity (`alpha`).
+
+```{r}
+# identity: draw overlapping distributions on the same plot
+ggplot(data =  malidd , 
+       mapping = aes(x = height_cm, 
+                     fill = sex,
+                     color = sex)) +
+  geom_histogram(alpha = 0.4, 
+                 position = "identity") + 
+  labs(title = "position = identity")
+```
+
+Setting `position = "dodge"` places overlapping bars **directly beside
+one another**. This makes it easier to compare values.
+
+```{r}
+# dodge: interweave distributions on the same plot
+ggplot(data =  malidd , 
+       mapping = aes(x = height_cm, 
+                     fill = sex,
+                     color = sex)) +
+  geom_histogram(alpha = 0.4, 
+                 position = "dodge") + 
+  labs(title = "position = 'dodge'")
+```
+
+# Faceting plots
+
+Another way to add additional variables is to split your plot into
+**facets**.
+
+When we **facet** a graphs, it gets split up into **multiple panels**,
+one for each level of a categorical variable.
+
+![Faceting creates small multiples of a plot, where each panel contains
+a subset of the data.](images/gglayers_facet.png){width="500"}
+
+```{r}
+# Base plot
+ggplot(data = malidd, 
+       mapping = aes(x= viral_load))+
+    geom_histogram(color="white")
+```
+
+## Facet wrap
+
+To facet your plot by a single variable, use `facet_wrap()`. The first
+argument of `facet_wrap()` should be a formula, which you create with
+`~` followed by a variable name. The variable that you pass to
+`facet_wrap()` should be discrete.
+
+```{r}
+# Facet by fever
+ggplot(data = malidd, 
+       mapping = aes(x= viral_load))+
+    geom_histogram(color="white")+
+    facet_wrap(~fever)
+```
+
+Facets are labelled by the difference values of your categorical
+variable, (e.g., 1 and 0) and not by the variable name itself (e.g.,
+fever).
+
+Facet labels can be modified using the `labeller` argument. Setting it
+to `label_both` will give both the variable name and the value.
+
+```{r}
+# Add more informative panel labels
+ggplot(data = malidd, 
+       mapping = aes(x= viral_load)) +
+    geom_histogram(color="white") +
+    facet_wrap(~fever, 
+               labeller = label_both)
+```
+
+## Facet grid
+
+To facet your plot on the combination of two variables, we use
+`facet_grid()`. This time the formula should contain two variable names
+separated by a `~`.
+
+```{r}
+# Facet by fever and vomiting
+ggplot(data = malidd, 
+       mapping = aes(x= viral_load)) +
+    geom_histogram(color="white") +
+    facet_grid(fever ~ vomit, 
+               labeller = label_both)
+```
