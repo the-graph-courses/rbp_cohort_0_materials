@@ -19,16 +19,7 @@ if(!require(pacman)) install.packages("pacman")
 pacman::p_load(tidyverse, knitr, here)
 ```
 
-# Histograms, positions, and facets
-
-## Packages
-
-```{r}
-p_load(tidyverse,
-       here)
-```
-
-## Childhood diarrheal diseases in Mali
+# Dataset: Childhood diarrheal diseases in Mali
 
 We will visualize distributions of numerical variables in the `malidd`
 data frame, which we've seen in previous lessons.
@@ -47,7 +38,7 @@ The dataframe has 21 variables, many of which are continuous, like
 summary(malidd)
 ```
 
-## Basic histograms with `geom_histogram()`
+# Basic histograms with `geom_histogram()`
 
 Now let's use {ggplot2} to plot the distribution of height.
 
@@ -71,7 +62,7 @@ ggplot(data =  malidd ,
 
 We now have an easier time associating bin ranges to each of the bars.
 
-## Comparing distributions
+# Comparing distributions
 
 We can compare multiple distributions on the same axes.
 
@@ -137,7 +128,7 @@ ggplot(data =  malidd ,
   labs(title = "position = 'dodge'")
 ```
 
-# Faceting plots
+## Faceting plots
 
 Another way to add additional variables is to split your plot into
 **facets**.
@@ -155,7 +146,7 @@ ggplot(data = malidd,
     geom_histogram(color="white")
 ```
 
-## Facet wrap
+### Facet wrap
 
 To facet your plot by a single variable, use `facet_wrap()`. The first
 argument of `facet_wrap()` should be a formula, which you create with
@@ -186,7 +177,7 @@ ggplot(data = malidd,
                labeller = label_both)
 ```
 
-## Facet grid
+### Facet grid
 
 To facet your plot on the combination of two variables, we use
 `facet_grid()`. This time the formula should contain two variable names
