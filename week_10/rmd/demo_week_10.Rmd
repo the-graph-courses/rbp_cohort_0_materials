@@ -27,7 +27,7 @@ data frame, which we've seen in previous lessons.
 ```{r}
 # Load in and view the `malidd` data frame
 malidd <- read.csv(here::here("data/malidd.csv"))
-malidd
+head(malidd)
 ```
 
 The dataframe has 21 variables, many of which are continuous, like
@@ -45,13 +45,13 @@ Now let's use {ggplot2} to plot the distribution of height.
 ```{r}
 # Simple histogram showing the distribution of height_cm
 ggplot(data =  malidd , 
-       mapping = aes(x = height_cm))
+       mapping = aes(x = height_cm)) +
+  geom_histogram()
 ```
 
 It's hard to get a sense for which range of heights is spanned by each
 bin in the previous plot, since everything is one big amorphous blob. So
-let's add borders around the bins and ignore the warning about setting
-the number of bins to a better value:
+let's add borders around the bins:
 
 ```{r}
 # Set border color to "white"
