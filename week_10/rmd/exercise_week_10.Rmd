@@ -1,0 +1,91 @@
+---
+title: "Workshop 10: Histograms, positions and facets Exercise"
+output:
+  prettydoc::html_pretty:
+    theme: architect
+    toc: true
+    number_sections: true
+author: "Your name here"
+date: "2022-12-13"
+editor_options: 
+  chunk_output_type: console
+  markdown: 
+    wrap: 72
+---
+
+```{r include = FALSE}
+# Load packages 
+if(!require(pacman)) install.packages("pacman")
+pacman::p_load(tidyverse, gapminder, here)
+```
+
+Welcome to your last ggplot2 live workshop! 
+
+In this exercise you will be using a subset of the `gapminder` dataframe. Create a subset called `gap_small`, which only contains data from 1952 and 2007.
+
+```{r}
+gap_small <- "YOUR CODE HERE"
+```
+
+First, plot a simple histogram showing the distribution of life expectancy (lifeExp) in your dataframe.
+```{r}
+ggplot()
+```
+
+Set `binwidth = 5` to give each bar a 5-year range (and get rid of the persistent warning message).
+```{r}
+ggplot()
+```
+
+Use the `fill` argument to create a stacked histogram with two fill colors, one for each year.
+
+```{r}
+ggplot()
+```
+Hint: year is treated as numerical, so `ggplot()` will try to map it as a continuous variable. To get two distinct colors, you will need to tell R to treat it as a factor.
+
+Change the position argument to overlap the two distributions. Then, add a degree of transparency so that you can see where the bars overlap.
+```{r}
+ggplot()
+```
+
+Create small multiples of the plot above using `facet_wrap()`, with one panel for each continent.
+```{r}
+ggplot()
+```
+
+Next, use `facet_grid()` to further subdivide your plots by `year`. You should have one column for each continent, and one row for each year. 
+```{r}
+ggplot()
+```
+
+There are only two countries in the continent "Oceania". Remove these from your dataframe (or if you want an extra challenge, use `mutate()` and `case_when()` to change the continent name from "Oceania" to "Asia").
+
+```{r}
+gap_smaller <- gap_small %>% 
+  filter()
+```
+
+Recreate your previous plot with the new dataframe. This time, map continent to fill color.
+
+```{r}
+
+ggplot()
+
+```
+
+
+Lastly, improve the labels of the axes and color legend on this plot.
+
+```{r}
+
+```
+
+
+# Submission: Upload Rmd and HTML
+
+The final due date for this exercise is Wednesday, December 14th at 23:59 PM UTC+2.
+
+Once you have finished the tasks above, you should **knit this Rmd into
+an HTML** and **upload both files** on the assignment page in a ZIP
+folder.
