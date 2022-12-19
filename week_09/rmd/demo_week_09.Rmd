@@ -1,5 +1,5 @@
 ---
-title: "Workshop 7: Pivoting Demo"
+title: "Workshop 9: Scales and Themes demo"
 output:
   prettydoc::html_pretty:
     theme: architect
