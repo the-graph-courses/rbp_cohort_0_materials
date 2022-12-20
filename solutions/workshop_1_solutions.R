@@ -1,5 +1,6 @@
 ## Workshop exercise 1: Catching errors
 
+
 # For each question, there is some code with an error
 # Either the code doesn't run, or it does something incorrectly
 # Your task is to find and fix the error
