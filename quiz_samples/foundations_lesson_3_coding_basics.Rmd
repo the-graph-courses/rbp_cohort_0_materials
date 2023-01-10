@@ -1,0 +1,1139 @@
+---
+title: "Multiple-choice quiz | Coding basics"
+---
+
+```{r setup, include=FALSE}
+
+# Load packages 
+if(!require(pacman)) install.packages("pacman")
+pacman::p_load(tidyverse, knitr, here)
+
+knitr::opts_knit$set(upload.fun = imgur_upload)
+```
+
+# Intro
+
+Welcome! This quiz will test your knowledge of foundational elements of the R programming language.
+
+# Q: Comments syntax
+
+Which of the following lines of code includes an R comment?
+
+## A
+
+`head(iris)`
+
+## B
+
+`print("Hello World")`
+
+## C
+
+`?head`
+
+## D
+
+`# print`
+
+## Answer
+
+D
+
+## Correct message
+
+```{r echo = FALSE, results = "asis"}
+cat(praise::praise())
+```
+
+Anything that follows a `#` symbol (pronounced "hash" or "pound") on a given line is a comment.
+
+A comment is text that is ignored by the computer.
+
+## Incorrect message
+
+Anything that follows a `#` symbol (pronounced "hash" or "pound") on a given line is a comment.
+
+A comment is text that is ignored by the computer.
+
+# Q: Comments' position
+
+Which of the following is NOT a valid way to write an explanatory comment for the code `2 + 2`? (Which code chunk will NOT successfully run the calculation?)
+
+## A
+
+```{r eval = F}
+2 + 2 # add two numbers
+```
+
+## B
+
+```{r eval = F}
+# add two numbers
+2 + 2
+```
+
+## C
+
+```{r eval = F}
+2 + 2
+# add two numbers
+```
+
+## D
+
+```{r eval = F}
+# add two numbers 2 + 2
+```
+
+## Answer
+
+D
+
+## Correct message
+
+Anything that follows a `#` symbol (pronounced "hash" or "pound") on a given line is a comment. So in `# add two numbers 2 + 2`, the addition is part of the comment, and will not get evaluated.
+
+## Incorrect message
+
+Anything that follows a `#` symbol (pronounced "hash" or "pound") on a given line is a comment. So in `# add two numbers 2 + 2`, the addition is part of the comment, and will not get evaluated.
+
+# Q: Section headers
+
+Which of these lines will be recognized by RStudio as the start of a new script section
+
+## A
+
+`# Section 2 ----`
+
+## B
+
+`### Section 2`
+
+## C
+
+`---- Section 2`
+
+## Answer
+
+A
+
+## Correct message
+
+```{r echo = FALSE, results = "asis"}
+cat(praise::praise())
+```
+
+If you put four dashes after a comment, RStudio will create a new section in your code.
+
+## Incorrect message
+
+If you put four dashes after a comment, RStudio will create a new section in your code.
+
+# Q: Section headers 2
+
+What is the benefit of using four dashes after a comment to create a new section in your code? (As shown below:
+
+A
+It allows you to collapse the section of code to save space in the editor
+
+B
+It allows you to view and navigate through all the contents in your script using the "Outline" icon in RStudio
+
+C
+It makes the code easier for the computer to understand
+
+D
+It makes the code more visually appealing
+
+Answer
+A, B
+
+Correct message
+Using four dashes after a comment to create a new section in your code allows you to collapse the section of code to save space in the editor and view and navigate through all the contents in your script using the "Outline" icon in RStudio. It does not affect the understanding of the code by the computer.
+
+Incorrect message
+Using four dashes after a comment to create a new section in your code allows you to collapse the section of code to save space in the editor and view and navigate through all the contents in your script using the "Outline" icon in RStudio. It does not affect the understanding of the code by the computer.
+
+# Q: Numeric operators
+
+All but one of the following mathematical operators in R are matched with their correct meaning:
+
+-   `x` is used for multiplication
+
+-   `^` is used for exponents
+
+-   `/` is used for division
+
+Which matching is incorrect?
+
+## A
+
+`/`
+
+## B
+
+`^`
+
+## C
+
+`x`
+
+## Answer
+
+C
+
+## Correct message
+
+The symbol for multiplication is the asterisk, `*` , not `x`
+
+## Incorrect message
+
+The symbol for multiplication is the asterisk, `*` , not `x`
+
+# Q: Order of operations
+
+What will be the output of the following code in R?
+
+```{r eval = F}
+2 + 2 * 2
+```
+
+## A
+
+8
+
+## B
+
+6
+
+## C
+
+4
+
+## Answer
+
+B
+
+## Correct message
+
+```{r echo = FALSE, results = "asis"}
+cat(praise::praise())
+```
+
+R follows the standard order of operations. So multiplication is evaluated before addition. If you want to evaluate the addition first, use parentheses, as in: `(2 + 2) * 2`
+
+## Incorrect message
+
+R follows the standard order of operations. So multiplication is evaluated before addition. If you want to evaluate the addition first, use parentheses, as in: `(2 + 2) * 2`
+
+# Q: Formatting code
+
+The function `head()` extracts the first few elements of an object.
+
+All but one of the code chunks below is a valid `head()` call on the `women` dataset. Which line is invalid?
+
+## A
+
+```{r eval = F}
+head(women)
+```
+
+## B
+
+```{r eval = F}
+head(
+  women
+)
+```
+
+## C
+
+```{r eval = F}
+head()women
+```
+
+## D
+
+```{r eval = F}
+head(  women   )
+```
+
+## Answer
+
+C
+
+## Correct message
+
+R is mostly space-insensitive; it does not care how you choose to space out your code.
+
+But `head()women` is wrong because the input to the function is outside the parentheses; it needs to go inside!
+
+## Incorrect message
+
+R is mostly space-insensitive; it does not care how you choose to space out your code.
+
+But `head()women` is wrong because the input to the function is outside the parentheses; it needs to go inside!
+
+# Q: Re-formatting code
+
+To reformat R code in RStudio, you can highlight the code then:
+
+A: Press the shortcut `Shift` + `Control` + `A` (or `Shift` + `Command` + `A` on macOS)
+
+B: Click on `Code > Reformat Code` on the RStudio menu
+
+C: Click on the "Format code" button the Environment pane.
+
+## A
+
+A & B
+
+## B
+
+B & C
+
+## C
+
+A only
+
+## Answer
+
+A
+
+## Correct message
+
+You can reformat code in RStudio, by highlighting any section of code you want to reformat, and, on the RStudio menu, clicking to `Code > Reformat Code`, or using the shortcut `Shift` + `Command/Control` + `A`.
+
+## Incorrect message
+
+You can reformat code in RStudio, by highlighting any section of code you want to reformat, and, on the RStudio menu, clicking to `Code > Reformat Code`, or using the shortcut `Shift` + `Command/Control` + `A`.
+
+# Q: Escape key to get rid of plus
+
+The image below is from a screenshot of an RStudio Console:
+
+```{r echo = FALSE, out.width="30%", fig.align="center"}
+knitr::include_graphics(path = here("quizzes/images/sqrt_plus.jpeg"))
+```
+
+What key can you press to get rid of the plus sign and restore the console to its default state?
+
+## A
+
+`Enter`
+
+## B
+
+`Command/Control` + `Enter`
+
+## C
+
+`Esc`
+
+## Answer
+
+C
+
+## Correct message
+
+If you run an incomplete line of code, R will print a `+` sign to indicate that it is waiting for you to finish the code.
+
+You can press the escape key, `ESC` while your cursor is in the console to get rid of this sign and start over.
+
+## Incorrect message
+
+If you run an incomplete line of code, R will print a `+` sign to indicate that it is waiting for you to finish the code.
+
+You can press the escape key, `ESC` while your cursor is in the console to get rid of this sign and start over.
+
+# Q: Assignment operator
+
+The '\<-' operator in R is called the ..... operator.
+
+## A
+
+Regression
+
+## B
+
+Backwards
+
+## C
+
+Assignment
+
+## Answer
+
+C
+
+## Correct message
+
+```{r echo = FALSE, results = "asis"}
+cat(praise::praise())
+```
+
+The assignment operator, `<-` , is made of the 'less than' sign, `<` , and a minus, `-`
+
+## Incorrect message
+
+The assignment operator, `<-` , is made of the 'less than' sign, `<` , and a minus, `-`
+
+# Q: Assignment operator shortcut
+
+Instead of writing the assignment operator (`<-`) manually, you can use which of the shortcuts below?
+
+## A
+
+`Control` + `<` (or `Command` + `<` on macOS)
+
+## B
+
+`alt` + `-` (or `option` + `-` on macOS)
+
+## C
+
+`Control` + `-` (or `Command` + `-` on macOS)
+
+## Answer
+
+B
+
+## Correct message
+
+The assignment operator, `<-` , is made of the 'less than' sign, `<` , and a minus, `-`. You will use it thousands of times over your R lifetime, so please don't type it manually! Instead, use RStudio's shortcut, **`alt`** + **`-`** (**alt** AND **minus**) on Windows or **`option`** + **`-`** (**option** AND **minus**) on macOS.
+
+## Incorrect message
+
+The assignment operator, `<-` , is made of the 'less than' sign, `<` , and a minus, `-`. You will use it thousands of times over your R lifetime, so please don't type it manually! Instead, use RStudio's shortcut, **`alt`** + **`-`** (**alt** AND **minus**) on Windows or **`option`** + **`-`** (**option** AND **minus**) on macOS.
+
+# Q: Assignment options
+
+All EXCEPT ONE of the lines of code below defines an object called `my_obj` with the value of 4. Which line is not a valid way to define the object?
+
+## A
+
+```{r eval = F}
+2 + 2 -> my_obj
+```
+
+## B
+
+```{r eval = F}
+my_obj <- 2 + 2
+```
+
+## C
+
+```{r eval = F}
+my_obj = 2 + 2
+```
+
+## D
+
+```{r eval = F}
+2 + 2 = my_obj
+```
+
+## Answer
+
+D
+
+## Correct message
+
+The backwards assignment operator, `<-` , forwards assignment operator, `->` and equals sign, `=`, are the three primary ways to assign objects in R.
+
+The equals sign, `=`, assigns objects "backwards". So `2 + 2 = my_obj` does not work; it is like asking R to "assign `my_obj` to the object `2 + 2`".
+
+## Incorrect message
+
+The backwards assignment operator, `<-` , forwards assignment operator, `->` and equals sign, `=`, are the three primary ways to assign objects in R.
+
+The equals sign, `=`, assigns objects "backwards". So `2 + 2 = my_obj` does not work; it is like asking R to "assign `my_obj` to the object `2 + 2`".
+
+# Q: Objects in environment tab
+
+After creating objects in R, you can find these objects listed in what tab of RStudio?
+
+## A
+
+Viewer
+
+## B
+
+Console
+
+## C
+
+Environment
+
+## Answer
+
+C
+
+## Correct message
+
+```{r echo = FALSE, results = "asis"}
+cat(praise::praise())
+```
+
+You can view any created objects in the *Environment* tab of RStudio.
+
+## Incorrect message
+
+You can view any created objects in the *Environment* tab of RStudio.
+
+# Q: Evaluation order
+
+What is the value of the `id` object created below:
+
+```{r eval = F}
+id <- paste("Patient number", 3)
+```
+
+## A
+
+```{r eval = F}
+paste("Patient number", 3)
+```
+
+## B
+
+```{r eval = F}
+"Patient number 3"
+```
+
+## C
+
+```{r eval = F}
+"Patient number", 3
+```
+
+## Answer
+
+B
+
+## Correct message
+
+```{r echo = FALSE, results = "asis"}
+cat(praise::praise())
+```
+
+R evaluates code *before* putting it inside a named object. So the code `paste("Patient number", 3)` is evaluated to the string `"Patient number 3"` , and then stored in the object `id`.
+
+## Incorrect message
+
+R evaluates code *before* putting it inside a named object. So the code `paste("Patient number", 3)` is evaluated to the string `"Patient number 3"` , and then stored in the object `id`.
+
+# Q: String
+
+Which object defined below is a string?
+
+## A
+
+```{r eval = F}
+a <- 2 + 2
+```
+
+## B
+
+```{r eval = F}
+b <- head(women)
+```
+
+## C
+
+```{r eval = F}
+c <- 'District 5'
+```
+
+## Answer
+
+C
+
+## Correct message
+
+```{r echo = FALSE, results = "asis"}
+cat(praise::praise())
+```
+
+A string is a data type used in programming used to represent text rather than numbers.
+
+## Incorrect message
+
+A string is a data type used in programming used to represent text rather than numbers.
+
+# Q: What happens on data import
+
+After running the code below:
+
+```{r eval = F}
+ebola_data <- read.csv("https://tinyurl.com/ebola-data-sample")
+```
+
+all EXCEPT ONE of the following will occur. Which is the incorrect option?
+
+## A
+
+The created object will show up in the RStudio Environment tab
+
+## B
+
+A data viewer showing the `ebola_data` dataset will be opened.
+
+## C
+
+Any previously-existing object with the name `ebola_data` will be overwritten.
+
+## Answer
+
+B
+
+## Correct message
+
+A data viewer is not automatically opened when you run the data importing function `read.csv()`. To open the data viewer, you should call the `View()` function on the imported data object. i.e. `View(ebola_data)`
+
+The other options are correct.
+
+## Incorrect message
+
+A data viewer is not automatically opened when you run the data importing function `read.csv()`. To view the data, you should call the `View()` function on the imported data object. i.e. `View(ebola_data)`
+
+The other options are correct.
+
+# Q: Datasets as objects
+
+What is the value of the `final_sum` object created below?
+
+```{r eval = F}
+ten <- 2 + 2
+final_sum <- 10 + ten
+```
+
+## A
+
+20
+
+## B
+
+N/A; the code will not run
+
+## C
+
+14
+
+## D
+
+The string "10 ten"
+
+## Answer
+
+C
+
+## Correct message
+
+```{r echo = FALSE, results = "asis"}
+cat(praise::praise())
+```
+
+The object `ten` has the value `4`, so `final_sum` is `10 + 4`
+
+## Incorrect message
+
+The object `ten` has the value `4`, so `final_sum` is `10 + 4`
+
+# Q: Object logic
+
+Consider the following code:
+
+```{r eval = F}
+var1 <- 10
+var1 <- var1 + 5
+```
+
+After execution, the value of `var1` will be:
+
+## A
+
+10
+
+## B
+
+15
+
+## C
+
+N/A; the code will not run
+
+## D
+
+Both 10 and 15
+
+## Answer
+
+B
+
+## Correct message
+
+```{r echo = FALSE, results = "asis"}
+cat(praise::praise())
+```
+
+In the second line, we add `var1` which, has the value 10 to the number 5, for an answer of 15. This is then stored in `var1`, overwriting its previous value.
+
+## Incorrect message
+
+In the second line, we add `var1` which, has the value 10 to the number 5, for an answer of 15. This is then stored in `var1`, overwriting its previous value.
+
+# Q: Object logic with typo
+
+Consider the following code:
+
+```{r eval = F}
+var1 <- 10
+Var1 <- var1 + 5
+```
+
+After execution, the value of `var1` will be:
+
+## A
+
+10
+
+## B
+
+15
+
+## C
+
+N/A; the code will not run
+
+## D
+
+Both 10 and 15
+
+## Answer
+
+A
+
+## Correct message
+
+Notice that in the second line, the new object, `Var1`, is spelled with a capital V! So the original object, `var1` with a lowercase v, still retains its original value of 10.
+
+## Incorrect message
+
+Notice that in the second line, the new object, `Var1`, is spelled with a capital V. So the original object, `var1` with a lowercase v, still retains its original value of 10.
+
+# Q: Valid variable name
+
+Which of the below is a valid name for an R object?
+
+## A
+
+`lagos_hospital_data`
+
+## B
+
+`lagos-hospital-data`
+
+## C
+
+`lagos hospital data`
+
+## D
+
+`lagos~hospital~data`
+
+## Answer
+
+A
+
+## Correct message
+
+```{r echo = FALSE, results = "asis"}
+cat(praise::praise())
+```
+
+Object names can only contain letters, numbers, periods (`.`) and underscores (`_`).
+
+## Incorrect message
+
+Object names can only contain letters, numbers, periods (`.`) and underscores (`_`).
+
+# Q: Valid variable name 2
+
+Only one of the options below is a valid name for an R object? Which name is valid?
+
+## A
+
+`10-top-rows`
+
+## B
+
+`10_top_rows`
+
+## C
+
+`top-10-rows`
+
+## D
+
+`top_10_rows`
+
+## Answer
+
+D
+
+## Correct message
+
+```{r echo = FALSE, results = "asis"}
+cat(praise::praise())
+```
+
+Object names can only contain letters, numbers, periods `.` and underscores `_`. So an object name cannot contain a hyphen, `-` .
+
+And object names cannot start with a number, so `10_top_rows` is not a valid name.
+
+## Incorrect message
+
+Object names can only contain letters, numbers, periods (`.`) and underscores (`_`). So an object name cannot contain a hyphen, `-` .
+
+And object names cannot start with a number, so `10_top_rows` is not a valid name.
+
+# Q: Good variable name
+
+Which of the below is a good name for a data object?
+
+## A
+
+`d`
+
+## B
+
+`miraflores_patient_linelist`
+
+## C
+
+`meningitis_cases_in_children_from_age_5_to_10_in_southampton_after_extraction_from_historical_database`
+
+## Answer
+
+B
+
+## Correct message
+
+```{r echo = FALSE, results = "asis"}
+cat(praise::praise())
+```
+
+`d` is not a good name because it is not descriptive, and the other name is much too long.
+
+## Incorrect message
+
+`d` is not a good name because it is not descriptive, and the other name is much too long.
+
+# Q: Naming conventions
+
+`linelist_data` is an example of which naming convention?
+
+## A
+
+Camel case
+
+## B
+
+Period case
+
+## C
+
+Snake case
+
+## Answer
+
+C
+
+## Correct message
+
+```{r echo = FALSE, results = "asis"}
+cat(praise::praise())
+```
+
+Snake case uses underscores to separate words
+
+## Incorrect message
+
+Snake case uses underscores to separate words
+
+# Q: Basic function syntax
+
+Which template correctly shows the basic syntax for R functions?
+
+## A
+
+    function_name{argument1 = "value", argument2 = "value"}
+
+## B
+
+    function_name(argument1 = "value", argument2 = "value")
+
+## C
+
+    function_name{argument1 = "value"; argument2 = "value"}
+
+## Answer
+
+B
+
+## Correct message
+
+```{r echo = FALSE, results = "asis"}
+cat(praise::praise())
+```
+
+The arguments for functions are wrapped in parentheses, `()`, not curly braces `{}`.
+
+And function arguments are separated by commas, not semi-colons.
+
+## Incorrect message
+
+The arguments for functions are wrapped in parentheses, `()`, not curly braces `{}`.
+
+And function arguments are separated by commas, not semi-colons.
+
+# Q: Errors with functions
+
+Consider the lines of R code below. Which expression will produce an error?
+
+## A
+
+    head(5, iris)
+
+## B
+
+    head(iris, 5)
+
+## C
+
+    head(x = iris, n = 5)
+
+## Answer
+
+A
+
+## Correct message
+
+The default argument order for the `head()` function is *first* `x`, the object to be examined, then `n`, the number of elements to extract.
+
+If this order is respected, we do not need to name the arguments. This is why the code `head(iris, 5)` works fine.
+
+But if the order is not respected, then we need to name the arguments. Therefore, `head(5, iris)` does not work. It would need named arguments to work, so `head(n = 5, x = iris)` would work.
+
+## Incorrect message
+
+The default argument order for the `head()` function is *first* `x`, the object to be examined, then `n`, the number of elements to extract.
+
+If this order is respected, we do not need to name the arguments. This is why the code `head(iris, 5)` works fine.
+
+But if the order is not respected, then we need to name the arguments. Therefore, `head(5, iris)` does not work. It would need named arguments to work, so `head(n = 5, x = iris)` would work.
+
+# Q: Paste function
+
+What will be the output of the code example below:
+
+```{r eval = F}
+paste("Goodluck", "Jonathan", sep = "-")
+```
+
+## A
+
+"-GoodluckJonathan-"
+
+## B
+
+"Goodluck-Jonathan"
+
+## C
+
+"-Goodluck-Jonathan-"
+
+## Answer
+
+B
+
+## Correct message
+
+```{r echo = FALSE, results = "asis"}
+cat(praise::praise())
+```
+
+The value of the `sep` argument, "-", is placed *in between* the other arguments entered into the `paste()` function.
+
+## Incorrect message
+
+The value of the `sep` argument, "-", is placed *in between* the other arguments entered into the `paste()` function.
+
+# Q: Function nesting
+
+*Answer TRUE or FALSE*
+
+The two code chunks below will produce the same output:
+
+**CHUNK 1:**
+
+```{r eval = F}
+paste(tolower("LUIGI"), "is my name")
+```
+
+**CHUNK 2:**
+
+```{r eval = F}
+my_lowercase_name <- tolower("LUIGI")
+paste(my_lowercase_name, "is my name")
+```
+
+## A
+
+TRUE
+
+## B
+
+FALSE
+
+## Answer
+
+A
+
+## Correct message
+
+```{r echo = FALSE, results = "asis"}
+cat(praise::praise())
+```
+
+The first code chunk shows function nesting, while the other assigns an intermediate an intermediate variable, `my_lowercase_name`. Both will produce equivalent outputs.
+
+## Incorrect message
+
+One code chunk shows function nesting, while the other assigns an intermediate an intermediate variable, `my_lowercase_name`. Both will produce equivalent outputs.
+
+# Q: Full signifiers
+
+Consider the code below:
+
+    tableone::CreateTableOne(data = ebola_data)
+
+Which of the following is a correct interpretation of what this code means?
+
+## A
+
+The code runs the `CreateTableOne` function from the {tableone} package on the `ebola_data` object.
+
+## B
+
+The code runs the `CreateTableOne` argument from the {tableone} function on the `ebola_data` package.
+
+## C
+
+The code runs the `CreateTableOne` function from the {tableone} package on the `ebola_data` package.
+
+## Answer
+
+A
+
+## Correct message
+
+The *full signifier* of a function includes both the package name and the function name: `package::function()`. In this case, `tableone` is the source package, and `CreateTableOne` is the function.
+
+## Incorrect message
+
+The *full signifier* of a function includes both the package name and the function name: `package::function()`. In this case, `tableone` is the source package, and `CreateTableOne` is the function.
+
+# Q: Full signifiers equiv to library
+
+*Answer TRUE or FALSE*
+
+Consider the four-line code chunk below
+
+```{r eval = F}
+if(!require(pacman)) install.packages("pacman")
+pacman::p_load(janitor, outbreaks, tidyverse)
+gender_count <- tabyl(smallpox_abakaliki_1967, gender)
+gender_count
+```
+
+Which of the following is NOT an accurate description of what the code is doing
+
+## A
+
+The first line checks if the `pacman` package is installed. If not, it installs this package.
+
+## B
+
+The second line uses the `p_load()` function from the {pacman} package to load the `janitor` , `outbreaks` and `tidyverse` packages.
+
+## C
+
+The third line uses the `tabyl` function to tabulate the gender column in the `smallpox_abakaliki_1967` dataset.
+
+## D
+
+The fourth line saves the dataset to a user's working directory.
+
+## Answer
+
+D
+
+## Correct message
+
+```{r echo = FALSE, results = "asis"}
+cat(praise::praise())
+```
+
+The fourth line simply will simply print the value of `gender_count`, not save it.
+
+## Incorrect message
+
+The fourth line simply will simply print the value of `gender_count`, not save it.
+
+# Q: Full signifiers equiv to library
+
+At the start of an R script, you would like to install and load the packages {janitor}, {ggplot2} and {plotly}. Which of the following code chunks do we recommend you have in your script?
+
+## A
+
+```{r eval = F}
+if(!require(pacman)) install.packages("pacman")
+pacman::p_load(janitor, ggplot2, plotly)
+```
+
+## B
+
+```{r eval = F}
+install.packages("janitor")
+install.packages("ggplot2")
+install.packages("plotly")
+library(janitor)
+library(ggplot2)
+library(plotly)
+```
+
+## C
+
+```{r eval = F}
+if(!require(janitor)) install.packages("janitor")
+pacman::p_load(janitor, ggplot2, plotly)
+```
+
+## Answer
+
+A
+
+## Correct message
+
+```{r echo = FALSE, results = "asis"}
+cat(praise::praise())
+```
+
+Rather than use two separate functions, `install.packages()` then `library()`, to install then load packages, you can use a single function, `p_load()`, from the {pacman} package to automatically install a package if it is not yet installed, *and* load the package. We encourage this approach.
+
+## Incorrect message
+
+Rather than use two separate functions, `install.packages()` then `library()`, to install then load packages, you can use a single function, `p_load()`, from the {pacman} package to automatically install a package if it is not yet installed, *and* load the package. We encourage this approach.
