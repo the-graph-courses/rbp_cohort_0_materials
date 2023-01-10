@@ -1,0 +1,147 @@
+---
+title: "Honors Assignment: Creating interactive ggplots"
+output:
+  prettydoc::html_pretty:
+    theme: architect
+    toc: true
+    number_sections: true
+author: "Author's name here"
+date: "2023-01-01"
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r include = FALSE}
+library(knitr)
+```
+
+# Intro
+
+Welcome!
+
+For this assignment, you will need to create a ggplot graph and add interactivity to it using the **{plotly}** package.  https://plotly.com/ggplot2/.
+
+The final due date for the assignment is Tuesday, January 31th at 23:59 PM UTC+2.
+
+
+# Getting started
+
+Let's begin by loading the packages you will need to use:
+
+```{r}
+# Load packages 
+if(!require(pacman)) install.packages("pacman")
+pacman::p_load(plotly, # for adding interactivity!
+               tidyverse, # for ggplot2 and dplyr
+               htmlwidgets, # for saving interactive graph
+               gapminder # for data
+               )
+```
+    
+We have not yet used {plotly} in this course. This code will install the package if you don't have it already.
+
+Next, we will load in and prepare data.
+
+In this lesson, we will be using the `gapminder` dataset, but only the data from 2007.
+
+```{r}
+# Import data frame from gapminder package
+gapminder07 <- gapminder::gapminder %>%
+  # filter data frame to only include data from 2007
+  filter(year == 2007) %>%
+  # remove the year column
+  select(-year) %>%
+  # rename columns to make them easier to understand
+  rename(life_expectancy = lifeExp,
+         population = pop,
+         gdp_per_capita = gdpPercap)
+```
+
+
+```{r}
+# View dataset
+head(gapminder07, 10)
+```
+
+
+# Intro to plotly
+
+The **plotly** package is used to create interactive graphs in R and Python. It can used to make a variety of plot types, just like ggplot. 
+
+An interactive chart allows you to change what the chart shows by taking actions: pan and zoom, hover over a geom to get additional information, choose which variables to display, and more.
+
+Let's say we want to view the relationship between life expectancy and GPD per capita in `gapminder07` using a interactive scatter plot. 
+
+
+You *could* learn plotly syntax use the `plot_ly()` function to do this in one step (but we will not be using this method):
+
+```{r}
+# Interactive scatter plot using plot_ly!
+plot_ly(data = gapminder07,
+        type = "scatter",
+        x = ~gdp_per_capita, 
+        y = ~life_expectancy)
+```
+
+The interactive plot will appear in your Viewer pane, and you can hover over the points to see the raw data values for x and y. 
+
+But we don't need to do this and learn all that syntax, instead we will use the `ggplotly()` function that makes this super easy!
+
+**`ggplotly()`** is a function converts ggplot objects into interactive plots in two simple steps:
+
+1.  Create a named ggplot2 plot using the **`ggplot()`** function and the assignment operator (`<-`).
+
+2.  Use the **`ggplotly()`** function to convert the ggplot2 plot into an interactive plotly plot: **`ggplotly(PLOT_NAME)`**
+
+**Step 1**
+
+```{r}
+# First create ggplot object
+base_ggplot <- 
+  ggplot(data = gapminder07,
+         mapping = aes(x = gdp_per_capita,
+                       y = life_expectancy)) +
+  geom_point()
+```
+
+**Step 2**
+
+```{r}
+# Transform plot with ggplotly()
+ggplotly(base_ggplot)
+```
+
+## Labels
+
+We can add country labels to hover text using the labels aesthetic inside `aes()`.
+
+```{r}
+
+# Create a ggplot2 plot with data labels for the country variable
+gapminder_plot <- ggplot(
+  data = gapminder07,
+  mapping = aes(
+    x = gdp_per_capita,
+    y = life_expectancy,
+    label = country)) +
+  geom_point()
+
+# Convert the ggplot2 plot to an interactive plotly plot
+
+ggplotly(gapminder_plot)
+```
+
+
+# Requirements
+
+- use at least 3 aesthetic mappings 
+- at least one fixed aesthetic
+- edit scale or position
+- use the `labs()` function
+
+
+# Submission: Upload zipped folder
+
+Once you have finished the tasks above, you should **create a zipped file** of your project folder, containing all the work you have done, and **upload it** on the assignment page [LINK].
+
+The final due date for the assignment is Tuesday, January 31th at 23:59 PM UTC+2.

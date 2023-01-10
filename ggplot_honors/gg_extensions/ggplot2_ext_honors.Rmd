@@ -1,0 +1,27 @@
+---
+title: "Honors Assignment: ggplot2 extension packages"
+output:
+  prettydoc::html_pretty:
+    theme: architect
+    toc: true
+    number_sections: true
+author: "Author's name here"
+date: "2023-01-01"
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r include = FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+# Intro
+
+Welcome!
+
+For this assignment, you will need to create a ggplot graph and add interactivity to it using the {plotly} package.  https://plotly.com/ggplot2/.
+
+The final due date for the assignment is Tuesday, January 31th at 23:59 PM UTC+2.
+
+
+# Getting started
