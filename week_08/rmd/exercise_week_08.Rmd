@@ -83,7 +83,7 @@ In the code section below, **load in the needed packages**.
 
 ```{r include = FALSE}
 # Load packages
-pacman::p_load()
+'pacman::p_load()'
 ```
 
 Now, **read the dataset into R**. Remember to use the `here()` function
@@ -132,7 +132,7 @@ function.
 
 ```{r}
 # Time series of HIV cases
-ggplot(data = hiv_mini)
+'ggplot(data = hiv_mini)'
 ```
 
 Now, add color to this plot so that you can distinguish between
