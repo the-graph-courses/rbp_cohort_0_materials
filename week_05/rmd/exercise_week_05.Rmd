@@ -123,7 +123,8 @@ making and plotting.
     `reactable`).
 
 ```{r}
-bmi_sex_data <- obesity_data_cleaned %>%
+bmi_sex_data <- 
+  obesity_data_cleaned
   "WRITE_YOUR_CODE_HERE"
 ```
 
@@ -152,7 +153,8 @@ different.
     `reactable`).
 
 ```{r}
-male_data <- obesity_data_cleaned %>%
+male_data <- 
+  obesity_data_cleaned
   "WRITE_YOUR_CODE_HERE"
 ```
 
@@ -182,7 +184,7 @@ for male respondents, as a histogram.
     `reactable`).
 
 ```{r}
-complying_adults_data <- obesity_data_cleaned %>%
+complying_adults_data <- obesity_data_cleaned
   "WRITE_YOUR_CODE_HERE"
 ```
 

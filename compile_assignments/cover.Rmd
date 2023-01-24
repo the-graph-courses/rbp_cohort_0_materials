@@ -1,0 +1,6 @@
+---
+output: pdf_document
+title: "Course assignments"
+---
+
+This document is a collection of the in-class assignments done during the Intro to Data Analysis with R course offered by the GRAPH Courses. To follow these assignments, please download the relevant folders from our github repo, https://github.com/the-graph-courses/rbp_cohort_0_materials
