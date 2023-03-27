@@ -26,7 +26,7 @@ The final due date for the assignment is Tuesday, January 31th at 23:59 PM UTC+2
 
 # Getting started
 
-Let's begin by loading the packages you will need to use:
+Let's begin by loading the packages you will need to use: 
 
 ```{r}
 # Load packages 
@@ -50,14 +50,9 @@ gapminder07 <- gapminder::gapminder %>%
   # filter data frame to only include data from 2007
   filter(year == 2007) %>%
   # remove the year column
-  select(-year) %>%
-  # rename columns to make them easier to understand
-  rename(life_expectancy = lifeExp,
-         population = pop,
-         gdp_per_capita = gdpPercap)
+  select(-year)
 ```
-
-
+ 
 ```{r}
 # View dataset
 head(gapminder07, 10)
@@ -72,48 +67,54 @@ An interactive chart allows you to change what the chart shows by taking actions
 
 Let's say we want to view the relationship between life expectancy and GPD per capita in `gapminder07` using a interactive scatter plot. 
 
-
-You *could* learn plotly syntax use the `plot_ly()` function to do this in one step (but we will not be using this method):
+We could do this using the `plot_ly()` function, which will produce an interactive plot will in your Viewer pane. After running the code below, you can hover over the points on the interactive scatter plot to view the raw data values for x and y. 
 
 ```{r}
-# Interactive scatter plot using plot_ly!
+# Interactive scatter plot using plot_ly() directly
 plot_ly(data = gapminder07,
         type = "scatter",
-        x = ~gdp_per_capita, 
-        y = ~life_expectancy)
+        x = ~gdpPercap, 
+        y = ~lifeExp) 
+
+# (Note: this is just an example, we will not be using this method)
 ```
 
-The interactive plot will appear in your Viewer pane, and you can hover over the points to see the raw data values for x and y. 
+However, we will not be using this method. Instead of learning a whole new syntax, we can continue to make plots with {ggplot2} and turn them interactive using the **`ggplotly()`** function. This converts ggplot objects into interactive plots with just one additional line of code!
 
-But we don't need to do this and learn all that syntax, instead we will use the `ggplotly()` function that makes this super easy!
-
-**`ggplotly()`** is a function converts ggplot objects into interactive plots in two simple steps:
+You can indirectly create an interactive {plotly} graph in two simple steps:
 
 1.  Create a named ggplot2 plot using the **`ggplot()`** function and the assignment operator (`<-`).
 
 2.  Use the **`ggplotly()`** function to convert the ggplot2 plot into an interactive plotly plot: **`ggplotly(PLOT_NAME)`**
 
-**Step 1**
+
+**Step 1: Create ggplot object**
 
 ```{r}
 # First create ggplot object
 base_ggplot <- 
   ggplot(data = gapminder07,
-         mapping = aes(x = gdp_per_capita,
-                       y = life_expectancy)) +
+         mapping = aes(x = gdpPercap,
+                       y = lifeExp)) +
   geom_point()
 ```
 
-**Step 2**
+**Step 2: Add interactivity with `ggplotly()`**
 
 ```{r}
 # Transform plot with ggplotly()
 ggplotly(base_ggplot)
 ```
 
+Aesthetic modifications like color, size, theme, etc. will also translate to plotly.
+
+```{r}
+
+```
+
 ## Labels
 
-We can add country labels to hover text using the labels aesthetic inside `aes()`.
+We can add country labels to hover text using the `label` aesthetic inside `aes()`.
 
 ```{r}
 
@@ -121,8 +122,8 @@ We can add country labels to hover text using the labels aesthetic inside `aes()
 gapminder_plot <- ggplot(
   data = gapminder07,
   mapping = aes(
-    x = gdp_per_capita,
-    y = life_expectancy,
+    x = gdpPercap,
+    y = lifeExp,
     label = country)) +
   geom_point()
 
@@ -132,13 +133,31 @@ ggplotly(gapminder_plot)
 ```
 
 
+# Save interactive plot as HTML widget
+
+You can use the `htmlwidgets::saveWidget` function from the `htmlwidgets` package to save a {plotly} plot as an HTML file. This will allow you to view the plot in a web browser, where you can interact with it.
+
+```{r}
+library(htmlwidgets)
+# Create a plotly plot
+gapminder_plotly <- ggplotly(gapminder_plot)
+
+# Save the plotly plot as an HTML file
+htmlwidgets::saveWidget(gapminder_plotly, "gap_plot_widget.html")
+```
+
+Here, the `saveWidget` function takes two arguments: the first argument is the plotly plot object, and the second argument is the file name of the HTML file you want to save the plot to. The HTML file will be saved in the current working directory.
+
+When you open the saved HTML file in a web browser, it will show the interactive plotly plot, and you can use all its interactive features such as zoom, pan, hover-over text, etc.
+
 # Requirements
 
 - use at least 3 aesthetic mappings 
 - at least one fixed aesthetic
-- edit scale or position
+- edit scale or position arguments in ggplot
 - use the `labs()` function
-
+- add additional variables to hover text
+- save as widget
 
 # Submission: Upload zipped folder
 
